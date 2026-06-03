@@ -13,7 +13,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 from dataclasses import asdict, dataclass
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -93,6 +93,26 @@ def iso_date(value: str) -> str:
     return text
 
 
+def parse_iso_date(value: str) -> date | None:
+    if not value:
+        return None
+    try:
+        return date.fromisoformat(iso_date(value))
+    except ValueError:
+        return None
+
+
+def within_date_window(value: str, since_date: date | None, until_date: date | None) -> bool:
+    parsed = parse_iso_date(value)
+    if parsed is None:
+        return True
+    if since_date and parsed < since_date:
+        return False
+    if until_date and parsed > until_date:
+        return False
+    return True
+
+
 def fetch_bytes(url: str, timeout: int = 30) -> tuple[bytes, str]:
     request = urllib.request.Request(
         url,
@@ -122,11 +142,24 @@ def pdf_text(body: bytes) -> str:
     return "\n".join(parts)
 
 
-def listing_url(result_type: str, keyword: str, page: int) -> str:
-    query = {"keywords": keyword}
+def listing_url(
+    result_type: str,
+    keyword: str | None,
+    page: int,
+    sort_by: str = "",
+    sort_direction: str = "",
+) -> str:
+    query = {}
+    if keyword:
+        query["keywords"] = keyword
     if page > 1:
         query["pageNumber"] = str(page)
-    return MERX_BASE + RESULT_PATHS[result_type] + "?" + urllib.parse.urlencode(query)
+    if sort_by:
+        query["sortBy"] = sort_by
+    if sort_direction:
+        query["sortDirection"] = sort_direction.upper()
+    suffix = "?" + urllib.parse.urlencode(query) if query else ""
+    return MERX_BASE + RESULT_PATHS[result_type] + suffix
 
 
 def parse_listing(html: str, result_type: str) -> list[ResultNotice]:
@@ -578,6 +611,11 @@ def main() -> int:
     parser.add_argument("--max-pages", type=int, default=1)
     parser.add_argument("--detail-limit", type=int, default=10)
     parser.add_argument("--keyword", action="append", dest="keywords", help="Keyword/location to search. Repeatable.")
+    parser.add_argument("--all-merx", action="store_true", help="Scrape MERX result pages without a keyword filter.")
+    parser.add_argument("--since-date", help="Keep result notices on or after this date, e.g. 2023-01-01.")
+    parser.add_argument("--until-date", help="Keep result notices on or before this date. Defaults to no upper bound.")
+    parser.add_argument("--sort-by", default="", help="MERX sort field, e.g. bidResultsPublicationDate or publicationDate.")
+    parser.add_argument("--sort-direction", default="", choices=("", "ASC", "DESC", "asc", "desc"), help="MERX sort direction.")
     parser.add_argument("--delay-seconds", type=float, default=0.5)
     parser.add_argument("--no-details", action="store_true")
     parser.add_argument("--skip-buyer-awards", action="store_true")
@@ -586,21 +624,27 @@ def main() -> int:
 
     started = utc_now()
     run_id = "bid-results:" + re.sub(r"[^0-9A-Za-z]+", "", started)
-    keywords = tuple(args.keywords or DEFAULT_KEYWORDS)
+    keywords: tuple[str | None, ...] = (None,) if args.all_merx else tuple(args.keywords or DEFAULT_KEYWORDS)
+    since_date = parse_iso_date(args.since_date or "")
+    until_date = parse_iso_date(args.until_date or "")
     all_notices: dict[str, ResultNotice] = {}
     listing_errors: list[str] = []
 
     for result_type in RESULT_PATHS:
         for keyword in keywords:
             for page in range(1, args.max_pages + 1):
-                url = listing_url(result_type, keyword, page)
+                url = listing_url(result_type, keyword, page, args.sort_by, args.sort_direction)
                 try:
                     html = fetch_text(url)
                 except (TimeoutError, urllib.error.URLError, urllib.error.HTTPError) as exc:
                     listing_errors.append(f"{url}: {exc}")
                     break
-                for notice in parse_listing(html, result_type):
-                    all_notices[notice.notice_id] = notice
+                notices = parse_listing(html, result_type)
+                if not notices:
+                    break
+                for notice in notices:
+                    if within_date_window(notice.result_date, since_date, until_date):
+                        all_notices[notice.notice_id] = notice
                 time.sleep(args.delay_seconds)
 
     detail_count = 0
@@ -611,13 +655,33 @@ def main() -> int:
     buyer_award_stats: dict[str, Any] = {}
     if not args.skip_buyer_awards and not args.skip_dcc_awards:
         buyer_awards, buyer_award_stats = collect_buyer_award_sources()
+        buyer_awards = [
+            (notice, award)
+            for notice, award in buyer_awards
+            if within_date_window(notice.result_date, since_date, until_date)
+        ]
         for notice, _award in buyer_awards:
             all_notices[notice.notice_id] = notice
 
     with connect(args.database, args.schema) as connection:
         connection.execute(
             "INSERT OR REPLACE INTO result_runs (run_id, source, started_at, status, notes) VALUES (?, ?, ?, 'running', ?)",
-            (run_id, "merx-public-results", started, json.dumps({"keywords": keywords, "max_pages": args.max_pages})),
+            (
+                run_id,
+                "merx-public-results",
+                started,
+                json.dumps(
+                    {
+                        "keywords": keywords,
+                        "all_merx": args.all_merx,
+                        "max_pages": args.max_pages,
+                        "since_date": args.since_date,
+                        "until_date": args.until_date,
+                        "sort_by": args.sort_by,
+                        "sort_direction": args.sort_direction,
+                    }
+                ),
+            ),
         )
         for notice in sorted(all_notices.values(), key=detail_priority):
             awards: list[AwardDetail] = []
@@ -644,7 +708,12 @@ def main() -> int:
                 json.dumps(
                     {
                         "keywords": keywords,
+                        "all_merx": args.all_merx,
                         "max_pages": args.max_pages,
+                        "since_date": args.since_date,
+                        "until_date": args.until_date,
+                        "sort_by": args.sort_by,
+                        "sort_direction": args.sort_direction,
                         "notices": len(all_notices),
                         "details_checked": detail_count,
                         "awards_parsed": award_count,

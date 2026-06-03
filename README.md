@@ -112,6 +112,15 @@ python .\scripts\scrape_bid_results.py --max-pages 1 --detail-limit 10
 This writes `data\bid-results.sqlite`. It stores public MERX bid-result and awarded-notice summaries, plus bidder/award price fields when those details are publicly exposed. Some MERX awards do not publish supplier or value details, so those records remain summary-only until the buyer publishes more information.
 Buyer-specific public award feeds are treated as enrichers for the same database, not as separate scopes. For example, Defence Construction Canada rows are matched back to MERX/DCC notice IDs when DCC publishes supplier and award value details outside the MERX page.
 
+For a broad public MERX backfill from January 2023 through a known end date:
+
+```powershell
+python .\scripts\scrape_bid_results.py --all-merx --since-date 2023-01-01 --until-date 2026-06-03 --max-pages 200 --detail-limit 0 --delay-seconds 0.05
+python .\scripts\scrape_bid_results.py --since-date 2023-01-01 --until-date 2026-06-03 --max-pages 40 --detail-limit 0 --delay-seconds 0.25
+```
+
+The first command captures the broad no-keyword public MERX listing. The second captures narrower `Nova Scotia` and `NS` historical result pages that MERX does not expose completely through the broad listing. Public MERX pagination can clamp or rate-limit historical queries, so treat these as public-availability snapshots unless authenticated exports or additional segmented searches are added.
+
 The Notion target for those records is configured in `config\bid-results-notion.json`:
 `Bid Results Intelligence`, deduped by `Notice ID`.
 
