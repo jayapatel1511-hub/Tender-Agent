@@ -51,12 +51,13 @@ Notion target config: `config/bid-results-notion.json`.
 Tables:
 
 - `result_runs`: scrape run metadata.
-- `result_notices`: MERX bid-result and awarded-notice summaries.
+- `result_notices`: MERX bid-result and awarded-notice summaries, plus public
+  buyer award-feed notices matched back to their MERX notice IDs when possible.
 - `award_details`: supplier, awarded value, award date, and contract dates when
-  public detail pages expose them.
+  MERX detail pages or public buyer award feeds expose them.
 - `bidder_results`: bidder/price rows when public bid-result detail pages expose
   parseable bidder pricing.
 
 MERX states that award notices are discretionary, so summary-only rows are valid
 data: they mean a result/award notice exists, but supplier or price details were
-not public in the scraped page.
+not public in the scraped page or any configured buyer award feed.

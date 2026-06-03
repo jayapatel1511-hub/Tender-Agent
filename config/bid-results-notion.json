@@ -6,5 +6,5 @@
   "all_results_view_id": "548380f5-92ac-425b-b673-8d437a16d3de",
   "all_results_view_url": "https://app.notion.com/p/30601479ea5842a58919dda96b875253?v=548380f592ac425bb6738d437a16d3de&source=copy_link",
   "dedupe_key": "Notice ID",
-  "sync_policy": "Update existing records by Notice ID before creating new records. Sync public MERX bid-result and award fields only; summary-only records are valid when supplier or price details are not publicly exposed."
+  "sync_policy": "Update existing records by Notice ID before creating new records. Sync public MERX bid-result and award fields plus configured public buyer award-feed enrichments. Summary-only records are valid when supplier or price details are not publicly exposed."
 }

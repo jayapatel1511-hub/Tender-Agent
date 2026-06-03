@@ -110,6 +110,7 @@ python .\scripts\scrape_bid_results.py --max-pages 1 --detail-limit 10
 ```
 
 This writes `data\bid-results.sqlite`. It stores public MERX bid-result and awarded-notice summaries, plus bidder/award price fields when those details are publicly exposed. Some MERX awards do not publish supplier or value details, so those records remain summary-only until the buyer publishes more information.
+Buyer-specific public award feeds are treated as enrichers for the same database, not as separate scopes. For example, Defence Construction Canada rows are matched back to MERX/DCC notice IDs when DCC publishes supplier and award value details outside the MERX page.
 
 The Notion target for those records is configured in `config\bid-results-notion.json`:
 `Bid Results Intelligence`, deduped by `Notice ID`.

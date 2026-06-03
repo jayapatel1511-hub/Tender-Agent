@@ -38,6 +38,9 @@ RESULT_PATHS = {
 DCC_RECENT_AWARDS_URL = (
     "https://dccmft.dcc-cdc.gc.ca/?p=public&path=%2FRecently_Awarded_Contracts.pdf&u=contracts_public"
 )
+BUYER_AWARD_SOURCES = {
+    "dcc-recently-awarded-contracts": DCC_RECENT_AWARDS_URL,
+}
 
 
 @dataclass
@@ -387,6 +390,26 @@ def parse_dcc_recent_awards(text: str) -> list[tuple[ResultNotice, AwardDetail]]
     return parsed
 
 
+def collect_buyer_award_sources() -> tuple[list[tuple[ResultNotice, AwardDetail]], dict[str, Any]]:
+    awards: list[tuple[ResultNotice, AwardDetail]] = []
+    stats: dict[str, Any] = {}
+    dcc_url = BUYER_AWARD_SOURCES["dcc-recently-awarded-contracts"]
+    try:
+        dcc_pdf, _ = fetch_bytes(dcc_url, timeout=60)
+        dcc_awards = parse_dcc_recent_awards(pdf_text(dcc_pdf))
+        awards.extend(dcc_awards)
+        stats["dcc-recently-awarded-contracts"] = {
+            "url": dcc_url,
+            "awards": len(dcc_awards),
+        }
+    except Exception as exc:
+        stats["dcc-recently-awarded-contracts"] = {
+            "url": dcc_url,
+            "error": str(exc),
+        }
+    return awards, stats
+
+
 def split_dcc_title_location(value: str) -> tuple[str, str]:
     known_location_terms = (
         "Greenwood",
@@ -442,6 +465,7 @@ def connect(database: Path, schema: Path) -> sqlite3.Connection:
 
 
 def upsert_notice(connection: sqlite3.Connection, notice: ResultNotice, seen_at: str) -> None:
+    source = str(notice.raw.get("source") or "merx-public-results")
     connection.execute(
         """
         INSERT INTO result_notices (
@@ -449,7 +473,7 @@ def upsert_notice(connection: sqlite3.Connection, notice: ResultNotice, seen_at:
             result_date, detail_url, solicitation_id, summary_text, source,
             first_seen_at, last_seen_at, raw_json, updated_at
         )
-        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'merx-public-results', ?, ?, ?, datetime('now'))
+        VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, datetime('now'))
         ON CONFLICT(notice_id) DO UPDATE SET
             result_type = excluded.result_type,
             title = excluded.title,
@@ -460,6 +484,7 @@ def upsert_notice(connection: sqlite3.Connection, notice: ResultNotice, seen_at:
             detail_url = excluded.detail_url,
             solicitation_id = excluded.solicitation_id,
             summary_text = excluded.summary_text,
+            source = excluded.source,
             last_seen_at = excluded.last_seen_at,
             raw_json = excluded.raw_json,
             updated_at = excluded.updated_at
@@ -475,6 +500,7 @@ def upsert_notice(connection: sqlite3.Connection, notice: ResultNotice, seen_at:
             notice.detail_url,
             notice.solicitation_id,
             notice.summary_text,
+            source,
             seen_at,
             seen_at,
             json.dumps(asdict(notice), ensure_ascii=False, sort_keys=True),
@@ -554,6 +580,7 @@ def main() -> int:
     parser.add_argument("--keyword", action="append", dest="keywords", help="Keyword/location to search. Repeatable.")
     parser.add_argument("--delay-seconds", type=float, default=0.5)
     parser.add_argument("--no-details", action="store_true")
+    parser.add_argument("--skip-buyer-awards", action="store_true")
     parser.add_argument("--skip-dcc-awards", action="store_true")
     args = parser.parse_args()
 
@@ -580,16 +607,12 @@ def main() -> int:
     award_count = 0
     bid_count = 0
     seen_at = utc_now()
-    dcc_awards: list[tuple[ResultNotice, AwardDetail]] = []
-    dcc_error = ""
-    if not args.skip_dcc_awards:
-        try:
-            dcc_pdf, _ = fetch_bytes(DCC_RECENT_AWARDS_URL, timeout=60)
-            dcc_awards = parse_dcc_recent_awards(pdf_text(dcc_pdf))
-            for notice, _award in dcc_awards:
-                all_notices[notice.notice_id] = notice
-        except Exception as exc:
-            dcc_error = str(exc)
+    buyer_awards: list[tuple[ResultNotice, AwardDetail]] = []
+    buyer_award_stats: dict[str, Any] = {}
+    if not args.skip_buyer_awards and not args.skip_dcc_awards:
+        buyer_awards, buyer_award_stats = collect_buyer_award_sources()
+        for notice, _award in buyer_awards:
+            all_notices[notice.notice_id] = notice
 
     with connect(args.database, args.schema) as connection:
         connection.execute(
@@ -609,7 +632,7 @@ def main() -> int:
             for bid in bids:
                 insert_bid(connection, bid)
                 bid_count += 1
-        for notice, award in dcc_awards:
+        for notice, award in buyer_awards:
             upsert_notice(connection, notice, seen_at)
             insert_award(connection, award)
             award_count += 1
@@ -627,8 +650,7 @@ def main() -> int:
                         "awards_parsed": award_count,
                         "bids_parsed": bid_count,
                         "listing_errors": listing_errors,
-                        "dcc_awards": len(dcc_awards),
-                        "dcc_error": dcc_error,
+                        "buyer_award_sources": buyer_award_stats,
                     },
                     ensure_ascii=False,
                 ),
