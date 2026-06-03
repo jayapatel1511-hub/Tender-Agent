@@ -35,6 +35,9 @@ RESULT_PATHS = {
     "bid-result": "/public/solicitations/bid-results",
     "awarded": "/public/solicitations/awarded",
 }
+DCC_RECENT_AWARDS_URL = (
+    "https://dccmft.dcc-cdc.gc.ca/?p=public&path=%2FRecently_Awarded_Contracts.pdf&u=contracts_public"
+)
 
 
 @dataclass
@@ -320,6 +323,92 @@ def parse_bidder_results(notice_id: str, text: str) -> list[BidderResult]:
     return results[:50]
 
 
+def parse_dcc_recent_awards(text: str) -> list[tuple[ResultNotice, AwardDetail]]:
+    normalized = normalize_space(text)
+    row_pattern = re.compile(r"(?=[A-Z]{2}\d{6}\s+\d{5}\b)")
+    provinces = "AB|BC|MB|NB|NL|NS|NT|NU|ON|PE|QC|SK|YT"
+    parsed: list[tuple[ResultNotice, AwardDetail]] = []
+    for row in row_pattern.split(normalized):
+        row = row.strip()
+        if not row:
+            continue
+        header = re.match(r"(?P<project>[A-Z]{2}\d{6})\s+(?P<subproject>\d{5})(?:\s+(?P<reference>\d{6}))?\s+(?P<rest>.*)", row)
+        if not header:
+            continue
+        amount_match = re.search(r"(?P<date>\d{4}-\d{2}-\d{2})\s+(?P<amount>\$[0-9][0-9,]*\.[0-9]{2})\s+", header.group("rest"))
+        if not amount_match:
+            continue
+        before_amount = normalize_space(header.group("rest")[: amount_match.start()])
+        after_amount = normalize_space(header.group("rest")[amount_match.end() :])
+        supplier_match = re.match(
+            rf"(?P<supplier>.+)\s+(?P<city>[A-Z][A-Za-z.'-]+(?:\s+[A-Z][A-Za-z.'-]+){{0,2}})\s+(?P<province>{provinces})(?:\s+.*)?$",
+            after_amount,
+        )
+        if not supplier_match:
+            continue
+
+        reference = header.group("reference") or ""
+        if reference:
+            notice_id = f"0000{reference}" if len(reference) == 6 else reference
+        else:
+            notice_id = f"DCC-{header.group('project')}-{header.group('subproject')}"
+        title, location = split_dcc_title_location(before_amount)
+        raw_text = row
+        notice = ResultNotice(
+            notice_id=notice_id,
+            result_type="awarded",
+            title=title,
+            buyer="Defence Construction Canada",
+            location=location,
+            published_date="",
+            result_date=amount_match.group("date"),
+            detail_url=DCC_RECENT_AWARDS_URL,
+            solicitation_id=f"{header.group('project')}-{header.group('subproject')}",
+            summary_text=raw_text,
+            raw={
+                "source": "dcc-recently-awarded-contracts",
+                "project": header.group("project"),
+                "subproject": header.group("subproject"),
+                "reference": reference,
+                "supplier_city": normalize_space(supplier_match.group("city")),
+                "supplier_province": supplier_match.group("province"),
+            },
+        )
+        award = AwardDetail(
+            notice_id=notice_id,
+            supplier_name=normalize_space(supplier_match.group("supplier")),
+            awarded_value=amount_match.group("amount"),
+            award_date=amount_match.group("date"),
+            contract_dates="",
+            confidence="detail",
+            raw_text=raw_text,
+        )
+        parsed.append((notice, award))
+    return parsed
+
+
+def split_dcc_title_location(value: str) -> tuple[str, str]:
+    known_location_terms = (
+        "Greenwood",
+        "CFB Halifax",
+        "Halifax",
+        "Oromocto",
+        "Petawawa",
+        "Kingston",
+        "Trenton",
+        "CFB Edmonton",
+        "CFB Esquimalt",
+        "Bagotville",
+        "CFB Wainwright",
+    )
+    for location in known_location_terms:
+        marker = f" {location}"
+        if marker in value:
+            title = value.split(marker, 1)[0]
+            return normalize_space(title), normalize_space(value[len(title) :])
+    return value, ""
+
+
 def value_after(text: str, labels: tuple[str, ...]) -> str:
     for label in labels:
         match = re.search(re.escape(label) + r"\s+(.{1,160}?)(?:\s+(?:Awarded Value|Award Date|Contract Dates|Description|Address|Contact Information)\b|$)", text, re.I)
@@ -396,6 +485,27 @@ def upsert_notice(connection: sqlite3.Connection, notice: ResultNotice, seen_at:
 def insert_award(connection: sqlite3.Connection, award: AwardDetail) -> None:
     connection.execute(
         """
+        DELETE FROM award_details
+        WHERE notice_id = ?
+          AND awarded_value = ?
+          AND award_date = ?
+          AND supplier_name != ?
+          AND (
+              supplier_name LIKE ? || '%'
+              OR ? LIKE supplier_name || '%'
+          )
+        """,
+        (
+            award.notice_id,
+            award.awarded_value,
+            award.award_date,
+            award.supplier_name,
+            award.supplier_name,
+            award.supplier_name,
+        ),
+    )
+    connection.execute(
+        """
         INSERT OR IGNORE INTO award_details (
             notice_id, supplier_name, awarded_value, award_date,
             contract_dates, confidence, raw_text
@@ -444,6 +554,7 @@ def main() -> int:
     parser.add_argument("--keyword", action="append", dest="keywords", help="Keyword/location to search. Repeatable.")
     parser.add_argument("--delay-seconds", type=float, default=0.5)
     parser.add_argument("--no-details", action="store_true")
+    parser.add_argument("--skip-dcc-awards", action="store_true")
     args = parser.parse_args()
 
     started = utc_now()
@@ -469,6 +580,16 @@ def main() -> int:
     award_count = 0
     bid_count = 0
     seen_at = utc_now()
+    dcc_awards: list[tuple[ResultNotice, AwardDetail]] = []
+    dcc_error = ""
+    if not args.skip_dcc_awards:
+        try:
+            dcc_pdf, _ = fetch_bytes(DCC_RECENT_AWARDS_URL, timeout=60)
+            dcc_awards = parse_dcc_recent_awards(pdf_text(dcc_pdf))
+            for notice, _award in dcc_awards:
+                all_notices[notice.notice_id] = notice
+        except Exception as exc:
+            dcc_error = str(exc)
 
     with connect(args.database, args.schema) as connection:
         connection.execute(
@@ -488,6 +609,10 @@ def main() -> int:
             for bid in bids:
                 insert_bid(connection, bid)
                 bid_count += 1
+        for notice, award in dcc_awards:
+            upsert_notice(connection, notice, seen_at)
+            insert_award(connection, award)
+            award_count += 1
         completed = utc_now()
         connection.execute(
             "UPDATE result_runs SET completed_at = ?, status = 'completed', notes = ? WHERE run_id = ?",
@@ -502,6 +627,8 @@ def main() -> int:
                         "awards_parsed": award_count,
                         "bids_parsed": bid_count,
                         "listing_errors": listing_errors,
+                        "dcc_awards": len(dcc_awards),
+                        "dcc_error": dcc_error,
                     },
                     ensure_ascii=False,
                 ),
