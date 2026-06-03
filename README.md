@@ -43,6 +43,8 @@ tools/
 data/
   tender-agent.sqlite       Generated SQLite history database (ignored by git)
   bid-results.sqlite        Generated MERX bid-result/award database (ignored by git)
+  merx_tenders.sqlite       Generated normalized MERX public tender intelligence
+                            database (ignored by git)
   seen_tenders_state.json    Repo-local duplicate-prevention state
   open-tenders/
     open-tenders-latest.json Latest all-open-tenders database
@@ -58,6 +60,7 @@ docs/
   *.md                       Workflow, service-area, and data-protection notes
 db/
   schema.sql                 SQLite schema for long-term local history
+  merx_tenders_schema.sql    Normalized schema for all-Canada MERX public data
 context/
   tender-agent-context.md    Persistent operating context
 skills/
@@ -123,6 +126,57 @@ The first command captures the broad no-keyword public MERX listing. The second 
 
 The Notion target for those records is configured in `config\bid-results-notion.json`:
 `Bid Results Intelligence`, deduped by `Notice ID`.
+
+## MERX Public Tender Intelligence
+
+The production MERX scraper is `scripts\scrape_merx.py` with a root compatibility
+wrapper at `scrape_merx.py`. It writes a separate normalized SQLite database:
+`data\merx_tenders.sqlite`.
+
+It collects only publicly visible MERX pages and tabs. If a tab requires login,
+registration, payment, or permission, the scraper records that access limitation
+in `raw_pages` and does not attempt to bypass it.
+
+Run a small validation scrape first:
+
+```powershell
+python .\scrape_merx.py `
+  --db data\merx_tenders_test.sqlite `
+  --since 2026-01-01 `
+  --until 2026-06-03 `
+  --province all `
+  --max-pages 2 `
+  --detail-limit 3 `
+  --delay-seconds 0.5 `
+  --retries 1 `
+  --report data\merx_scrape_report_test.json
+```
+
+Production-style public backfill command:
+
+```powershell
+python .\scrape_merx.py `
+  --db data\merx_tenders.sqlite `
+  --since 2023-01-01 `
+  --until 2026-06-03 `
+  --province all `
+  --category all `
+  --max-pages 40 `
+  --resume `
+  --delay-seconds 2 `
+  --report data\merx_scrape_report_latest.json
+```
+
+The schema source is `db\merx_tenders_schema.sql`. The database normalizes
+tenders, organizations, companies, categories, contacts, documents, amendments,
+plan holders/document request lists, bids, awards, raw pages, scrape runs, and
+scrape errors. Each run also writes a data quality report with counts by year,
+province, category, status, organizations, suppliers, access limitations, and
+orphan/duplicate/date checks.
+
+MERX broad public listing pages may clamp or rate-limit historical pagination.
+For deeper historical coverage, run segmented searches by province and keyword
+or use authorized MERX exports/API access if available.
 
 ## Current Active Opportunities
 
