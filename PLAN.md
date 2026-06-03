@@ -141,7 +141,7 @@ JSON outputs remain available for inspection and agent handoff.
       append duplicates). Public-safe fields only per `intent-spec.md`.
 - [x] Email payload: create public-safe email briefs/payloads only for newly
       matched relevant tenders after dedupe against `seen_tenders_state.json`.
-- [ ] Email live send/draft handoff: send or create a Gmail draft only when the
+- [x] Email live send/draft handoff: send or create a Gmail draft only when the
       latest run has new relevant tenders; no email when nothing new (except on
       error).
 - [x] Briefs: write YAML under `proposals/active/ns-tenders/` only for
@@ -195,6 +195,9 @@ mislead a future run.
    because `S4U` registration returned access denied on this machine. Tier 2 has
    a successful scheduled run; Tier 1 has direct-run proof and scheduled failure
    logs when the portal rejects guest authentication.
+6. Email handoff is complete for the current run state: latest Tier 2 log has
+   `new_relevant_count: 0`, `email_decision: no-new-relevant-tenders`, and no
+   email draft/payload files were generated.
 
 ## Suggested commit boundaries
 
