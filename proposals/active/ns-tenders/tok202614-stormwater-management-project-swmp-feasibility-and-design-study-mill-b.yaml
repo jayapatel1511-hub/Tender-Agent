@@ -1,0 +1,49 @@
+client: "Town of Kentville"
+opportunity: "Stormwater Management Project (SWMP)  Feasibility and Design Study – Mill Brook"
+due_date: "2026-06-17"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender TOK202614: Stormwater Management Project (SWMP) Feasibility and Design Study – Mill Brook.
+  Solicitation type: Request for Proposal (Construction).
+  Procurement entity: Town of Kentville.
+  End-user entity: .
+  Status: OPEN.
+  Posted: 2026-06-01.
+  Closing: 2026-06-17T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/TOK202614.
+  Description: The work covered under this RFP is for the completion of the “Stormwater Management Project Feasibility and Design Study - Mill Brook” for the Town of Kentville. The project will include community engagement, technical assessments, hydrologic and hydraulic analysis, environmental review, conceptual infrastructure design, and implementation planning associated with stormwater management and flood mitigation within the Mill Brook watershed area. This project is intended to provide recommendations based on existing conditions, projected climate impacts, future land use considerations, and evolving infrastructure needs. While previous studies provide valuable foundational information, this project will establish a site-specific framework to address current deficiencies and future climate resilience requirements..
+pursuit_type: "design-study-consulting"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "medium"
+classification_note: "Looks like a consulting, design, study, assessment, or engineering-services opportunity."
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+decision_criteria:
+  - Strategic fit.
+  - Technical capability.
+  - Available response time.
+  - Compliance requirements.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/TOK202614"
+  tender_id: "TOK202614"
+match_reasons:
+  - "matched keywords: stormwater, water, climate, infrastructure, design, construction, RFP"
+classification_reasons:
+  - "consulting signal: feasibility"
+  - "consulting signal: study"
+  - "consulting signal: assessment"
+  - "consulting signal: design study"
+  - "consulting signal: planning"
+  - "consulting signal: stormwater management project"
+  - "consulting signal: design"
+  - "technical context signal: hydraulic"
+  - "construction signal: construction"
