@@ -8,7 +8,6 @@ restricted tabs are recorded as access limitations and are not bypassed.
 from __future__ import annotations
 
 import argparse
-import codecs
 import hashlib
 import json
 import re
@@ -347,8 +346,13 @@ def extract_embedded_html(html: str) -> str:
     if not match:
         return html
     fragment = match.group(2)
+    # Decode only the JS string escapes. A full codecs "unicode_escape" pass
+    # would round-trip the text through latin-1 and corrupt already-decoded
+    # UTF-8 characters (accents, en-dashes), so unescape selectively instead.
     fragment = fragment.replace("\\/", "/")
-    fragment = codecs.decode(fragment, "unicode_escape")
+    fragment = re.sub(r"\\u([0-9a-fA-F]{4})", lambda m: chr(int(m.group(1), 16)), fragment)
+    fragment = fragment.replace("\\n", "\n").replace("\\t", "\t").replace("\\r", "")
+    fragment = fragment.replace("\\'", "'").replace('\\"', '"').replace("\\\\", "\\")
     return fragment
 
 
@@ -379,9 +383,20 @@ def parse_categories(html: str) -> list[dict[str, str]]:
         if not cells:
             continue
         text = " | ".join(cells)
-        if "selected categories" in text.lower():
+        name = cells[-1]
+        # Skip tree scaffolding rows (lazy-load placeholders, headers, empties).
+        junk = {"loading...", "no entries", "( selected)", "(selected)", "selected", "next"}
+        if name.lower() in junk or "selected categories" in text.lower():
             continue
-        categories.append({"category_name": cells[-1], "category_code": cells[0] if len(cells) > 1 else "", "category_path": text})
+        if not re.search(r"[A-Za-z]", name):
+            continue
+        # MERX renders many leaf labels doubled ("Construction Construction");
+        # collapse an exact two-half repeat into one.
+        halves = name.split(" ")
+        mid = len(halves) // 2
+        if mid and halves[:mid] == halves[mid:]:
+            name = " ".join(halves[:mid])
+        categories.append({"category_name": name, "category_code": cells[0] if len(cells) > 1 else "", "category_path": text})
     return dedupe_dicts(categories, ("category_name", "category_code"))
 
 
@@ -393,9 +408,18 @@ def parse_contacts(fields: dict[str, str], text: str) -> list[dict[str, str]]:
         if "contact" in key.lower() and value:
             candidates.append({"name": value, "role": key, "phone": "", "email": "", "raw_text": value})
     if email_match or phone_match:
+        name = fields.get("Contact", "") or fields.get("Contact Name", "")
+        if not name and email_match:
+            # MERX renders the contact as "First Last name@domain"; grab the
+            # capitalized name tokens immediately preceding the email address.
+            preceding = text[: email_match.start()].rstrip()
+            name_match = re.search(r"([A-Z][\w.'-]+(?:\s+[A-Z][\w.'-]+){1,3})\s*$", preceding)
+            if name_match:
+                name = clean_text(name_match.group(1))
+                name = re.sub(r"^(?:Contact Information|Contact Info|Contact|Information)\s+", "", name)
         candidates.append(
             {
-                "name": fields.get("Contact", "") or fields.get("Contact Name", ""),
+                "name": name,
                 "role": "Contact",
                 "phone": phone_match.group(0) if phone_match else "",
                 "email": email_match.group(0) if email_match else "",
@@ -465,7 +489,7 @@ def parse_awards(tender_id: str, payload: str) -> list[dict[str, Any]]:
     def build(scope: Any, name_hint: str = "") -> dict[str, Any] | None:
         fields = org_block_fields(scope)
         supplier = first_field(fields, ("Supplier Awarded", "Awarded Supplier", "Awardee", "Supplier")) or name_hint
-        value_text = first_field(fields, ("Awarded Value", "Total Awarded Value", "Contract Value", "Value"))
+        value_text = first_field(fields, ("Awarded Value", "Total Awarded Value", "Contract Value"))
         award_date, award_date_raw = parse_date_text(first_field(fields, ("Award Date", "Awarded Date")))
         if not (supplier or value_text or award_date):
             return None
@@ -652,10 +676,8 @@ def parse_detail(listing: ListingTender, html: str, tab_payloads: dict[str, str]
         raw_json={"listing": asdict(listing), "fields": fields, "tab_sections": sorted(tab_payloads)},
     )
     contacts.extend(parse_contacts(fields, page_text + " " + " ".join(tab_text.values())))
-    if not awards:
-        awards.extend(parse_awards(listing.tender_id, fields, page_text + " " + " ".join(tab_text.values())))
-    if not bids:
-        bids.extend(parse_bids(listing.tender_id, page_text + " " + " ".join(tab_text.values())))
+    # Awards and bids are parsed only from their structured tabs above; no
+    # regex-over-prose fallback (it produced spurious bidder rows).
     return record, {
         "categories": dedupe_dicts(categories, ("category_name", "category_code")),
         "documents": dedupe_dicts(documents, ("title", "source_url", "filename")),
@@ -854,7 +876,7 @@ def replace_children(conn: sqlite3.Connection, tender_id: str, children: dict[st
             (tender_id, company_id, bid.get("bidder_name", ""), bid.get("address", ""), bid.get("bid_amount"), bid.get("bid_amount_text", ""), bid.get("currency", ""), bid.get("bid_rank"), bid.get("bid_status", ""), bid.get("raw_text", "")),
         )
     for award in children["awards"]:
-        company_id = upsert_company(conn, award.get("awarded_supplier", ""))
+        company_id = upsert_company(conn, award.get("awarded_supplier", ""), award.get("address", ""))
         conn.execute(
             """
             INSERT OR IGNORE INTO awards (
