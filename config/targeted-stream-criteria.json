@@ -1,14 +1,53 @@
 {
-  "include_keywords": [
+  "criteria_version": "2026-06-03.interests-profile.v1",
+  "profile_name": "Englobe civil municipal transportation pursuit interests",
+  "target_domains": {
+    "asset_types": [
+      "active transportation corridors",
+      "bridges and culverts",
+      "civil site servicing",
+      "corridors and intersections",
+      "highways and roads",
+      "municipal infrastructure",
+      "pump stations and lift stations",
+      "sidewalks and trails",
+      "stormwater systems",
+      "traffic and transit systems",
+      "water and wastewater systems"
+    ],
+    "service_roles": [
+      "assessment",
+      "asset management",
+      "capacity study",
+      "condition assessment",
+      "design",
+      "engineering services",
+      "feasibility study",
+      "hydraulic or hydrologic modelling",
+      "inspection or contract administration",
+      "planning",
+      "professional consulting",
+      "study or report"
+    ],
+    "target_buyers": [
+      "municipalities",
+      "Nova Scotia Department of Public Works",
+      "Halifax Water",
+      "public infrastructure owners",
+      "regional municipalities",
+      "towns and villages",
+      "transportation authorities",
+      "water and wastewater utilities"
+    ]
+  },
+  "surface_hints": [
     "active transportation",
-    "active transportation corridor",
     "asset management plan",
     "bridge design",
     "capacity study",
     "civil engineering",
     "condition assessment",
     "corridor",
-    "corridor improvements",
     "design services",
     "design study",
     "engineering services",
@@ -16,17 +55,17 @@
     "highway",
     "hydraulic",
     "infrastructure planning",
-    "improvements",
     "intersection",
     "municipal engineering",
     "municipal infrastructure",
     "municipal public works",
+    "pump station",
     "road safety",
     "roadway",
     "sidewalk",
+    "sludge",
     "stormwater",
     "street",
-    "streetscape",
     "traffic",
     "traffic calming",
     "traffic impact",
@@ -34,13 +73,11 @@
     "transportation",
     "wastewater",
     "water utility",
+    "watermain",
     "water treatment plant"
   ],
-  "exclude_keywords": [
+  "noise_hints": [
     "advertising",
-    "asphalt",
-    "bridge rehabilitation",
-    "bridge replacement",
     "communications",
     "corporate social responsibility",
     "dump box",
@@ -50,7 +87,6 @@
     "firefighting goods",
     "food",
     "goods and services",
-    "gravelling",
     "healthy play",
     "human resources",
     "janitorial",
@@ -60,26 +96,20 @@
     "office supplies",
     "professional healthy play",
     "radios",
-    "recladding",
     "rescue tools",
     "responsible gambling",
     "software",
-    "sprinkler work",
-    "supply & installation",
-    "supply & programming",
-    "supply and installation",
-    "supply of",
-    "tractor",
     "training",
     "truck",
-    "utility extensions",
     "vehicle",
-    "vendor",
-    "window replacement"
+    "vendor"
   ],
-  "statuses": [
-    "OPEN"
-  ],
-  "solicitation_types": [],
-  "min_days_until_close": 0
+  "triage_policy": {
+    "collect_statuses": [
+      "OPEN"
+    ],
+    "keywords_are_hints_only": true,
+    "never_exclude_target_domain_by_noise_hint": true,
+    "urgent_days_until_close": 3
+  }
 }

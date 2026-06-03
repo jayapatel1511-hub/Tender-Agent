@@ -12,6 +12,9 @@ proposal.md
 bin/
 obj/
 .vs/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
 
 # Routine Tender Agent generated evidence. Existing checked-in fixtures remain tracked.
 proposals/outputs/ns-tenders/ns-tender-monitor-*.json

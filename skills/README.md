@@ -10,10 +10,12 @@ Use them in order:
 
 1. [repo-refresh.md](repo-refresh.md)
 2. [monitor-run.md](monitor-run.md)
-3. [duplicate-review.md](duplicate-review.md)
-4. [opportunity-triage.md](opportunity-triage.md)
-5. [email-handoff.md](email-handoff.md)
-6. [run-log.md](run-log.md)
+3. [opportunity-triage.md](opportunity-triage.md)
+4. [triage-run.md](triage-run.md)
+5. [duplicate-review.md](duplicate-review.md)
+6. [downstream-run.md](downstream-run.md)
+7. [email-handoff.md](email-handoff.md)
+8. [run-log.md](run-log.md)
 
 Use [test-prompts.md](test-prompts.md) after changing criteria or triage rules.
 

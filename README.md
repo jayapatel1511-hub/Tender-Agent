@@ -1,6 +1,6 @@
 # Tender Agent
 
-Tender Agent is a lightweight repository for Nova Scotia public tender monitoring and pursuit-intake evidence. It does not contain an application runtime. The intended workflow first collects every open Nova Scotia tender, then filters against repo criteria, then revisits detail pages only for candidates that need more context.
+Tender Agent is a lightweight repository for Nova Scotia public tender monitoring and pursuit-intake evidence. It does not contain an application runtime. The workflow has two tiers: collect every open Nova Scotia tender as a raw, detail-enriched mirror, then triage the stored snapshot and generate downstream handoff evidence.
 
 The pursuit focus is Englobe-relevant civil, municipal, and transportation engineering work: municipal streets, roads, highways, corridors, intersections, active transportation, traffic, transit, and related planning or design studies. Generic consulting, vehicles/equipment, supplier, goods-only, and unrelated advisory tenders are off-profile.
 
@@ -20,7 +20,15 @@ The wrapper calls:
   -State "C:\Users\jpate\Tender-Agent\data\seen_tenders_state.json"
 ```
 
-By default, the wrapper uses `config\targeted-stream-criteria.json` to keep the stream focused on civil, municipal, and transportation work. It scans a broad open-tender window (`PageSize=100`, `MaxPages=80`), persists the open-tender database first, then filters so the normal run is auditable. The seen-state file lives in `data\seen_tenders_state.json` so duplicate prevention is version-visible and repo-local. After every run, update Notion `Tender Tracker` using `Tender ID` as the dedupe key.
+The wrapper scans a broad open-tender window (`PageSize=100`, `MaxPages=80`), writes JSON snapshots, and imports the snapshot into SQLite. It does not judge fit or update duplicate state.
+
+Run Tier 2 triage and downstream outputs:
+
+```powershell
+.\scripts\run_tier2.ps1
+```
+
+Tier 2 reads `config\targeted-stream-criteria.json` as an interests profile, writes `data\triage\triage-latest.json`, imports triage into SQLite, writes public-safe Notion upsert payloads, creates email payloads only for new relevant leads, writes prime-fit YAML briefs, and updates `data\seen_tenders_state.json`.
 
 Use [docs/service-area-explainer.md](docs/service-area-explainer.md) for domain-first triage. It explains each target service area so the agent does not blindly search for keywords.
 
@@ -29,22 +37,26 @@ Use [docs/service-area-explainer.md](docs/service-area-explainer.md) for domain-
 ```text
 scripts/
   run_daily.ps1              Local monitor wrapper and run logger
+  run_tier2.ps1              Triage + downstream wrapper
 tools/
   ns-tender-monitor/         Repo-local monitor scripts and reference criteria
 data/
+  tender-agent.sqlite       Generated SQLite history database (ignored by git)
   seen_tenders_state.json    Repo-local duplicate-prevention state
   open-tenders/
     open-tenders-latest.json Latest all-open-tenders database
     runs/                    Timestamped all-open-tenders snapshots
 config/
   targeted-stream-criteria.json
-                            Narrow criteria for the targeted pursuit stream
+                            Interests profile for Tier 2 triage
   notion-tracker.json       Canonical Notion database/view target for sync
 proposals/
   active/ns-tenders/         Current imported tender YAML briefs
   outputs/ns-tenders/        Monitor summaries, email files, logs
 docs/
   *.md                       Workflow, service-area, and data-protection notes
+db/
+  schema.sql                 SQLite schema for long-term local history
 context/
   tender-agent-context.md    Persistent operating context
 skills/
@@ -77,6 +89,17 @@ data/open-tenders/
                       Latest all-open-tenders database from the portal
   runs/open-tenders-*.json
                       Timestamped all-open-tenders snapshot for each run
+data/tender-agent.sqlite
+                      Generated local history database for runs, snapshots,
+                      triage, Notion sync, and email logs
+data/triage/triage-latest.json
+                      Latest Tier 2 triage artifact
+```
+
+Initialize the local database when needed:
+
+```powershell
+python .\scripts\initialize_database.py
 ```
 
 ## Current Active Opportunities

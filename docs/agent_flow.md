@@ -4,20 +4,20 @@ Tender Agent owns the public tender source, screening, import, and intake eviden
 
 ```mermaid
 flowchart TD
-    A["Nova Scotia Procurement Portal"] --> B["Collect Open Tenders<br/>no fit filtering"]
-    B --> C["Open Tender Snapshot<br/>all open listings"]
-    D["Targeted Stream Criteria<br/>config/targeted-stream-criteria.json"] --> E["Triage / Filter"]
+    A["Nova Scotia Procurement Portal"] --> B["Tier 1 Collect<br/>all open + all details"]
+    B --> C["Raw Open Tender Snapshot<br/>JSON latest + runs"]
+    C --> DB["SQLite History<br/>data/tender-agent.sqlite"]
+    D["Interests Profile<br/>config/targeted-stream-criteria.json"] --> E["Tier 2 Triage"]
     M["Persistent Context<br/>context/tender-agent-context.md"] --> E
     C --> E
-    E --> F["Candidate Buckets<br/>strong / review / skip"]
-    F --> G{"Need more info?"}
-    G -->|"Yes"| H["Fetch Detail Page / Documents"]
-    H --> E
-    G -->|"No"| I["Duplicate Review"]
+    E --> F["Triage Artifact<br/>data/triage/triage-latest.json"]
+    F --> DB
+    F --> I["Duplicate Review"]
     S["Seen tender state<br/>data/seen_tenders_state.json"] --> I
     T["Calibration Tests<br/>skills/test-prompts.md"] --> E
     I --> J["Active Tender YAML<br/>proposals/active/ns-tenders"]
     I --> K["Email Brief / Payload<br/>when new relevant tenders exist"]
+    I --> L["Notion Upsert Payload<br/>public-safe fields"]
 ```
 
 ## Workflow Contracts
@@ -25,10 +25,9 @@ flowchart TD
 | Stage | Owns | Output |
 | --- | --- | --- |
 | Collect open | Fetch every currently open tender listing without filtering by fit. | Complete open-tender snapshot under `data/open-tenders/runs/` and latest database at `data/open-tenders/open-tenders-latest.json`. |
-| Triage/filter | Apply targeted stream criteria and domain-relevance rules to the snapshot. | Strong, review, skip, and false-positive buckets. |
-| Enrich | Revisit portal/detail documents only when a candidate needs more context. | Better evidence and confidence. |
-| State file | Preserve seen tender IDs across runs. | Duplicate-prevention history in `data/seen_tenders_state.json`. |
-| Run wrapper | Capture repo state, monitor command, summary path, matches, and errors. | JSON run log. |
+| Triage | Apply the interests profile and domain-relevance rules to the snapshot. | `data/triage/triage-latest.json` plus SQLite triage history. |
+| State file | Preserve emitted relevant tender IDs across Tier 2 runs. | Duplicate-prevention history in `data/seen_tenders_state.json`. |
+| Run wrappers | Capture repo state, commands, summary paths, counts, and errors. | JSON run logs. |
 | Human review | Confirm scope, addenda, eligibility, mandatory meetings, and submission rules. | Go/no-go decision and next action. |
 | Email handoff | Send only public-safe concise briefs for newly relevant tenders. | Email brief/payload evidence. |
 

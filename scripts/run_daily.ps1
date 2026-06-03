@@ -2,6 +2,7 @@ param(
     [string]$MonitorScript = "",
     [string]$State = "",
     [string]$Criteria = "",
+    [string]$Database = "",
     [string]$RunLogDirectory = "proposals\outputs\ns-tenders\run-logs",
     [int]$PageSize = 100,
     [int]$MaxPages = 80,
@@ -22,6 +23,9 @@ try {
     }
     if ([string]::IsNullOrWhiteSpace($State)) {
         $State = Join-Path (Get-Location).Path "data\seen_tenders_state.json"
+    }
+    if ([string]::IsNullOrWhiteSpace($Database)) {
+        $Database = Join-Path (Get-Location).Path "data\tender-agent.sqlite"
     }
 
     New-Item -ItemType Directory -Force -Path $RunLogDirectory | Out-Null
@@ -62,8 +66,19 @@ try {
         $arguments += "-DryRun"
     }
 
-    $output = @(& $powerShellExe @arguments 2>&1 | ForEach-Object { [string]$_ })
-    $exitCode = $LASTEXITCODE
+    $previousErrorActionPreference = $ErrorActionPreference
+    $ErrorActionPreference = "Continue"
+    try {
+        $output = @(& $powerShellExe @arguments 2>&1 | ForEach-Object { [string]$_ })
+        $exitCode = $LASTEXITCODE
+    }
+    catch {
+        $output = @([string]$_)
+        $exitCode = 1
+    }
+    finally {
+        $ErrorActionPreference = $previousErrorActionPreference
+    }
     $completed = Get-Date
     $summary = $null
     try {
@@ -78,6 +93,19 @@ try {
     catch {
         $summary = $null
     }
+
+    $databaseImportOutput = @()
+    $databaseImportExitCode = $null
+    if ($exitCode -eq 0 -and -not $DryRun -and $summary -and -not [string]::IsNullOrWhiteSpace([string]$summary.open_tender_latest_path)) {
+        $databaseStoreScript = Join-Path (Get-Location).Path "scripts\database_store.py"
+        if (Test-Path -LiteralPath $databaseStoreScript) {
+            $databaseImportOutput = @(& python $databaseStoreScript --snapshot $summary.open_tender_latest_path --database $Database 2>&1 | ForEach-Object { [string]$_ })
+            $databaseImportExitCode = $LASTEXITCODE
+            if ($databaseImportExitCode -ne 0) {
+                $exitCode = $databaseImportExitCode
+            }
+        }
+    }
     $outputExcerpt = @($output | Select-Object -First 80)
 
     $log = [ordered]@{
@@ -90,15 +118,17 @@ try {
         monitor_script = $MonitorScript
         state_file = $State
         criteria_file = $Criteria
+        database_file = $Database
         command = "$powerShellExe " + ($arguments -join " ")
         matches = if ($summary) { $summary.matches } else { $null }
         open_tender_count = if ($summary) { $summary.open_tender_count } else { $null }
         open_tender_snapshot_path = if ($summary) { $summary.open_tender_snapshot_path } else { $null }
         open_tender_latest_path = if ($summary) { $summary.open_tender_latest_path } else { $null }
-        candidate_bucket_counts = if ($summary) { $summary.candidate_bucket_counts } else { $null }
         generated_briefs = if ($summary) { @($summary.generated_briefs) } else { @() }
         generated_analyses = if ($summary) { @($summary.generated_analyses) } else { @() }
         summary_path = if ($summary) { $summary.summary_path } else { $null }
+        database_import_exit_code = $databaseImportExitCode
+        database_import_output = @($databaseImportOutput)
         dry_run = [bool]$DryRun
         output_excerpt = $outputExcerpt
     }

@@ -1,0 +1,32 @@
+client: "Municipality of the County of Richmond"
+opportunity: "Bennies Lane and Bennies Lane Extension Watermain Replacement – Engineering"
+due_date: "2026-06-18T00:00-0300"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender MOCR202607: Bennies Lane and Bennies Lane Extension Watermain Replacement – Engineering.
+  Procurement entity: Municipality of the County of Richmond.
+  Closing: 2026-06-18T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/MOCR202607.
+  Description: The Municipality of the County of Richmond is accepting proposals for engineering services associated with the replacement of 400m of watermain and associated infrastructure located at Bennies Lane and Bennies Lane Extension in Louisdale, Richmond County. Proposals must be received on or before 2:00 p.m., local time on June 18, 2026. Late submissions, including those due to technical issues with electronic submissions, will not be considered..
+pursuit_type: "prime"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "0.88"
+classification_note: "domain: municipal civil (infrastructure), water/wastewater (watermain); professional role: engineering, engineering services; contractor/vendor title hints: replacement; buyer/context: county, municipality"
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/MOCR202607"
+  tender_id: "MOCR202607"
+triage:
+  bucket: "prime-consultant-fit"
+  urgent: false
+  next_action: "Review scope documents and confirm lead consultant fit."

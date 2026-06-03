@@ -1,23 +1,19 @@
 client: "Municipality of the District of Yarmouth"
 opportunity: "Feasibility Study for Nova West Regional Business Park Phase 3 Expansion"
-due_date: "2026-06-18"
+due_date: "2026-06-18T00:00-0300"
 industry: "Civil engineering"
 service_line: "infrastructure"
 project_region: "atlantic"
 rfp_text: >
   Tender NWRBP-PH3-FEAS-2026: Feasibility Study for Nova West Regional Business Park Phase 3 Expansion.
-  Solicitation type: Request for Proposal (Construction).
   Procurement entity: Municipality of the District of Yarmouth.
-  End-user entity: .
-  Status: OPEN.
-  Posted: 2026-05-28.
   Closing: 2026-06-18T00:00-0300.
   Portal URL: https://procurement-portal.novascotia.ca/tenders/NWRBP-PH3-FEAS-2026.
   Description: The Municipality of the District of Yarmouth (MODY) is seeking proposals from qualified multidisciplinary consulting firms to undertake a feasibility study for the potential Phase 3 expansion of the Nova West Regional Business Park (NWRBP). The study will evaluate approximately 28.1 hectares (69.4 acres) of municipally identified lands to determine development feasibility, environmental and regulatory constraints, servicing requirements, infrastructure considerations, implementation options, and phased development opportunities to support future industrial and commercial growth within the Municipality. The feasibility study will include a phased assessment approach consisting of high-level screening, environmental and planning review, geotechnical and climate resilience considerations, conceptual servicing and infrastructure analysis, utility coordination, development phasing, and cost estimates..
-pursuit_type: "design-study-consulting"
+pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
-classification_confidence: "medium"
-classification_note: "Looks like a consulting, design, study, assessment, or engineering-services opportunity."
+classification_confidence: "0.88"
+classification_note: "domain: municipal civil (business park, infrastructure, servicing), water/wastewater (utility); professional role: assessment, consulting, feasibility, feasibility study; buyer/context: municipality"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.
@@ -27,20 +23,10 @@ scope:
   - Draft proposal response outline if qualified.
 constraints:
   - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
-decision_criteria:
-  - Strategic fit.
-  - Technical capability.
-  - Available response time.
-  - Compliance requirements.
 source:
   portal_url: "https://procurement-portal.novascotia.ca/tenders/NWRBP-PH3-FEAS-2026"
   tender_id: "NWRBP-PH3-FEAS-2026"
-match_reasons:
-  - "matched keywords: feasibility study"
-classification_reasons:
-  - "consulting signal: feasibility"
-  - "consulting signal: study"
-  - "consulting signal: assessment"
-  - "consulting signal: consulting"
-  - "consulting signal: planning"
-  - "construction signal: construction"
+triage:
+  bucket: "prime-consultant-fit"
+  urgent: false
+  next_action: "Review scope documents and confirm lead consultant fit."

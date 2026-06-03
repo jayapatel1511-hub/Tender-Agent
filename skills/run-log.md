@@ -25,7 +25,9 @@ For JSON logs, include:
 - `open_tender_count`
 - `open_tender_snapshot_path`
 - `open_tender_latest_path`
-- `candidate_bucket_counts`
+- `triage_path`
+- `triage_bucket_counts`
+- `database_import_exit_code`
 - `new_matches`
 - `duplicates`
 - `email_sent`
@@ -42,5 +44,5 @@ For JSON logs, include:
 - Log what actually happened.
 - Include skipped email decisions.
 - Include duplicate reasons.
-- Include Notion sync status after every run, even when no records changed.
+- Include Notion export/sync status after every Tier 2 run, even when no records changed.
 - Keep private data out of logs unless it is already local and required for debugging.

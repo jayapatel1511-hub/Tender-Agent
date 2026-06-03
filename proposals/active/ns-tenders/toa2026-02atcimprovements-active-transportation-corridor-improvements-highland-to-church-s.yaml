@@ -1,0 +1,32 @@
+client: "Town of Antigonish"
+opportunity: "Active Transportation Corridor Improvements-Highland to Church St."
+due_date: "2026-06-10T00:00-0300"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender TOA2026-02ATCIMprovements: Active Transportation Corridor Improvements-Highland to Church St..
+  Procurement entity: Town of Antigonish.
+  Closing: 2026-06-10T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/TOA2026-02ATCIMprovements.
+  Description: Sealed quotes addressed to the Town of Antigonish at 274 Main Street, Antigonish, Nova Scotia, will be received up to 2:00 pm June 10, 2026, for tender Active Transportation Corridor Improvements - Highland Drive to Church Street, Tender TOA2026-02. Tender packages may be obtained at the office of the Department of Infrastructure and Engineering at Town Hall, 274 Main St, Antigonish, Nova Scotia. The Work can be generally described to include: the removal of existing concrete curb, gutter and sidewalk, installation of new concrete curb & gutter and trail, removal of existing street asphalt as required, and street asphalt replacement. The work area runs along St Ninian Street from Highland Drive to Church Street. Work requires all traffic control, adjustments to catch basin and manhole covers, valve boxes and related work. The Town reserves the right to waive any informalities or to reject any or all quotes based on changes to the approach to the work, organizational and perceived liability considerations, the financial suitability of proceeding with the execution of the work, individual tenderer's level of experience, available personnel and equipment, the Owners perception of the impact of performance on similar projects, or potential performance problems in keeping schedule targets. The Town reserves the right to omit portions of the work should it be deemed necessary for overall financial reasons..
+pursuit_type: "prime"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "0.88"
+classification_note: "domain: municipal civil (curb, infrastructure, sidewalk, street), transportation (active transportation, corridor, sidewalk, traffic); professional role: engineering; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment"
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/TOA2026-02ATCIMprovements"
+  tender_id: "TOA2026-02ATCIMprovements"
+triage:
+  bucket: "prime-consultant-fit"
+  urgent: false
+  next_action: "Review scope documents and confirm lead consultant fit."

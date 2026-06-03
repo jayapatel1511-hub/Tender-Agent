@@ -1,23 +1,19 @@
 client: "Municipality of the County of Victoria"
 opportunity: "Engineering Services"
-due_date: "2026-06-25"
+due_date: "2026-06-25T00:00-0300"
 industry: "Civil engineering"
 service_line: "infrastructure"
 project_region: "atlantic"
 rfp_text: >
   Tender VIC-RSO-05-21-26: Engineering Services.
-  Solicitation type: Request for Standing Offer.
   Procurement entity: Municipality of the County of Victoria.
-  End-user entity: .
-  Status: OPEN.
-  Posted: 2026-05-21.
   Closing: 2026-06-25T00:00-0300.
   Portal URL: https://procurement-portal.novascotia.ca/tenders/VIC-RSO-05-21-26.
   Description: The Municipality of the County of Victoria is establishing a Standing Offer for engineering services to support water, wastewater, and solid waste operations..
-pursuit_type: "design-study-consulting"
+pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
-classification_confidence: "high"
-classification_note: "Looks like a consulting, design, study, assessment, or engineering-services opportunity."
+classification_confidence: "0.88"
+classification_note: "domain: water/wastewater (wastewater); professional role: engineering, engineering services; buyer/context: county, municipality, water"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.
@@ -27,15 +23,10 @@ scope:
   - Draft proposal response outline if qualified.
 constraints:
   - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
-decision_criteria:
-  - Strategic fit.
-  - Technical capability.
-  - Available response time.
-  - Compliance requirements.
 source:
   portal_url: "https://procurement-portal.novascotia.ca/tenders/VIC-RSO-05-21-26"
   tender_id: "VIC-RSO-05-21-26"
-match_reasons:
-  - "matched keywords: engineering services, wastewater"
-classification_reasons:
-  - "consulting signal: engineering services"
+triage:
+  bucket: "prime-consultant-fit"
+  urgent: false
+  next_action: "Review scope documents and confirm lead consultant fit."

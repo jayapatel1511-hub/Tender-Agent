@@ -21,7 +21,7 @@ Expected behavior:
 5. Triage collected tenders using criteria plus domain reasoning.
 6. Preserve duplicate-prevention state.
 7. Generate active YAML briefs only for newly matched prime-fit tenders.
-8. Update Notion `Tender Tracker` after every run.
+8. Write a public-safe Notion upsert payload after every Tier 2 run.
 9. Email the user only when newly matched relevant tenders are found.
 10. Write a local run log with counts, paths, sync status, and errors.
 
@@ -33,11 +33,16 @@ Primary local data:
 
 - `data\open-tenders\open-tenders-latest.json`: latest all-open-tender database.
 - `data\open-tenders\runs\open-tenders-YYYYMMDD-HHMMSS.json`: per-run all-open-tender snapshots.
+- `data\tender-agent.sqlite`: generated local SQLite history store for runs,
+  tenders, snapshots, triage results, and sync logs.
 - `data\seen_tenders_state.json`: duplicate-prevention state for emitted prime-fit tenders.
 - `proposals\active\ns-tenders\`: current active tender briefs.
 - `proposals\outputs\ns-tenders\run-logs\`: run evidence.
 
-The JSON database is intentionally human-readable. A future SQLite database may be added for better querying, change tracking, and sync history, while keeping JSON exports for inspection.
+The JSON database is intentionally human-readable and remains the handoff/export
+format. SQLite is the durable local history store so snapshots, triage decisions,
+Notion sync results, and email outcomes can grow without making JSON the only
+database.
 
 ## Triage Intent
 
@@ -118,7 +123,9 @@ There are two distinct automation levels.
 
 ### Current Level: Agent-Run Automation
 
-This is working now. The agent can run the prompt, execute the local monitor, update Notion through the connector, decide whether email is needed, and report results.
+This is working now. The agent can run the prompt, execute the local monitor,
+triage the stored snapshot, create public-safe Notion upsert payloads, decide
+whether email payloads are needed, and report results.
 
 ### Target Level: Fully Unattended Daily Automation
 
@@ -130,17 +137,24 @@ This is not complete yet. To make the system run every day without Codex interve
 4. A scheduled-run log that records external sync/email outcomes.
 5. A verification routine proving scheduled runs work when Codex is not open.
 
-## Future SQLite Intent
+## SQLite Intent
 
-SQLite is recommended when querying and history become central.
+SQLite is the local system of record for history and queryability. JSON remains
+the easy-to-read export.
 
-Candidate database:
+Generated database:
 
 ```text
 data\tender-agent.sqlite
 ```
 
-Useful tables:
+Tracked schema:
+
+```text
+db\schema.sql
+```
+
+Core tables:
 
 - `runs`
 - `tenders`
@@ -149,7 +163,8 @@ Useful tables:
 - `notion_sync_log`
 - `email_log`
 
-SQLite should supplement, not replace, the JSON snapshots unless there is a deliberate migration plan.
+Generated SQLite files should not be committed. Schema and migration scripts
+should be committed.
 
 ## Success Criteria
 

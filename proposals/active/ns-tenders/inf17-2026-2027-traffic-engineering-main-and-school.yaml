@@ -1,0 +1,32 @@
+client: "Region of Queens Municipality"
+opportunity: "Traffic Engineering - Main and School"
+due_date: "2026-07-10T00:00-0300"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender INF17-2026-2027: Traffic Engineering - Main and School.
+  Procurement entity: Region of Queens Municipality.
+  Closing: 2026-07-10T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/INF17-2026-2027.
+  Description: The Region of Queens Municipality Department of Infrastructure is accepting competitive proposals from qualified traffic engineering service providers to improve pedestrian safety and motor vehicle flow at the intersection of Main and School Streets, Liverpool, NS..
+pursuit_type: "prime"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "0.88"
+classification_note: "domain: municipal civil (infrastructure), transportation (intersection, traffic); professional role: engineering; buyer/context: municipality; overrode exclude hint because asset/domain is in scope: vehicle"
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/INF17-2026-2027"
+  tender_id: "INF17-2026-2027"
+triage:
+  bucket: "prime-consultant-fit"
+  urgent: false
+  next_action: "Review scope documents and confirm lead consultant fit."

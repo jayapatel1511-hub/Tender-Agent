@@ -1,15 +1,16 @@
 param(
-    [string]$TaskName = "Tender Agent Tier 1 Collector",
+    [string]$TaskName = "Tender Agent Tier 2 Triage",
     [string]$RunScript = "",
-    [int]$AtHour = 8,
+    [int]$AtHour = 9,
     [ValidateSet("S4U", "Interactive")]
     [string]$LogonType = "Interactive"
 )
 
 $ErrorActionPreference = "Stop"
-$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..\..")).Path
+
+$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..")).Path
 if ([string]::IsNullOrWhiteSpace($RunScript)) {
-    $RunScript = Join-Path $RepoRoot "scripts\run_daily.ps1"
+    $RunScript = Join-Path $RepoRoot "scripts\run_tier2.ps1"
 }
 
 if (-not (Test-Path -LiteralPath $RunScript)) {
@@ -19,9 +20,7 @@ if (-not (Test-Path -LiteralPath $RunScript)) {
 $argumentParts = @(
     "-NoProfile",
     "-ExecutionPolicy", "Bypass",
-    "-File", ('"{0}"' -f $RunScript),
-    "-PageSize", "100",
-    "-MaxPages", "80"
+    "-File", ('"{0}"' -f $RunScript)
 )
 $action = New-ScheduledTaskAction -Execute "powershell.exe" -Argument ($argumentParts -join " ") -WorkingDirectory $RepoRoot
 $trigger = New-ScheduledTaskTrigger -Daily -At (Get-Date).Date.AddHours($AtHour)
