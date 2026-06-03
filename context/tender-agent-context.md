@@ -8,6 +8,8 @@ This repo supports Jay's tender monitoring workflow for targeted Nova Scotia pub
 
 Find newly posted Nova Scotia public tenders that are plausible civil, municipal, or transportation professional-services pursuits and prepare public-safe handoff material.
 
+The agent should reason from domain relevance, not exact keyword matching. The keyword criteria is a first-pass net; final triage should consider the buyer, title, description, attachments, and whether a civil/municipal/transportation engineering role is likely.
+
 ## Target Organization Fit
 
 The normal stream should focus on:
@@ -17,6 +19,7 @@ The normal stream should focus on:
 - traffic and road safety studies
 - road, street, corridor, intersection, sidewalk, active transportation, trail, transit, and streetscape studies/design
 - stormwater, wastewater, water utility, hydraulic, capacity, infrastructure planning, and condition-assessment work
+- active transportation corridor improvements, traffic calming, bridge engineering, water treatment plant design, transmission main assessments, and municipal servicing/utility studies
 
 ## Explicit Exclusions
 
@@ -67,6 +70,18 @@ Do not email:
 - private proposal notes
 - redaction maps
 - non-public pursuit assumptions
+
+## Notion
+
+After every run, update Notion `Tender Tracker`:
+
+- Database ID: `3734df31-b176-80d5-a260-ff090665cc7c`
+- Data source: `collection://3734df31-b176-8056-a4fb-000b525fc94e`
+- Config file: `config\notion-tracker.json`
+- All Tenders view URL: `https://app.notion.com/p/3734df31b17680d5a260ff090665cc7c?v=3734df31b17680c3ae24000c8d51e408&source=copy_link`
+- Dedupe key: `Tender ID`
+
+Use public-safe fields only. Do not sync raw internal context, redaction maps, private proposal material, or company/client-sensitive notes.
 
 ## Maintenance
 

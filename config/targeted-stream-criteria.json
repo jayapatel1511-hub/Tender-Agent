@@ -1,12 +1,14 @@
 {
   "include_keywords": [
     "active transportation",
+    "active transportation corridor",
     "asset management plan",
     "bridge design",
     "capacity study",
     "civil engineering",
     "condition assessment",
     "corridor",
+    "corridor improvements",
     "design services",
     "design study",
     "engineering services",
@@ -14,6 +16,7 @@
     "highway",
     "hydraulic",
     "infrastructure planning",
+    "improvements",
     "intersection",
     "municipal engineering",
     "municipal infrastructure",
@@ -25,11 +28,13 @@
     "street",
     "streetscape",
     "traffic",
+    "traffic calming",
     "traffic impact",
     "transit",
     "transportation",
     "wastewater",
-    "water utility"
+    "water utility",
+    "water treatment plant"
   ],
   "exclude_keywords": [
     "advertising",
@@ -76,5 +81,5 @@
     "OPEN"
   ],
   "solicitation_types": [],
-  "min_days_until_close": 3
+  "min_days_until_close": 0
 }

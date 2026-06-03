@@ -1,19 +1,19 @@
-client: "Municipality of the County of Cumberland"
-opportunity: "Maccan Wastewater Treatment Plant System Assessment Report"
-due_date: "2026-06-16"
+client: "Municipality of the County of Victoria"
+opportunity: "Engineering Services"
+due_date: "2026-06-25"
 industry: "Civil engineering"
 service_line: "infrastructure"
 project_region: "atlantic"
 rfp_text: >
-  Tender RFP-MCC-2608: Maccan Wastewater Treatment Plant System Assessment Report.
-  Solicitation type: Request for Proposal.
-  Procurement entity: Municipality of the County of Cumberland.
+  Tender VIC-RSO-05-21-26: Engineering Services.
+  Solicitation type: Request for Standing Offer.
+  Procurement entity: Municipality of the County of Victoria.
   End-user entity: .
   Status: OPEN.
-  Posted: 2026-06-01.
-  Closing: 2026-06-16T00:00-0300.
-  Portal URL: https://procurement-portal.novascotia.ca/tenders/RFP-MCC-2608.
-  Description: Maccan Wastewater Treatment Plant System Assessment Report.
+  Posted: 2026-05-21.
+  Closing: 2026-06-25T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/VIC-RSO-05-21-26.
+  Description: The Municipality of the County of Victoria is establishing a Standing Offer for engineering services to support water, wastewater, and solid waste operations..
 pursuit_type: "design-study-consulting"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "high"
@@ -33,11 +33,9 @@ decision_criteria:
   - Available response time.
   - Compliance requirements.
 source:
-  portal_url: "https://procurement-portal.novascotia.ca/tenders/RFP-MCC-2608"
-  tender_id: "RFP-MCC-2608"
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/VIC-RSO-05-21-26"
+  tender_id: "VIC-RSO-05-21-26"
 match_reasons:
-  - "matched keywords: wastewater"
+  - "matched keywords: engineering services, wastewater"
 classification_reasons:
-  - "consulting signal: assessment"
-  - "consulting signal: system assessment"
-  - "consulting signal: report"
+  - "consulting signal: engineering services"

@@ -1,0 +1,43 @@
+client: "Halifax-Dartmouth Bridge Commission"
+opportunity: "A. Murray Mackay Bridge Navigation Lighting System Engineering Services"
+due_date: "2026-06-19"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender R2026-W: A. Murray Mackay Bridge Navigation Lighting System Engineering Services.
+  Solicitation type: Request for Proposal (Construction).
+  Procurement entity: Halifax-Dartmouth Bridge Commission.
+  End-user entity: .
+  Status: OPEN.
+  Posted: 2026-05-07.
+  Closing: 2026-06-19T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/R2026-W.
+  Description: Halifax Harbour Bridges (HHB), operating as a division of Link Nova Scotia, is the issuing public body and procuring authority for the purposes of this Request for Proposal. HHB is seeking proposals from qualified proponents to provide engineering services for the assessment and detailed design of navigation and aviation lighting system upgrades on the A. Murray MacKay Bridge (AMM). The proponent shall be responsible for reviewing existing conditions, defining technical requirements and performance specifications, and preparing design and tender documents for the proposed upgrades..
+pursuit_type: "design-study-consulting"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "medium"
+classification_note: "Looks like a consulting, design, study, assessment, or engineering-services opportunity."
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+decision_criteria:
+  - Strategic fit.
+  - Technical capability.
+  - Available response time.
+  - Compliance requirements.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/R2026-W"
+  tender_id: "R2026-W"
+match_reasons:
+  - "matched keywords: engineering services"
+classification_reasons:
+  - "consulting signal: assessment"
+  - "consulting signal: engineering services"
+  - "construction signal: construction"

@@ -1,0 +1,42 @@
+client: "Town of Stewiacke"
+opportunity: "ENGINEERING DESIGN SERVICES & PLANT MANAGEMENT STEWIACKE WATER TREATMENT PLANT DESIGN "
+due_date: "2026-06-04"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender STEW-2026-02: ENGINEERING DESIGN SERVICES & PLANT MANAGEMENT STEWIACKE WATER TREATMENT PLANT DESIGN.
+  Solicitation type: Request for Proposal (Negotiations, Consecutive).
+  Procurement entity: Town of Stewiacke.
+  End-user entity: .
+  Status: OPEN.
+  Posted: 2026-04-02.
+  Closing: 2026-06-04T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/STEW-2026-02.
+  Description: At this time the municipality is seeking proposals from qualified professionals for work related to the design, engineering support, and project management of a new water treatment facility and all associated infrastructure for the Town of Stewiacke water system..
+pursuit_type: "design-study-consulting"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "high"
+classification_note: "Looks like a consulting, design, study, assessment, or engineering-services opportunity."
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+decision_criteria:
+  - Strategic fit.
+  - Technical capability.
+  - Available response time.
+  - Compliance requirements.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/STEW-2026-02"
+  tender_id: "STEW-2026-02"
+match_reasons:
+  - "matched keywords: design services, water treatment plant"
+classification_reasons:
+  - "consulting signal: design services"
+  - "consulting signal: design"

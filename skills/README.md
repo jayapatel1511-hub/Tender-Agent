@@ -4,6 +4,8 @@ These repo-level skill notes define the staged agent workflow for Tender Agent r
 
 The domain focus is Englobe-relevant civil, municipal, and transportation engineering work. Normal qualified-opportunity emails should focus on municipal streets, roads, highways, corridors, intersections, active transportation, traffic, transit, and related planning or design studies. Generic consulting and supplier-style tenders are off-profile unless there is a clear civil/municipal/transportation angle.
 
+Use [../docs/service-area-explainer.md](../docs/service-area-explainer.md) whenever the agent is confused about domain or service-area fit. The explainer is the domain-first triage guide; keyword lists are only discovery helpers.
+
 Use them in order:
 
 1. [repo-refresh.md](repo-refresh.md)
@@ -15,10 +17,10 @@ Use them in order:
 
 Use [test-prompts.md](test-prompts.md) after changing criteria or triage rules.
 
-The local Codex skill script used by this repo remains:
+The monitor script used by this repo is local:
 
 ```text
-C:\Users\jpate\.codex\skills\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps1
+tools\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps1
 ```
 
-Keep `seen_tenders_state.json` outside the repo so duplicate-prevention survives repo cleanup and commits.
+Keep `data\seen_tenders_state.json` in the repo so duplicate prevention is visible and portable with this workflow.

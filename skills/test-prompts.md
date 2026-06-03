@@ -87,7 +87,58 @@ Reason: transportation/traffic/intersection study fits the targeted stream.
 Confidence: High.
 ```
 
-### 6. Asphalt Repaving
+### 6. Active Transportation Corridor Improvements
+
+Input:
+
+```text
+Active Transportation Corridor Improvements - Highland to Church Street for a town.
+```
+
+Expected:
+
+```text
+prime-consultant-fit or needs-review
+Include for review if new and not duplicate.
+Reason: active transportation corridor work is in the targeted transportation/municipal stream even if the notice says improvements rather than study/design.
+Confidence: Medium to High depending whether professional-services scope is visible.
+```
+
+### 7. Traffic Calming
+
+Input:
+
+```text
+Traffic Calming Phase 2 at various municipal locations.
+```
+
+Expected:
+
+```text
+prime-consultant-fit or partner-or-subconsultant-fit
+Include for review if new and not duplicate.
+Reason: traffic calming is transportation engineering/public works domain. Confirm whether it is design/engineering services or contractor-led implementation.
+Confidence: Medium until documents confirm role.
+```
+
+### 8. Water Treatment Plant Engineering
+
+Input:
+
+```text
+Engineering Design Services and Plant Management for a municipal water treatment plant design.
+```
+
+Expected:
+
+```text
+prime-consultant-fit
+Include if new and not duplicate, even if closing soon.
+Reason: municipal water treatment plant engineering design is in the targeted infrastructure stream.
+Confidence: High.
+```
+
+### 9. Asphalt Repaving
 
 Input:
 
@@ -104,7 +155,7 @@ Reason: contractor-led construction work.
 Confidence: Medium if professional-services role is visible, otherwise Low.
 ```
 
-### 7. Building Roof Replacement
+### 10. Building Roof Replacement
 
 Input:
 
@@ -132,4 +183,13 @@ Expected behavior:
 
 - CSR consulting does not appear as a qualified match.
 - Vehicle/equipment tenders do not appear as qualified matches.
-- Wastewater, stormwater, traffic, road safety, municipal infrastructure, and transportation studies remain eligible.
+- Wastewater, stormwater, traffic, traffic calming, active transportation, road safety, municipal infrastructure, water treatment plant, and transportation studies remain eligible.
+- If active transportation or traffic calming tenders appear in a broad open-tender search but not in monitor matches, flag classifier drift rather than treating them as irrelevant.
+
+For a full open-population dry check, run:
+
+```powershell
+.\scripts\run_daily.ps1 -DryRun -IncludeSeen
+```
+
+This should scan the broad open-tender window before filtering. Use the `summary_path` in the output to inspect what was matched.

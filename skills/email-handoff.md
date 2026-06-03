@@ -112,6 +112,7 @@ Verify scope, addenda, closing date, mandatory meetings, submission rules, and e
 - Start with counts so the recipient can decide in a few seconds whether to read further.
 - Put `Priority Leads` before lower-fit sections.
 - Include `Why it surfaced` so false positives and matcher drift are visible over time.
+- Include `Confidence` and mark closing-soon strong fits as urgent instead of hiding them.
 - Use `Action` as a concrete decision cue, not a restatement of the tender description.
 - Omit empty sections unless the user explicitly asked for a full audit-style email.
 - For one-off off-profile emails, keep the same structure but make the subject and summary clearly say `off-profile`.

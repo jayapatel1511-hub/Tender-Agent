@@ -1,0 +1,10 @@
+{
+  "name": "Tender Tracker",
+  "database_id": "3734df31-b176-80d5-a260-ff090665cc7c",
+  "data_source": "collection://3734df31-b176-8056-a4fb-000b525fc94e",
+  "database_url": "https://app.notion.com/p/3734df31b17680d5a260ff090665cc7c",
+  "all_tenders_view_id": "3734df31-b176-80c3-ae24-000c8d51e408",
+  "all_tenders_view_url": "https://app.notion.com/p/3734df31b17680d5a260ff090665cc7c?v=3734df31b17680c3ae24000c8d51e408&source=copy_link",
+  "dedupe_key": "Tender ID",
+  "sync_policy": "After every monitor run, update existing records by Tender ID before creating new records. Sync public-safe fields only."
+}

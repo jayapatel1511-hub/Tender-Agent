@@ -4,25 +4,30 @@ Tender Agent owns the public tender source, screening, import, and intake eviden
 
 ```mermaid
 flowchart TD
-    A["Nova Scotia Procurement Portal"] --> B["Local ns-tender-monitor script"]
-    C["Seen tender state<br/>outside repo"] --> B
-    D["Targeted Stream Criteria<br/>config/targeted-stream-criteria.json"] --> B
-    M["Persistent Context<br/>context/tender-agent-context.md"] --> G
-    B --> E["Monitor Summary JSON<br/>proposals/outputs/ns-tenders"]
-    B --> F["Active Tender YAML<br/>proposals/active/ns-tenders"]
-    E --> G["Duplicate Review"]
-    F --> H["Human Portal Verification"]
-    G --> I["Email Brief / Payload<br/>when new relevant tenders exist"]
-    H --> I
-    T["Calibration Tests<br/>skills/test-prompts.md"] --> G
+    A["Nova Scotia Procurement Portal"] --> B["Collect Open Tenders<br/>no fit filtering"]
+    B --> C["Open Tender Snapshot<br/>all open listings"]
+    D["Targeted Stream Criteria<br/>config/targeted-stream-criteria.json"] --> E["Triage / Filter"]
+    M["Persistent Context<br/>context/tender-agent-context.md"] --> E
+    C --> E
+    E --> F["Candidate Buckets<br/>strong / review / skip"]
+    F --> G{"Need more info?"}
+    G -->|"Yes"| H["Fetch Detail Page / Documents"]
+    H --> E
+    G -->|"No"| I["Duplicate Review"]
+    S["Seen tender state<br/>data/seen_tenders_state.json"] --> I
+    T["Calibration Tests<br/>skills/test-prompts.md"] --> E
+    I --> J["Active Tender YAML<br/>proposals/active/ns-tenders"]
+    I --> K["Email Brief / Payload<br/>when new relevant tenders exist"]
 ```
 
 ## Workflow Contracts
 
 | Stage | Owns | Output |
 | --- | --- | --- |
-| Local monitor script | Fetch current portal data, apply targeted stream criteria, skip seen IDs, and write active briefs. | Monitor summary JSON and tender YAML. |
-| State file | Preserve seen tender IDs across runs. | Duplicate-prevention history outside the repo. |
+| Collect open | Fetch every currently open tender listing without filtering by fit. | Complete open-tender snapshot under `data/open-tenders/runs/` and latest database at `data/open-tenders/open-tenders-latest.json`. |
+| Triage/filter | Apply targeted stream criteria and domain-relevance rules to the snapshot. | Strong, review, skip, and false-positive buckets. |
+| Enrich | Revisit portal/detail documents only when a candidate needs more context. | Better evidence and confidence. |
+| State file | Preserve seen tender IDs across runs. | Duplicate-prevention history in `data/seen_tenders_state.json`. |
 | Run wrapper | Capture repo state, monitor command, summary path, matches, and errors. | JSON run log. |
 | Human review | Confirm scope, addenda, eligibility, mandatory meetings, and submission rules. | Go/no-go decision and next action. |
 | Email handoff | Send only public-safe concise briefs for newly relevant tenders. | Email brief/payload evidence. |

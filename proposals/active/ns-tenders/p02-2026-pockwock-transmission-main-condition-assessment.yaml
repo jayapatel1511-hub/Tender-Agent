@@ -1,0 +1,42 @@
+client: "Halifax Water"
+opportunity: "	Pockwock Transmission Main Condition Assessment"
+due_date: "2026-06-12"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender P02-2026: Pockwock Transmission Main Condition Assessment.
+  Solicitation type: Request for Proposal (Negotiations, Consecutive).
+  Procurement entity: Halifax Water.
+  End-user entity: .
+  Status: OPEN.
+  Posted: 2026-05-13.
+  Closing: 2026-06-12T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/P02-2026.
+  Description: This Request for Proposals (the “RFP”) is an invitation by the Halifax Regional Water Commission (“Halifax Water”) to prospective proponents to submit proposals for RFP02.2026 Pockwock Transmission Main Condition Assessment, as further described in Section A of the RFP Particulars (Appendix B) (the “Deliverables”)..
+pursuit_type: "design-study-consulting"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "high"
+classification_note: "Looks like a consulting, design, study, assessment, or engineering-services opportunity."
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+decision_criteria:
+  - Strategic fit.
+  - Technical capability.
+  - Available response time.
+  - Compliance requirements.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/P02-2026"
+  tender_id: "P02-2026"
+match_reasons:
+  - "matched keywords: condition assessment"
+classification_reasons:
+  - "consulting signal: assessment"
+  - "consulting signal: condition assessment"

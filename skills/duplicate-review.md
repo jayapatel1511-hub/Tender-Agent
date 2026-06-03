@@ -4,7 +4,7 @@ Purpose: prevent duplicate tender emails.
 
 ## Check Sources
 
-- `C:\Users\jpate\.codex\skills\ns-tender-monitor\references\seen_tenders_state.json`
+- `data\seen_tenders_state.json`
 - `proposals\active\ns-tenders\`
 - `proposals\outputs\ns-tenders\`
 - `proposals\outputs\ns-tenders\email-briefs\`

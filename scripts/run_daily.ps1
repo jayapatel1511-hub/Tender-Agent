@@ -1,10 +1,10 @@
 param(
-    [string]$MonitorScript = "C:\Users\jpate\.codex\skills\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps1",
-    [string]$State = "C:\Users\jpate\.codex\skills\ns-tender-monitor\references\seen_tenders_state.json",
+    [string]$MonitorScript = "",
+    [string]$State = "",
     [string]$Criteria = "",
     [string]$RunLogDirectory = "proposals\outputs\ns-tenders\run-logs",
-    [int]$PageSize = 25,
-    [int]$MaxPages = 2,
+    [int]$PageSize = 100,
+    [int]$MaxPages = 80,
     [switch]$IncludeSeen,
     [switch]$DryRun
 )
@@ -16,6 +16,12 @@ Push-Location $repoRoot
 try {
     if ([string]::IsNullOrWhiteSpace($Criteria)) {
         $Criteria = Join-Path (Get-Location).Path "config\targeted-stream-criteria.json"
+    }
+    if ([string]::IsNullOrWhiteSpace($MonitorScript)) {
+        $MonitorScript = Join-Path (Get-Location).Path "tools\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps1"
+    }
+    if ([string]::IsNullOrWhiteSpace($State)) {
+        $State = Join-Path (Get-Location).Path "data\seen_tenders_state.json"
     }
 
     New-Item -ItemType Directory -Force -Path $RunLogDirectory | Out-Null
@@ -86,6 +92,10 @@ try {
         criteria_file = $Criteria
         command = "$powerShellExe " + ($arguments -join " ")
         matches = if ($summary) { $summary.matches } else { $null }
+        open_tender_count = if ($summary) { $summary.open_tender_count } else { $null }
+        open_tender_snapshot_path = if ($summary) { $summary.open_tender_snapshot_path } else { $null }
+        open_tender_latest_path = if ($summary) { $summary.open_tender_latest_path } else { $null }
+        candidate_bucket_counts = if ($summary) { $summary.candidate_bucket_counts } else { $null }
         generated_briefs = if ($summary) { @($summary.generated_briefs) } else { @() }
         generated_analyses = if ($summary) { @($summary.generated_analyses) } else { @() }
         summary_path = if ($summary) { $summary.summary_path } else { $null }
