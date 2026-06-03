@@ -1,6 +1,6 @@
 # Tender Workspace
 
-Use this folder for tender inputs, documents, and generated workflow evidence.
+Use this folder for targeted civil, municipal, and transportation tender inputs plus generated workflow evidence.
 
 ```text
 proposals/

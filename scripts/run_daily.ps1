@@ -1,7 +1,7 @@
 param(
     [string]$MonitorScript = "C:\Users\jpate\.codex\skills\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps1",
     [string]$State = "C:\Users\jpate\.codex\skills\ns-tender-monitor\references\seen_tenders_state.json",
-    [string]$Criteria = "C:\Users\jpate\.codex\skills\ns-tender-monitor\references\default_criteria.json",
+    [string]$Criteria = "",
     [string]$RunLogDirectory = "proposals\outputs\ns-tenders\run-logs",
     [int]$PageSize = 25,
     [int]$MaxPages = 2,
@@ -14,6 +14,10 @@ $ErrorActionPreference = "Stop"
 $repoRoot = Resolve-Path (Join-Path $PSScriptRoot "..")
 Push-Location $repoRoot
 try {
+    if ([string]::IsNullOrWhiteSpace($Criteria)) {
+        $Criteria = Join-Path (Get-Location).Path "config\targeted-stream-criteria.json"
+    }
+
     New-Item -ItemType Directory -Force -Path $RunLogDirectory | Out-Null
 
     $started = Get-Date

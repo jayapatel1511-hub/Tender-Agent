@@ -2,6 +2,10 @@
 
 Purpose: run Nova Scotia tender discovery and generate current active tender inputs.
 
+## Domain Filter
+
+The monitor can produce broad public-sector matches. Downstream review must narrow results to Englobe-relevant civil, municipal, and transportation engineering work. Treat generic consulting, vehicles/equipment, goods supply, and unrelated advisory services as off-profile even if the keyword monitor matched them.
+
 ## Preferred Command
 
 ```powershell
@@ -22,6 +26,7 @@ C:\Users\jpate\.codex\skills\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps
 - Treat `proposals\active\ns-tenders\` as the current active tender brief folder.
 - Treat `proposals\outputs\ns-tenders\ns-tender-monitor-*.json` as monitor summary output.
 - Use `-DryRun` only when checking behavior without updating state.
+- After monitor output is generated, apply `opportunity-triage.md` before deciding what is email-worthy.
 
 ## Output
 

@@ -2,6 +2,8 @@
 
 Tender Agent is a lightweight repository for Nova Scotia public tender monitoring and pursuit-intake evidence. It does not contain an application runtime. The daily workflow is driven by the local `ns-tender-monitor` skill script and stores generated briefs, summaries, email handoff files, and run logs in this repo.
 
+The pursuit focus is Englobe-relevant civil, municipal, and transportation engineering work: municipal streets, roads, highways, corridors, intersections, active transportation, traffic, transit, and related planning or design studies. Generic consulting, vehicles/equipment, supplier, goods-only, and unrelated advisory tenders are off-profile.
+
 ## Quick Start
 
 Run the monitor:
@@ -18,18 +20,25 @@ C:\Users\jpate\.codex\skills\ns-tender-monitor\scripts\Invoke-NsTenderMonitor.ps
   -State "C:\Users\jpate\.codex\skills\ns-tender-monitor\references\seen_tenders_state.json"
 ```
 
-The state file is outside this repo on purpose so already-seen tender IDs are preserved across runs and duplicate emails can be avoided.
+By default, the wrapper uses `config\targeted-stream-criteria.json` to keep the stream focused on civil, municipal, and transportation work. The state file is outside this repo on purpose so already-seen tender IDs are preserved across runs and duplicate emails can be avoided.
 
 ## Repo Layout
 
 ```text
 scripts/
   run_daily.ps1              Local monitor wrapper and run logger
+config/
+  targeted-stream-criteria.json
+                            Narrow criteria for the targeted pursuit stream
 proposals/
   active/ns-tenders/         Current imported tender YAML briefs
   outputs/ns-tenders/        Monitor summaries, email files, logs
 docs/
   *.md                       Workflow and data-protection notes
+context/
+  tender-agent-context.md    Persistent operating context
+skills/
+  *.md                       Run-stage contracts and calibration tests
 ```
 
 ## Outputs
@@ -55,3 +64,9 @@ Always verify scope, addenda, closing date, mandatory meetings, submission rules
 ## Generated Evidence
 
 Routine monitor summaries and run logs are ignored by default. Email briefs and payloads may be generated during handoff runs; commit them only when they are intentional evidence for a review, demo, or handoff.
+
+## Agent Setup
+
+- [AGENT.md](AGENT.md) is the top-level operating instruction.
+- [context/tender-agent-context.md](context/tender-agent-context.md) is the persistent context file.
+- [skills/test-prompts.md](skills/test-prompts.md) contains calibration cases for false-positive control.

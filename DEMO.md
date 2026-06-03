@@ -1,6 +1,6 @@
 # Tender Agent Demo
 
-This demo shows the script-driven Tender Agent workflow: run Nova Scotia tender discovery, import consulting-fit opportunities into YAML briefs, and preserve run evidence locally.
+This demo shows the script-driven Tender Agent workflow: run Nova Scotia tender discovery, import targeted civil/municipal/transportation opportunities into YAML briefs, and preserve run evidence locally.
 
 ## Demo Flow
 
@@ -25,6 +25,7 @@ Get-ChildItem proposals\active\ns-tenders
 ## What To Show
 
 - Active tender YAML briefs in `proposals/active/ns-tenders`.
+- Targeted stream criteria in `config/targeted-stream-criteria.json`.
 - Monitor summary JSON under `proposals/outputs/ns-tenders`.
 - Run logs under `proposals/outputs/ns-tenders/run-logs`.
 - Email briefs and payloads when relevant tenders are selected for handoff.
