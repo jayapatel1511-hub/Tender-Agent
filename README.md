@@ -174,6 +174,14 @@ scrape errors. Each run also writes a data quality report with counts by year,
 province, category, status, organizations, suppliers, access limitations, and
 orphan/duplicate/date checks.
 
+To re-run the data quality report against an existing database without scraping,
+use the standalone reporter (it prints a readable summary and exits non-zero if
+any quality check fails, so it is safe to wire into CI or a scheduled run):
+
+```powershell
+python .\scripts\merx_report.py --db data\merx_tenders.sqlite --json data\merx_scrape_report_latest.json
+```
+
 MERX broad public listing pages may clamp or rate-limit historical pagination.
 For deeper historical coverage, run segmented searches by province and keyword
 or use authorized MERX exports/API access if available.
