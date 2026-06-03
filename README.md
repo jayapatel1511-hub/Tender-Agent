@@ -95,6 +95,7 @@ Routine monitor summaries and run logs are ignored by default. Email briefs and 
 ## Agent Setup
 
 - [AGENT.md](AGENT.md) is the top-level operating instruction.
+- [docs/intent-spec.md](docs/intent-spec.md) defines the current agent-run intent and the future fully autonomous intent.
 - [context/tender-agent-context.md](context/tender-agent-context.md) is the persistent context file.
 - [skills/test-prompts.md](skills/test-prompts.md) contains calibration cases for false-positive control.
 - [docs/backlog.md](docs/backlog.md) tracks the collect-then-triage monitor refactor.
