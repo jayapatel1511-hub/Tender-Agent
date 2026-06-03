@@ -5,6 +5,7 @@ Tender Agent owns the public tender source, screening, import, and intake eviden
 ```mermaid
 flowchart TD
     A["Nova Scotia Procurement Portal"] --> B["Tier 1 Collect<br/>all open + all details"]
+    M["MERX public Nova Scotia pages"] --> B
     B --> C["Raw Open Tender Snapshot<br/>JSON latest + runs"]
     C --> DB["SQLite History<br/>data/tender-agent.sqlite"]
     D["Interests Profile<br/>config/targeted-stream-criteria.json"] --> E["Tier 2 Triage"]
@@ -24,7 +25,7 @@ flowchart TD
 
 | Stage | Owns | Output |
 | --- | --- | --- |
-| Collect open | Fetch every currently open tender listing without filtering by fit. | Complete open-tender snapshot under `data/open-tenders/runs/` and latest database at `data/open-tenders/open-tenders-latest.json`. |
+| Collect open | Fetch every currently open tender listing without filtering by fit, including MERX public Nova Scotia summary notices. | Complete open-tender snapshot under `data/open-tenders/runs/` and latest database at `data/open-tenders/open-tenders-latest.json`. |
 | Triage | Apply the interests profile and domain-relevance rules to the snapshot. | `data/triage/triage-latest.json` plus SQLite triage history. |
 | State file | Preserve emitted relevant tender IDs across Tier 2 runs. | Duplicate-prevention history in `data/seen_tenders_state.json`. |
 | Run wrappers | Capture repo state, commands, summary paths, counts, and errors. | JSON run logs. |

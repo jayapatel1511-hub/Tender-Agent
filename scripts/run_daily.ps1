@@ -6,7 +6,9 @@ param(
     [string]$RunLogDirectory = "proposals\outputs\ns-tenders\run-logs",
     [int]$PageSize = 100,
     [int]$MaxPages = 80,
+    [int]$MerxMaxPages = 5,
     [switch]$IncludeSeen,
+    [switch]$SkipMerx,
     [switch]$DryRun
 )
 
@@ -57,10 +59,15 @@ try {
         "-PageSize",
         $PageSize,
         "-MaxPages",
-        $MaxPages
+        $MaxPages,
+        "-MerxMaxPages",
+        $MerxMaxPages
     )
     if ($IncludeSeen) {
         $arguments += "-IncludeSeen"
+    }
+    if ($SkipMerx) {
+        $arguments += "-SkipMerx"
     }
     if ($DryRun) {
         $arguments += "-DryRun"

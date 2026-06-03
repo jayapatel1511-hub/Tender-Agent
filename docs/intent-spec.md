@@ -16,6 +16,8 @@ Expected behavior:
 
 1. Verify git/repo state without overwriting local work.
 2. Run live Nova Scotia tender discovery using `scripts\run_daily.ps1`.
+   This collects the Nova Scotia Procurement Portal and public MERX Nova Scotia
+   tender summary pages by default.
 3. Collect every currently `OPEN` tender before filtering.
 4. Persist the full all-open-tender database locally.
 5. Triage collected tenders using criteria plus domain reasoning.

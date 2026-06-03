@@ -33,7 +33,7 @@ There are two kinds of work, and they must stay separate:
 
 ```
 TIER 1 — DATA (headless cron, no LLM, always-on)
-  NS portal ─▶ collect ─▶ open-tenders-latest.json
+  NS portal + MERX ─▶ collect ─▶ open-tenders-latest.json
                           (raw mirror: all open, all detail-enriched, zero opinions)
 
 TIER 2 — JUDGMENT (scheduled agent run)
@@ -51,6 +51,8 @@ Responsibilities:
 - Page through **every** currently `OPEN` tender (no `--max-pages` cap that
   truncates the list).
 - Fetch the **detail page for every** tender.
+- Fetch public MERX Nova Scotia/category/search summary pages and normalize
+  notices into the same raw record schema with `MERX-` prefixed IDs.
 - Write a raw snapshot. No keyword gate, no `min_days_until_close` drop, no
   seen-state filtering. A mirror includes everything currently open.
 
@@ -63,6 +65,8 @@ Outputs:
 - `data/open-tenders/runs/open-tenders-YYYYMMDD-HHMMSS.json` — per-run snapshot.
 
 Scheduling: Windows Scheduled Task via `Register-NsTenderMonitorTask.ps1`.
+Use `-SkipMerx` for a portal-only run if MERX is unavailable, rate-limited, or
+temporarily too slow.
 
 #### Raw snapshot record schema
 

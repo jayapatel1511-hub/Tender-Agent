@@ -1,6 +1,6 @@
 # Tender Agent
 
-Tender Agent is a lightweight repository for Nova Scotia public tender monitoring and pursuit-intake evidence. It does not contain an application runtime. The workflow has two tiers: collect every open Nova Scotia tender as a raw, detail-enriched mirror, then triage the stored snapshot and generate downstream handoff evidence.
+Tender Agent is a lightweight repository for Nova Scotia public tender monitoring and pursuit-intake evidence. It does not contain an application runtime. The workflow has two tiers: collect every open Nova Scotia tender as a raw, detail-enriched mirror from the Nova Scotia Procurement Portal plus public MERX Nova Scotia pages, then triage the stored snapshot and generate downstream handoff evidence.
 
 The pursuit focus is Englobe-relevant civil, municipal, and transportation engineering work: municipal streets, roads, highways, corridors, intersections, active transportation, traffic, transit, and related planning or design studies. Generic consulting, vehicles/equipment, supplier, goods-only, and unrelated advisory tenders are off-profile.
 
@@ -20,7 +20,7 @@ The wrapper calls:
   -State "C:\Users\jpate\Tender-Agent\data\seen_tenders_state.json"
 ```
 
-The wrapper scans a broad open-tender window (`PageSize=100`, `MaxPages=80`), writes JSON snapshots, and imports the snapshot into SQLite. It does not judge fit or update duplicate state.
+The wrapper scans a broad open-tender window (`PageSize=100`, `MaxPages=80`), adds MERX public Nova Scotia search/category pages (`MerxMaxPages=5`), writes JSON snapshots, and imports the snapshot into SQLite. It does not judge fit or update duplicate state. Use `-SkipMerx` for a portal-only collection run if MERX is unavailable or too slow.
 
 Run Tier 2 triage and downstream outputs:
 
@@ -42,6 +42,7 @@ tools/
   ns-tender-monitor/         Repo-local monitor scripts and reference criteria
 data/
   tender-agent.sqlite       Generated SQLite history database (ignored by git)
+  bid-results.sqlite        Generated MERX bid-result/award database (ignored by git)
   seen_tenders_state.json    Repo-local duplicate-prevention state
   open-tenders/
     open-tenders-latest.json Latest all-open-tenders database
@@ -102,6 +103,17 @@ Initialize the local database when needed:
 python .\scripts\initialize_database.py
 ```
 
+Build or refresh the separate MERX bid-result/award database:
+
+```powershell
+python .\scripts\scrape_bid_results.py --max-pages 1 --detail-limit 10
+```
+
+This writes `data\bid-results.sqlite`. It stores public MERX bid-result and awarded-notice summaries, plus bidder/award price fields when those details are publicly exposed. Some MERX awards do not publish supplier or value details, so those records remain summary-only until the buyer publishes more information.
+
+The Notion target for those records is configured in `config\bid-results-notion.json`:
+`Bid Results Intelligence`, deduped by `Notice ID`.
+
 ## Current Active Opportunities
 
 - `TOK202614` Stormwater Management Project Feasibility and Design Study.
@@ -109,7 +121,7 @@ python .\scripts\initialize_database.py
 - `PROJECT2608-1485` French River Hydraulic and Assimilative Capacity Study.
 - `INF18-2026-2027` Sludge Holding Tank Design.
 
-Always verify scope, addenda, closing date, mandatory meetings, submission rules, and eligibility directly in the Nova Scotia Procurement Portal before acting.
+Always verify scope, addenda, closing date, mandatory meetings, submission rules, and eligibility directly in the source portal before acting. MERX public pages are summary-level intake signals; use the linked MERX notice and any official buyer documents for pursuit decisions.
 
 ## Generated Evidence
 
