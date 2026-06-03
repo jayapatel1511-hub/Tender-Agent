@@ -8,9 +8,8 @@ rfp_text: >
   Tender INF18-2026-2027: Sludge Holding Tank Design.
   Solicitation type: Request for Proposal (Construction).
   Procurement entity: Region of Queens Municipality.
-  End-user entity: .
   Status: OPEN.
-  Posted: 2026-05-29.
+  Posted: 2026-05-29 10:14:15.0.
   Closing: 2026-06-25T00:00-0300.
   Portal URL: https://procurement-portal.novascotia.ca/tenders/INF18-2026-2027.
   Description: The Region of Queens Municipality Department of Infrastructure is accepting competitive proposals from qualified wastewater engineering service providers for design services for a replacement sludge holding tank at its Caledonia Wastewater Treatment Facility..
@@ -35,9 +34,6 @@ decision_criteria:
 source:
   portal_url: "https://procurement-portal.novascotia.ca/tenders/INF18-2026-2027"
   tender_id: "INF18-2026-2027"
-match_reasons:
-  - "matched keywords: engineering, wastewater, water, infrastructure, design, construction"
 classification_reasons:
   - "consulting signal: design services"
   - "consulting signal: design"
-  - "construction signal: construction"

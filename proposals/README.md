@@ -5,14 +5,11 @@ Use this folder for tender inputs, documents, and generated workflow evidence.
 ```text
 proposals/
   active/ns-tenders/         Current tender YAML briefs
-  documents/ns-tenders/      Local tender document extracts
   outputs/ns-tenders/
-    analyses/                Markdown analysis for active tender briefs
-    monitor-snapshots/       Captured/live tender monitor JSON
     email-briefs/            Human-readable email brief drafts
     email-payloads/          JSON email payloads
     run-logs/                Automation logs
-  outputs/v1-demo/           Proposal-brain reports for demo/review
+    ns-tender-monitor-*.json Monitor summary JSON
 ```
 
-Keep active tender source YAML in `active/ns-tenders`. Keep generated monitor snapshots, email drafts, and analysis evidence under `outputs/ns-tenders`.
+Keep active tender source YAML in `active/ns-tenders`. Keep generated monitor summaries and email handoff evidence under `outputs/ns-tenders`. Routine run logs and monitor summaries are ignored by default; commit generated files only when they are useful review or demo evidence.

@@ -1,59 +1,40 @@
 # Tender Agent Demo
 
-This demo shows the standalone tender workflow: monitor Nova Scotia public tender data, import consulting-fit opportunities, and run local pursuit review over cached tender briefs.
+This demo shows the script-driven Tender Agent workflow: run Nova Scotia tender discovery, import consulting-fit opportunities into YAML briefs, and preserve run evidence locally.
 
 ## Demo Flow
 
-1. Build and test.
+1. Run the daily wrapper.
 
 ```powershell
-dotnet build TenderAgent.sln
-dotnet test TenderAgent.sln
+.\scripts\run_daily.ps1
 ```
 
-2. Import a captured Nova Scotia monitor snapshot into a temporary folder.
+2. Review the run log.
 
 ```powershell
-dotnet run --project dotnet\ProposalAgent.Cli\ProposalAgent.Cli.csproj -- import-ns-monitor proposals\outputs\ns-tenders\monitor-snapshots\ns-tender-monitor-20260602-184442.json --out-dir $env:TEMP\tender-agent-import-smoke
+Get-ChildItem proposals\outputs\ns-tenders\run-logs | Sort-Object LastWriteTime -Descending | Select-Object -First 1
 ```
 
-3. Run brain reports over the active tender briefs.
+3. Review current active tender briefs.
 
 ```powershell
-dotnet run --project dotnet\ProposalAgent.Cli\ProposalAgent.Cli.csproj -- brain proposals\active\ns-tenders --out-dir proposals\outputs\v1-demo
-```
-
-4. Optionally attempt live Nova Scotia portal discovery with fallback.
-
-```powershell
-dotnet run --project dotnet\ProposalAgent.Cli\ProposalAgent.Cli.csproj -- watch-ns-live --fallback proposals\outputs\ns-tenders\monitor-snapshots\ns-tender-monitor-20260602-184442.json --out $env:TEMP\tender-agent-live-smoke.json
-```
-
-5. Launch the desktop shell.
-
-```powershell
-dotnet run --project dotnet\ProposalAgent.Desktop\ProposalAgent.Desktop.csproj
+Get-ChildItem proposals\active\ns-tenders
 ```
 
 ## What To Show
 
 - Active tender YAML briefs in `proposals/active/ns-tenders`.
-- Captured monitor snapshots in `proposals/outputs/ns-tenders/monitor-snapshots`.
-- Four consultant-fit opportunities narrowed from broader portal findings.
-- Markdown analyses and email payloads prepared for review.
-- Document-backed compliance review where local extracts are attached.
+- Monitor summary JSON under `proposals/outputs/ns-tenders`.
+- Run logs under `proposals/outputs/ns-tenders/run-logs`.
+- Email briefs and payloads when relevant tenders are selected for handoff.
 - Explicit portal-verification warning before any real pursuit action.
 
 ## Verification
 
-```powershell
-dotnet test TenderAgent.sln
-dotnet run --project dotnet\ProposalAgent.Cli\ProposalAgent.Cli.csproj -- import-ns-monitor proposals\outputs\ns-tenders\monitor-snapshots\ns-tender-monitor-20260602-184442.json --out-dir $env:TEMP\tender-agent-import-smoke
-dotnet run --project dotnet\ProposalAgent.Cli\ProposalAgent.Cli.csproj -- brain proposals\active\ns-tenders --out-dir proposals\outputs\v1-demo
-```
-
 Expected:
 
-- .NET tests pass.
-- Import smoke writes four tender YAML briefs.
-- Brain command writes/refreshes four active tender review reports.
+- `run_daily.ps1` completes using the local monitor script.
+- The external monitor state file remains preserved.
+- Duplicate tender IDs are skipped unless `-IncludeSeen` is used.
+- New relevant tenders, if any, are imported as YAML briefs.

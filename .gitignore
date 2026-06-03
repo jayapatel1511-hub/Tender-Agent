@@ -12,3 +12,7 @@ proposal.md
 bin/
 obj/
 .vs/
+
+# Routine Tender Agent generated evidence. Existing checked-in fixtures remain tracked.
+proposals/outputs/ns-tenders/ns-tender-monitor-*.json
+proposals/outputs/ns-tenders/run-logs/*.json
