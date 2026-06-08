@@ -13,7 +13,7 @@ rfp_text: >
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: water/wastewater (transmission main); professional role: assessment, condition assessment; buyer/context: halifax water, water"
+classification_note: "domain: water/wastewater (transmission main); professional role: assessment, condition assessment; buyer/context: halifax water, water; commodity skip hints: defense and law enforcement, law enforcement, public safety and control; commodity professional-service hints: water distribution management; commodity categories: goods=2, services=2"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.

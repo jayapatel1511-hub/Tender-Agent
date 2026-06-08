@@ -1,0 +1,10 @@
+{
+  "ran_at": "2026-06-07T11:49:36",
+  "dry_run": false,
+  "open_tender_count": 198,
+  "open_tender_snapshot_path": "C:\\Users\\jpate\\Tender-Agent\\data\\open-tenders\\runs\\open-tenders-20260607-114936.json",
+  "open_tender_latest_path": "C:\\Users\\jpate\\Tender-Agent\\data\\open-tenders\\open-tenders-latest.json",
+  "matches": 0,
+  "generated_briefs": [],
+  "generated_analyses": []
+}

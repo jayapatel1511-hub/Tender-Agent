@@ -1,0 +1,36 @@
+{
+  "ran_at": "2026-06-07T14:52:15Z",
+  "triage_path": "C:\\Users\\jpate\\Tender-Agent\\data\\triage\\triage-latest.json",
+  "snapshot_path": "C:\\Users\\jpate\\Tender-Agent\\data\\open-tenders\\open-tenders-latest.json",
+  "state_path": "C:\\Users\\jpate\\Tender-Agent\\data\\seen_tenders_state.json",
+  "result_count": 198,
+  "relevant_count": 49,
+  "new_relevant_count": 0,
+  "generated_briefs": [
+    "proposals\\active\\ns-tenders\\toa2026-02atcimprovements-active-transportation-corridor-improvements-highland-to-church-s.yaml",
+    "proposals\\active\\ns-tenders\\ber2026-003-rehabilitation-of-intake-system.yaml",
+    "proposals\\active\\ns-tenders\\p02-2026-pockwock-transmission-main-condition-assessment.yaml",
+    "proposals\\active\\ns-tenders\\rfp-mcc-2608-maccan-wastewater-treatment-plant-system-assessment-report.yaml",
+    "proposals\\active\\ns-tenders\\tok202614-stormwater-management-project-swmp-feasibility-and-design-study-mill-brook.yaml",
+    "proposals\\active\\ns-tenders\\mocr202607-bennies-lane-and-bennies-lane-extension-watermain-replacement-engineering.yaml",
+    "proposals\\active\\ns-tenders\\nwrbp-ph3-feas-2026-feasibility-study-for-nova-west-regional-business-park-phase-3-expansi.yaml",
+    "proposals\\active\\ns-tenders\\r2026-w-a-murray-mackay-bridge-navigation-lighting-system-engineering-services.yaml",
+    "proposals\\active\\ns-tenders\\inf18-2026-2027-sludge-holding-tank-design.yaml",
+    "proposals\\active\\ns-tenders\\vic-rso-05-21-26-engineering-services.yaml",
+    "proposals\\active\\ns-tenders\\project2608-1485-rfp-french-river-hydraulic-assimilative-capacity-study-for-the-tatamagouc.yaml",
+    "proposals\\active\\ns-tenders\\inf17-2026-2027-traffic-engineering-main-and-school.yaml"
+  ],
+  "email_brief_path": null,
+  "email_payload_path": null,
+  "email_sent": false,
+  "email_decision": "no-new-relevant-tenders",
+  "notion_export_path": "proposals\\outputs\\ns-tenders\\notion-sync\\notion-upsert-latest.json",
+  "notion_sync_status": "exported-public-safe-upsert-payload",
+  "database_import": {
+    "run_id": "triage:20260607T145214Z",
+    "triage_results": 198,
+    "database": "data\\tender-agent.sqlite",
+    "notion_log_rows": 1,
+    "email_log_rows": 0
+  }
+}

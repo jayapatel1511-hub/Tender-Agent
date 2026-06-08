@@ -13,7 +13,7 @@ rfp_text: >
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: municipal civil (infrastructure), water/wastewater (sludge, sludge holding tank, wastewater); professional role: design, design services, engineering; buyer/context: municipality"
+classification_note: "domain: municipal civil (infrastructure), water/wastewater (sludge, sludge holding tank, wastewater); professional role: design, design services, engineering; buyer/context: municipality; commodity professional-service hints: professional engineering services; commodity categories: services=1"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.

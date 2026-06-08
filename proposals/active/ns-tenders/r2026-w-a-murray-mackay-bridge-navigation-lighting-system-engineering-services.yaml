@@ -1,19 +1,19 @@
 client: "Halifax-Dartmouth Bridge Commission"
 opportunity: "A. Murray Mackay Bridge Navigation Lighting System Engineering Services"
-due_date: "2026-06-19 03:00:00"
+due_date: "2026-06-19T00:00-0300"
 industry: "Civil engineering"
 service_line: "infrastructure"
 project_region: "atlantic"
 rfp_text: >
   Tender R2026-W: A. Murray Mackay Bridge Navigation Lighting System Engineering Services.
   Procurement entity: Halifax-Dartmouth Bridge Commission.
-  Closing: 2026-06-19 03:00:00.
+  Closing: 2026-06-19T00:00-0300.
   Portal URL: https://procurement-portal.novascotia.ca/tenders/R2026-W.
-  Description: A. Murray Mackay Bridge Navigation Lighting System Engineering Services. Request for Proposal (Construction). Halifax-Dartmouth Bridge Commission.
+  Description: Halifax Harbour Bridges (HHB), operating as a division of Link Nova Scotia, is the issuing public body and procuring authority for the purposes of this Request for Proposal. HHB is seeking proposals from qualified proponents to provide engineering services for the assessment and detailed design of navigation and aviation lighting system upgrades on the A. Murray MacKay Bridge (AMM). The proponent shall be responsible for reviewing existing conditions, defining technical requirements and performance specifications, and preparing design and tender documents for the proposed upgrades..
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: transportation (bridge); professional role: engineering, engineering services; buyer/context: bridge"
+classification_note: "domain: transportation (bridge); professional role: assessment, design, engineering, engineering services; buyer/context: bridge; commodity skip hints: commercial and military and private vehicles; commodity professional-service hints: electrical and electronic engineering, professional engineering services; commodity categories: goods=2, services=1"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.

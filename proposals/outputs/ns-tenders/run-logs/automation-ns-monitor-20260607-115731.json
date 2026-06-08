@@ -1,0 +1,85 @@
+{
+  "run_timestamp": "2026-06-07T11:57:31-03:00",
+  "commands_used": [
+    "git status --short --branch",
+    "git remote -v",
+    "git fetch --all --prune",
+    "git rev-list --left-right --count HEAD...'@{u}'",
+    ".\\scripts\\run_daily.ps1",
+    ".\\scripts\\run_tier2.ps1"
+  ],
+  "repo_freshness": {
+    "branch": "main",
+    "upstream": "origin/main",
+    "ahead": 0,
+    "behind": 0,
+    "remote": "https://github.com/jayapatel1511-hub/Tender-Agent.git",
+    "pull_result": "skipped because worktree had pre-existing modified and untracked files"
+  },
+  "monitor_source_mode": "live Nova Scotia public tender discovery",
+  "open_tender_count": 198,
+  "open_tender_snapshot_path": "data/open-tenders/runs/open-tenders-20260607-114936.json",
+  "open_tender_latest_path": "data/open-tenders/open-tenders-latest.json",
+  "candidate_bucket_counts": {
+    "prime-consultant-fit": 12,
+    "partner-or-subconsultant-fit": 37,
+    "needs-review": 7,
+    "off-profile-consulting": 57,
+    "likely-skip": 85
+  },
+  "new_matches": 0,
+  "generated_monitor_summary_path": "proposals/outputs/ns-tenders/ns-tender-monitor-20260607-114936.json",
+  "briefs_generated": [
+    "proposals/active/ns-tenders/toa2026-02atcimprovements-active-transportation-corridor-improvements-highland-to-church-s.yaml",
+    "proposals/active/ns-tenders/ber2026-003-rehabilitation-of-intake-system.yaml",
+    "proposals/active/ns-tenders/p02-2026-pockwock-transmission-main-condition-assessment.yaml",
+    "proposals/active/ns-tenders/rfp-mcc-2608-maccan-wastewater-treatment-plant-system-assessment-report.yaml",
+    "proposals/active/ns-tenders/tok202614-stormwater-management-project-swmp-feasibility-and-design-study-mill-brook.yaml",
+    "proposals/active/ns-tenders/mocr202607-bennies-lane-and-bennies-lane-extension-watermain-replacement-engineering.yaml",
+    "proposals/active/ns-tenders/nwrbp-ph3-feas-2026-feasibility-study-for-nova-west-regional-business-park-phase-3-expansi.yaml",
+    "proposals/active/ns-tenders/r2026-w-a-murray-mackay-bridge-navigation-lighting-system-engineering-services.yaml",
+    "proposals/active/ns-tenders/inf18-2026-2027-sludge-holding-tank-design.yaml",
+    "proposals/active/ns-tenders/vic-rso-05-21-26-engineering-services.yaml",
+    "proposals/active/ns-tenders/project2608-1485-rfp-french-river-hydraulic-assimilative-capacity-study-for-the-tatamagouc.yaml",
+    "proposals/active/ns-tenders/inf17-2026-2027-traffic-engineering-main-and-school.yaml"
+  ],
+  "notion": {
+    "database": "Tender Tracker",
+    "dedupe_key": "Tender ID",
+    "updated": 11,
+    "created": 1,
+    "skipped": 0,
+    "created_pages": {
+      "BER2026-003": "3784df31-b176-817a-9ad5-e2b4eef13618"
+    },
+    "updated_tender_ids": [
+      "TOA2026-02ATCIMprovements",
+      "P02-2026",
+      "RFP-MCC-2608",
+      "TOK202614",
+      "MOCR202607",
+      "NWRBP-PH3-FEAS-2026",
+      "R2026-W",
+      "INF18-2026-2027",
+      "VIC-RSO-05-21-26",
+      "PROJECT2608-1485",
+      "INF17-2026-2027"
+    ],
+    "scope_note": "Refreshed prime-fit public-safe tracker rows. No new relevant tenders were created from duplicate-suppressed partner or needs-review rows."
+  },
+  "email": {
+    "sent": false,
+    "skipped_reason": "No new relevant tenders in downstream triage; do not email duplicates."
+  },
+  "duplicate_prevention_decision": "Repo-local data/seen_tenders_state.json and downstream triage reported new_relevant_count=0. Prior WHRMCD26-03 tracker row was found and not re-emailed.",
+  "errors": [],
+  "warnings": [
+    "Worktree was dirty before the run, so pull was skipped.",
+    "Notion connector search is semantic; only exact title matches were treated as existing rows.",
+    "Tracker schema uses controlled values, so prime-fit rows were mapped to Priority=High, Status=Identified, Bid Fit=Excellent, Pursuit Type=Prime."
+  ],
+  "source_logs": {
+    "daily": "proposals/outputs/ns-tenders/run-logs/daily-tender-agent-20260607-114935.json",
+    "tier2": "proposals/outputs/ns-tenders/run-logs/tier2-downstream-20260607-145215.json"
+  }
+}

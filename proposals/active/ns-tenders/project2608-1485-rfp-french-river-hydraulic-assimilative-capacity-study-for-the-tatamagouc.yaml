@@ -13,7 +13,7 @@ rfp_text: >
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: water/wastewater (utility, water utility); professional role: capacity study, hydraulic, study; buyer/context: municipality, water"
+classification_note: "domain: water/wastewater (utility, water utility); professional role: capacity study, hydraulic, study; buyer/context: municipality, water; commodity professional-service hints: professional engineering services; commodity categories: services=1"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.

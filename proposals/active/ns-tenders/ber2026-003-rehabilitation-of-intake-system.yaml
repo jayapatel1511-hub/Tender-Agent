@@ -1,0 +1,32 @@
+client: "Town of Berwick"
+opportunity: "Rehabilitation of Intake System"
+due_date: "2026-06-12T00:00-0300"
+industry: "Civil engineering"
+service_line: "infrastructure"
+project_region: "atlantic"
+rfp_text: >
+  Tender BER2026-003: Rehabilitation of Intake System.
+  Procurement entity: Town of Berwick.
+  Closing: 2026-06-12T00:00-0300.
+  Portal URL: https://procurement-portal.novascotia.ca/tenders/BER2026-003.
+  Description: The Berwick Electric Commission (BEC), a municipally owned electric utility serving over 1,600 customers, is undertaking a modernization project at the Factorydale Hydroelectric Plant, located at 2545 Harmony Road, Aylesford, Nova Scotia. As part of this modernization effort, BEC is seeking proposals for the design, supply, installation, testing, and commissioning of a rehabilitated Intake System, excluding the Log Boom, which will be procured under a separate contract. The purpose of this intake rehabilitation project is to replace outdated and unsafe intake components with a simple, robust, maintainable, and code-compliant system that improves operator safety, debris exclusion, flow isolation capability, and integration with the refurbished hydroelectric generating unit. Proponents are invited to submit proposals detailing their understanding of the project, technical approach, QA/QC plan, schedule, and cost estimate..
+pursuit_type: "prime"
+bid_fit: "prime-consultant-fit"
+classification_confidence: "0.88"
+classification_note: "domain: transportation (road), water/wastewater (utility); professional role: design; buyer/context: town of; commodity categories: goods=1"
+goals:
+  - Review tender notice and documents for fit.
+  - Confirm eligibility, submission method, schedule, and compliance requirements.
+scope:
+  - Capture tender requirements.
+  - Prepare pursue/no-pursue recommendation.
+  - Draft proposal response outline if qualified.
+constraints:
+  - Verify all tender documents directly in the Nova Scotia Procurement Portal before bidding.
+source:
+  portal_url: "https://procurement-portal.novascotia.ca/tenders/BER2026-003"
+  tender_id: "BER2026-003"
+triage:
+  bucket: "prime-consultant-fit"
+  urgent: false
+  next_action: "Review scope documents and confirm lead consultant fit."

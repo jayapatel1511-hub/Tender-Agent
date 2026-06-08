@@ -13,7 +13,7 @@ rfp_text: >
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: municipal civil (infrastructure), stormwater (flood, hydrologic, stormwater, watershed); professional role: assessments, design, feasibility, hydraulic; buyer/context: town of"
+classification_note: "domain: municipal civil (infrastructure), stormwater (flood, hydrologic, stormwater, watershed); professional role: assessments, design, feasibility, hydraulic; buyer/context: town of; commodity categories: services=1"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.

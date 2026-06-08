@@ -1,235 +1,26 @@
 {
-  "ran_at": "2026-06-03T03:11:04Z",
+  "ran_at": "2026-06-07T14:52:14Z",
   "snapshot_path": "C:\\Users\\jpate\\Tender-Agent\\data\\open-tenders\\open-tenders-latest.json",
   "criteria_version": "2026-06-03.interests-profile.v1",
-  "result_count": 141,
+  "result_count": 198,
   "bucket_counts": {
-    "prime-consultant-fit": 11,
-    "partner-or-subconsultant-fit": 46,
-    "needs-review": 4,
-    "off-profile-consulting": 52,
-    "likely-skip": 28
+    "prime-consultant-fit": 12,
+    "partner-or-subconsultant-fit": 37,
+    "needs-review": 7,
+    "off-profile-consulting": 57,
+    "likely-skip": 85
   },
   "results": [
     {
-      "tender_id": "2627-04",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: water/wastewater (water plant); contractor-led hints: request for quotation, upgrades; contractor/vendor title hints: upgrades; buyer/context: municipality, water",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "AVRCE-TENDER-2026-01",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "MODY2026-LiftStationandPublicWorksBuildingGeneratorInstallationandUpgrade",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "buyer/context: municipality",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "HRM-2026-1008",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "buyer/context: municipality, regional municipality",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "NSLC27-01",
+      "tender_id": "06-2026",
       "bucket": "likely-skip",
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "contractor/vendor title hints: supply",
+      "reason": "buyer/context: county, municipality; commodity categories: services=2",
       "next_action": "No action.",
       "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "NSPW2026-082",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "RFP26-02OPP",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "exclude hints: equipment; off-profile hints: equipment",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "CBRM-T09-2026",
-      "bucket": "likely-skip",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "contractor/vendor title hints: supply; buyer/context: municipality, regional municipality",
-      "next_action": "No action.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "CBI26-107",
-      "bucket": "likely-skip",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "no target-domain asset or professional service signal found",
-      "next_action": "No action.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "MODL-2026-05-400",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "professional role: design; buyer/context: municipality",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "RFC26-03OPP",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: municipal civil (street); contractor-led hints: construction; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "TOAGridMod-05142026",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (infrastructure, municipal), water/wastewater (utility); contractor-led hints: maintenance; buyer/context: town of",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "TOLRFQ26009",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: transportation (road); contractor-led hints: request for quotation; buyer/context: county, town of, water",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "TOPH202602",
-      "bucket": "likely-skip",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.95,
-      "reason": "domain: municipal civil (public works, street); professional role: engineering; buyer/context: public works, town of; overrode exclude hint because asset/domain is in scope: truck; force-skip procurement notice hints: cab & chassis, dump body, plow & salt/sand spreader",
-      "next_action": "No action.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "TOPH202605",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (infrastructure, public works, street), transportation (traffic); professional role: engineering; contractor-led hints: asphalt, construction, paving; contractor/vendor title hints: capital paving; buyer/context: public works, town of",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "MCC-2605-CD02",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "professional role: assessment, consulting; buyer/context: municipality",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "HRM-2026-1029",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: transportation (traffic, traffic calming); contractor-led hints: construction; buyer/context: municipality, regional municipality",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "NSPW2026-079",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (bridge, road); contractor-led hints: asphalt, construction; buyer/context: bridge, county, department of public works, province of nova scotia",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "RFP26-03OPP",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: transportation (highway); contractor-led hints: construction, replacement; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "T11-2026",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: transportation (road), water/wastewater (prv); contractor-led hints: construction, invitation to tender, replacement; contractor/vendor title hints: replacement; buyer/context: halifax water, water",
-      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": true,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "AVRCE-ITB-2026-01",
@@ -237,10 +28,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: goods=1",
       "next_action": "No action.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFEI50901",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: municipality; commodity skip hints: commercial and military and private vehicles, motor vehicles, rescue vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TOS2026-003",
@@ -248,32 +50,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: town of; exclude hints: janitorial; off-profile hints: janitorial",
+      "reason": "buyer/context: town of; exclude hints: janitorial; off-profile hints: janitorial; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "TCLESPlayground26",
-      "bucket": "likely-skip",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "buyer/context: county",
-      "next_action": "No action.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "2026-08CBVRCE",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: municipal civil (street); contractor-led hints: construction, installation, request for quotation, upgrades",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "2027-TS-01",
@@ -281,21 +61,21 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (curb, sidewalk, street), transportation (sidewalk, traffic); contractor-led hints: asphalt, installation, request for quotation; buyer/context: village of",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "reason": "domain: municipal civil (curb, sidewalk, street), transportation (sidewalk, traffic); contractor-led hints: asphalt, installation, request for quotation; buyer/context: village of; commodity categories: construction=1",
+      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "CBRM-Q03-2026",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (public works, street), transportation (road, traffic); contractor-led hints: installation, maintenance, request for quotation, supply; buyer/context: municipality, public works, regional municipality",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (public works, street), transportation (road, traffic); buyer/context: municipality, public works, regional municipality; commodity skip hints: defense and law enforcement, law enforcement, playground, public safety and control; commodity categories: goods=3, services=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "CBRM-SO04-2026",
@@ -303,10 +83,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "contractor/vendor title hints: supply; buyer/context: municipality, regional municipality",
+      "reason": "contractor/vendor title hints: supply; buyer/context: municipality, regional municipality; commodity skip hints: cleaning equipment, hand tools; commodity categories: goods=6",
       "next_action": "No action.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRCE-4300",
@@ -314,10 +94,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: replacement; exclude hints: equipment; off-profile hints: equipment",
+      "reason": "contractor/vendor title hints: replacement; exclude hints: equipment; off-profile hints: equipment; commodity skip hints: commercial and military and private vehicles; commodity categories: construction=1, goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRM-2025-0627",
@@ -325,21 +105,32 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: municipality, regional municipality",
+      "reason": "buyer/context: municipality, regional municipality; commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "Q66-2026",
+      "tender_id": "P05-2026",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: transportation (road), water/wastewater (lagoon, sludge); contractor-led hints: request for quotation, supply; buyer/context: halifax water, water",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "reason": "domain: municipal civil (grading, infrastructure), stormwater (stormwater), water/wastewater (pump station, wastewater); contractor-led hints: rehabilitation, replacement, upgrades; contractor/vendor title hints: upgrades; buyer/context: halifax water, water; overrode exclude hint because asset/domain is in scope: equipment, truck; commodity professional-service hints: professional engineering services; commodity categories: services=1",
+      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Q66-2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: transportation (road), water/wastewater (lagoon, sludge); buyer/context: halifax water, water; commodity skip hints: cleaning equipment; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFC26-02ES",
@@ -347,43 +138,87 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: supply; exclude hints: equipment; off-profile hints: equipment",
+      "reason": "contractor/vendor title hints: supply; exclude hints: equipment; off-profile hints: equipment; commodity skip hints: playground, recreational equipment; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFI2026-A",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: transportation (bridge); contractor-led hints: construction, maintenance, rehabilitation; buyer/context: bridge; commodity skip hints: concrete and cement and plaster; commodity categories: construction=1, goods=1",
+      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFP#060926",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (servicing), transportation (transportation); commodity skip hints: containers and storage, freight containers, portable structures; commodity categories: goods=5, services=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "SRCE-2026-005",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); contractor/vendor title hints: upgrades; commodity skip hints: electrical equipment and components and supplies; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TCLESPlayground26",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: county; commodity categories: construction=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc3008328067",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: municipal civil (street); contractor-led hints: request for quotation, upgrades; contractor/vendor title hints: upgrades",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (public works); contractor-led hints: construction; buyer/context: department of public works, province of nova scotia, public works; commodity categories: services=1",
+      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3019440611",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (public works); contractor-led hints: request for quotation; buyer/context: department of public works, province of nova scotia, public works",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works; commodity skip hints: heavy construction machinery and equipment, snowplow attachments; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3124356420",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (public works); contractor-led hints: request for quotation; buyer/context: department of public works, province of nova scotia, public works",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works; commodity skip hints: commercial and military and private vehicles, motor vehicles, vehicle bodies and trailers; commodity categories: goods=2, services=1",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "DAL2026-20511072",
@@ -391,10 +226,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: design, engineering; contractor/vendor title hints: supply",
+      "reason": "professional role: design, engineering; contractor/vendor title hints: supply; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "DAL2026-22525416",
@@ -402,10 +237,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "ND26-08",
@@ -413,10 +248,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: construction=1",
       "next_action": "No action.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSPW2026-048",
@@ -424,21 +259,21 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (highway, road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "reason": "domain: municipal civil (public works), transportation (highway, road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
+      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "NSPW2026-078",
+      "tender_id": "PROJECT2504-1504",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (highway, intersection); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "reason": "domain: water/wastewater (aeration, biosolids, wastewater); contractor-led hints: construction, construction services, installation, request for quotation; contractor/vendor title hints: construction services, upgrades; buyer/context: municipality; commodity skip hints: cleaning equipment; commodity categories: construction=1, goods=1",
+      "next_action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP-MCC-2607",
@@ -446,10 +281,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality",
+      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality; commodity skip hints: defense and law enforcement, fire protection, law enforcement; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP26-04OPP",
@@ -457,21 +292,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "exclude hints: equipment; off-profile hints: equipment",
+      "reason": "exclude hints: equipment; off-profile hints: equipment; commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TOA05272026AutonomousMowerforSolarGarden",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (street); contractor-led hints: request for quotation; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment, training",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment, training; commodity skip hints: hand tools; commodity categories: goods=2",
+      "next_action": "No action.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TOA2026-02ATCIMprovements",
@@ -479,65 +314,32 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: municipal civil (curb, infrastructure, sidewalk, street), transportation (active transportation, corridor, sidewalk, traffic); professional role: engineering; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Review scope documents and confirm lead consultant fit.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "reason": "domain: municipal civil (curb, infrastructure, sidewalk, street), transportation (active transportation, corridor, sidewalk, traffic); professional role: engineering; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment; commodity categories: construction=1",
+      "next_action": "Urgent review before close. Review scope documents and confirm lead consultant fit.",
+      "urgent": true,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "MODC-T-2026-010",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "contractor/vendor title hints: replacement; buyer/context: municipality",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "tender_id": "2026-08CBVRCE",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.66,
+      "reason": "domain: municipal civil (street); contractor-led hints: construction, installation, request for quotation, upgrades; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "P35-2025",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "contractor/vendor title hints: upgrades; buyer/context: halifax water, water",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "Q51-2026",
-      "bucket": "likely-skip",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "contractor/vendor title hints: supply; buyer/context: halifax water, water",
-      "next_action": "No action.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "2026-06CBVRCE",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "CED-2026-05-25",
-      "bucket": "needs-review",
-      "pursuit_type": "needs-review",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
       "bid_fit": null,
-      "confidence": 0.62,
-      "reason": "domain: municipal civil (street), transportation (traffic); buyer/context: municipality; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Fetch detail page or documents before deciding pursuit role.",
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street), transportation (traffic); buyer/context: municipality; overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: apparel, food beverage and tobacco products; commodity categories: goods=6",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRM-2026-0134",
@@ -545,10 +347,43 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (street), transportation (traffic); contractor-led hints: construction; buyer/context: municipality, regional municipality",
+      "reason": "domain: municipal civil (street), transportation (traffic); contractor-led hints: construction; buyer/context: municipality, regional municipality; commodity skip hints: defense and law enforcement, law enforcement, public safety and control; commodity categories: construction=1, goods=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MODC-T-2026-010",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "contractor/vendor title hints: replacement; buyer/context: municipality; commodity skip hints: defense and law enforcement, heavy construction machinery and equipment, law enforcement, public safety and control; commodity categories: goods=6",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "P35-2025",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: design, engineering, engineering services, review; contractor/vendor title hints: upgrades; buyer/context: halifax water, water; profile keyword hints: engineering services; exclude hints: equipment; off-profile hints: equipment; commodity professional-service hints: professional engineering services; commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Q51-2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.84,
+      "reason": "contractor/vendor title hints: supply; buyer/context: halifax water, water; exclude hints: equipment; off-profile hints: equipment, goods; commodity skip hints: cleaning equipment; commodity categories: goods=1, services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFQ26-10EST",
@@ -556,21 +391,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.84,
-      "reason": "exclude hints: equipment, vendor; off-profile hints: equipment",
+      "reason": "exclude hints: equipment, vendor; off-profile hints: equipment; commodity categories: services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "SRCE-2026-006",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: municipal civil (street); contractor-led hints: request for quotation",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); commodity skip hints: electrical equipment and components and supplies; commodity categories: goods=1",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TOT26-019",
@@ -578,10 +413,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "buyer/context: town of",
+      "reason": "buyer/context: town of; commodity skip hints: commercial and military and private vehicles, motor vehicles; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "YCSWMA26-1",
@@ -589,10 +424,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: county",
+      "reason": "buyer/context: county; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3094257754",
@@ -600,76 +435,54 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works, street); contractor-led hints: construction, replacement; contractor/vendor title hints: replacement; buyer/context: department of public works, province of nova scotia, public works",
+      "reason": "domain: municipal civil (public works, street); contractor-led hints: construction, replacement; contractor/vendor title hints: replacement; buyer/context: department of public works, province of nova scotia, public works; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "2026001",
-      "bucket": "likely-skip",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "no target-domain asset or professional service signal found",
-      "next_action": "No action.",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.66,
+      "reason": "domain: municipal civil (municipal), transportation (road); contractor-led hints: request for quotation; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "2026002",
       "bucket": "likely-skip",
       "pursuit_type": "skip",
       "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "contractor/vendor title hints: replacement, supply",
+      "confidence": 0.9,
+      "reason": "domain: transportation (road); contractor/vendor title hints: replacement, supply; commodity skip hints: building construction machinery, heavy construction machinery and equipment; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "BER2026-003",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "buyer/context: town of",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "bucket": "prime-consultant-fit",
+      "pursuit_type": "prime",
+      "bid_fit": "prime-consultant-fit",
+      "confidence": 0.88,
+      "reason": "domain: transportation (road), water/wastewater (utility); professional role: design; buyer/context: town of; commodity categories: goods=1",
+      "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "BER2026-004DAMLOGBOOM",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "buyer/context: town of",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "TOP-C1-2026",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: transportation (trail); contractor-led hints: construction; buyer/context: town of",
+      "reason": "domain: transportation (road), water/wastewater (utility); contractor-led hints: construction, installation, maintenance, supply; buyer/context: town of; commodity categories: goods=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "2026-07CBVRCE",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "EEG2026-001",
@@ -677,21 +490,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.84,
-      "reason": "exclude hints: equipment; off-profile hints: equipment",
+      "reason": "exclude hints: equipment; off-profile hints: equipment; commodity categories: services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "EEG2026-002",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
+      "tender_id": "HRCE--4280",
+      "bucket": "needs-review",
+      "pursuit_type": "needs-review",
       "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "confidence": 0.55,
+      "reason": "domain: transportation (transportation); commodity categories: services=2",
+      "next_action": "Confirm whether the infrastructure asset has a professional-services role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRM-2026-0233",
@@ -699,10 +512,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: municipality, regional municipality",
+      "reason": "buyer/context: municipality, regional municipality; commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NSPW2026-078",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (public works), transportation (highway, intersection); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSPW2026-081",
@@ -710,10 +534,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (bridge); contractor-led hints: construction, rehabilitation; buyer/context: bridge, county, department of public works, province of nova scotia",
+      "reason": "domain: municipal civil (public works), transportation (bridge); contractor-led hints: construction, rehabilitation; buyer/context: bridge, county, department of public works, province of nova scotia; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSPW2026-085",
@@ -721,10 +545,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: construction; buyer/context: county, department of public works, province of nova scotia, public works",
+      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: construction; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "P02-2026",
@@ -732,10 +556,10 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: water/wastewater (transmission main); professional role: assessment, condition assessment; buyer/context: halifax water, water",
+      "reason": "domain: water/wastewater (transmission main); professional role: assessment, condition assessment; buyer/context: halifax water, water; commodity skip hints: defense and law enforcement, law enforcement, public safety and control; commodity professional-service hints: water distribution management; commodity categories: goods=2, services=2",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TOAHumanResourceConsultant",
@@ -743,10 +567,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: consultant, consulting; buyer/context: town of",
+      "reason": "professional role: consultant, consulting; buyer/context: town of; commodity off-profile hints: human resources, personnel recruitment, staff recruiting services; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TOP-C1-2026",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: transportation (intersection, trail); contractor-led hints: construction, replacement; buyer/context: town of, water; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "WCB2026-007",
@@ -754,10 +589,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: municipality, province of nova scotia, regional municipality",
+      "reason": "buyer/context: municipality, province of nova scotia, regional municipality; commodity skip hints: defense and law enforcement, law enforcement; commodity off-profile hints: printing; commodity categories: goods=4",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "BNS-2627-0026",
@@ -765,10 +600,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: assessment, consultant",
+      "reason": "professional role: assessment, consultant; commodity categories: services=2",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "CORE2601",
@@ -776,10 +611,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "contractor/vendor title hints: replacement",
+      "reason": "contractor/vendor title hints: replacement; commodity categories: services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRM-2026-0234",
@@ -787,21 +622,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: municipality, regional municipality",
+      "reason": "buyer/context: municipality, regional municipality; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRM-2026-0276",
       "bucket": "likely-skip",
       "pursuit_type": "skip",
       "bid_fit": null,
-      "confidence": 0.68,
-      "reason": "contractor/vendor title hints: supply; buyer/context: municipality, regional municipality",
+      "confidence": 0.95,
+      "reason": "contractor/vendor title hints: supply; buyer/context: municipality, regional municipality; force-skip procurement notice hints: supply and delivery; commodity skip hints: commercial and military and private vehicles, motor vehicles; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc2949596636",
@@ -809,10 +644,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "buyer/context: province of nova scotia",
+      "reason": "buyer/context: province of nova scotia; commodity categories: services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc3077094476",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "buyer/context: province of nova scotia; commodity categories: goods=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3135991739",
@@ -820,10 +666,32 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works); contractor-led hints: request for quotation; buyer/context: department of public works, province of nova scotia, public works",
+      "reason": "domain: municipal civil (public works); contractor-led hints: request for quotation; buyer/context: department of public works, province of nova scotia, public works; commodity skip hints: heavy construction machinery and equipment, motor vehicles, paving equipment; commodity categories: construction=1, goods=1, services=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "2026-07CBVRCE",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "commodity categories: services=2",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "HRM-2026-0187",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "buyer/context: municipality, regional municipality; commodity off-profile hints: healthcare; commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NOR26-103",
@@ -831,21 +699,21 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.66,
-      "reason": "domain: transportation (corridor); contractor-led hints: construction",
+      "reason": "domain: transportation (corridor); contractor-led hints: construction; commodity skip hints: interior finishing materials; commodity categories: construction=1, goods=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFC26-04OPP",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: municipal civil (street); contractor-led hints: construction; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: defense and law enforcement, fire protection, law enforcement; commodity categories: goods=1",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP-MCC-2608",
@@ -853,10 +721,10 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: water/wastewater (wastewater); professional role: assessment; buyer/context: county, municipality",
+      "reason": "domain: water/wastewater (wastewater); professional role: assessment; buyer/context: county, municipality; commodity skip hints: cleaning equipment; commodity categories: goods=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP-MCC-2609",
@@ -864,10 +732,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality; exclude hints: radios",
+      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality; exclude hints: radios; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP-MCC-2610",
@@ -875,10 +743,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: hydraulic; contractor/vendor title hints: supply; buyer/context: county, municipality; profile keyword hints: hydraulic; exclude hints: rescue tools",
+      "reason": "professional role: hydraulic; contractor/vendor title hints: supply; buyer/context: county, municipality; profile keyword hints: hydraulic; exclude hints: rescue tools; commodity skip hints: defense and law enforcement, law enforcement; commodity categories: goods=2",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP-MCC-2611",
@@ -886,10 +754,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality; exclude hints: radios",
+      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality; exclude hints: radios; commodity categories: goods=1, services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFP-MCC-2612",
@@ -897,10 +765,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality",
+      "reason": "contractor/vendor title hints: supply; buyer/context: county, municipality; commodity skip hints: defense and law enforcement, fire protection, law enforcement; commodity categories: goods=2",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFP061626",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: transportation (traffic); overrode exclude hint because asset/domain is in scope: communications, equipment, software; commodity skip hints: defense and law enforcement, law enforcement, public safety and control; commodity categories: goods=5",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFQ50910",
@@ -908,10 +787,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.84,
-      "reason": "contractor/vendor title hints: supply; buyer/context: municipality; exclude hints: vendor; off-profile hints: goods",
+      "reason": "contractor/vendor title hints: supply; buyer/context: municipality; exclude hints: vendor; off-profile hints: goods; commodity skip hints: containers and storage; commodity categories: goods=4",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3027217508",
@@ -919,10 +798,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: province of nova scotia",
+      "reason": "buyer/context: province of nova scotia; commodity off-profile hints: financial and insurance services; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRCE-4301",
@@ -930,10 +809,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: supply; exclude hints: equipment; off-profile hints: equipment",
+      "reason": "contractor/vendor title hints: supply; exclude hints: equipment; off-profile hints: equipment; commodity skip hints: playground, recreational equipment; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "MCC-BFCDEC-2026",
@@ -941,10 +820,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "buyer/context: municipality",
+      "reason": "buyer/context: municipality; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "PROJECT2601-2524",
@@ -952,21 +831,32 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (utility extensions), transportation (road), water/wastewater (sewer, utility); contractor-led hints: construction, request for quotation; buyer/context: municipality",
+      "reason": "domain: municipal civil (utility extensions), transportation (road), water/wastewater (sewer, utility); contractor-led hints: construction, request for quotation; buyer/context: municipality; commodity categories: services=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFP061726",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.88,
+      "reason": "domain: municipal civil (infrastructure); professional role: design, engineering, professional services; overrode exclude hint because asset/domain is in scope: software; commodity off-profile hints: business and corporate management consultation services, computer or network or internet security, computer services, data processing; commodity categories: goods=6, services=7",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFQ26-11ES",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.66,
-      "reason": "domain: municipal civil (street); contractor-led hints: request for quotation, supply; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: signage; commodity categories: goods=1",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TOK202614",
@@ -974,21 +864,32 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: municipal civil (infrastructure), stormwater (flood, hydrologic, stormwater, watershed); professional role: assessments, design, feasibility, hydraulic; buyer/context: town of",
+      "reason": "domain: municipal civil (infrastructure), stormwater (flood, hydrologic, stormwater, watershed); professional role: assessments, design, feasibility, hydraulic; buyer/context: town of; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TWNST2026-005",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (public works); contractor-led hints: request for quotation; buyer/context: public works, town of; overrode exclude hint because asset/domain is in scope: truck",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (public works); buyer/context: public works, town of; overrode exclude hint because asset/domain is in scope: truck; commodity skip hints: commercial and military and private vehicles, motor vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "2026-06CBVRCE",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "commodity skip hints: defense and law enforcement, fire protection, law enforcement; commodity categories: goods=1, services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "CBRM-P03-2026",
@@ -996,10 +897,21 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: water/wastewater (lagoon, sludge, utility, wastewater); contractor-led hints: maintenance; buyer/context: municipality, regional municipality, water",
+      "reason": "domain: water/wastewater (lagoon, sludge, utility, wastewater); contractor-led hints: maintenance; buyer/context: municipality, regional municipality, water; commodity skip hints: cleaning equipment; commodity professional-service hints: water treatment services; commodity categories: goods=1, services=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "CBRM_P02-2026",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: transportation (transportation), water/wastewater (biosolids, wastewater); contractor-led hints: supply; buyer/context: municipality, regional municipality; overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: cleaning equipment; commodity categories: goods=1, services=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRCE-4299",
@@ -1007,21 +919,32 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "contractor/vendor title hints: replacement; exclude hints: equipment; off-profile hints: equipment",
+      "reason": "contractor/vendor title hints: replacement; exclude hints: equipment; off-profile hints: equipment; commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "INF21-2026-2027",
+      "tender_id": "HRM-2026-0105",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (municipal); contractor-led hints: maintenance, request for quotation; buyer/context: municipality",
+      "reason": "domain: municipal civil (infrastructure, street), transportation (traffic, traffic calming); contractor-led hints: construction; buyer/context: municipality, regional municipality; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "INF21-2026-2027",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (municipal); buyer/context: municipality; commodity skip hints: commercial and military and private vehicles, minivans or vans, motor vehicles, passenger motor vehicles; commodity categories: goods=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "MOCR202607",
@@ -1029,21 +952,32 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: municipal civil (infrastructure), water/wastewater (watermain); professional role: engineering, engineering services; contractor/vendor title hints: replacement; buyer/context: county, municipality",
+      "reason": "domain: municipal civil (infrastructure), water/wastewater (watermain); professional role: engineering, engineering services; contractor/vendor title hints: replacement; buyer/context: county, municipality; commodity professional-service hints: professional engineering services; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MODG2026-PWLOADR",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (public works); buyer/context: municipality, public works; commodity skip hints: heavy construction machinery and equipment; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "MODY-2026-HT01",
       "bucket": "likely-skip",
       "pursuit_type": "skip",
       "bid_fit": null,
-      "confidence": 0.84,
-      "reason": "contractor/vendor title hints: supply; buyer/context: municipality; exclude hints: truck; off-profile hints: truck",
+      "confidence": 0.95,
+      "reason": "contractor/vendor title hints: supply; buyer/context: municipality; exclude hints: truck; off-profile hints: truck; force-skip procurement notice hints: supply and delivery; commodity skip hints: commercial and military and private vehicles, light trucks, motor vehicles, passenger motor vehicles; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NWRBP-PH3-FEAS-2026",
@@ -1051,10 +985,10 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: municipal civil (business park, infrastructure, servicing), water/wastewater (utility); professional role: assessment, consulting, feasibility, feasibility study; buyer/context: municipality",
+      "reason": "domain: municipal civil (business park, infrastructure, servicing), water/wastewater (utility); professional role: assessment, consulting, feasibility, feasibility study; buyer/context: municipality; commodity professional-service hints: professional engineering services; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Q111-2026",
@@ -1062,10 +996,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "contractor/vendor title hints: replacement; buyer/context: halifax water, water",
+      "reason": "contractor/vendor title hints: replacement; buyer/context: halifax water, water; commodity categories: goods=3",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "STEW-2026-03",
@@ -1073,21 +1007,54 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: transportation (roadway); contractor-led hints: asphalt, request for quotation, supply; buyer/context: town of",
+      "reason": "domain: transportation (roadway); contractor-led hints: asphalt, request for quotation, supply; buyer/context: town of; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "SurplusSpring2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity skip hints: commercial and military and private vehicles, motor vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TNG26-PW-006",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); buyer/context: town of; overrode exclude hint because asset/domain is in scope: dump box, truck; commodity skip hints: commercial and military and private vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TOK2026015",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (street); contractor-led hints: request for quotation; buyer/context: town of; overrode exclude hint because asset/domain is in scope: dump box, truck",
+      "reason": "domain: municipal civil (infrastructure, municipal), transportation (roadway), water/wastewater (sewer, watermain); contractor-led hints: construction, replacement; buyer/context: town of; commodity skip hints: heavy construction machinery and equipment; commodity categories: construction=1, goods=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TOS2026-004",
+      "bucket": "needs-review",
+      "pursuit_type": "needs-review",
+      "bid_fit": null,
+      "confidence": 0.62,
+      "reason": "domain: municipal civil (municipal, street); buyer/context: town of; commodity categories: services=1",
+      "next_action": "Fetch detail page or documents before deciding pursuit role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "VWRP2607",
@@ -1095,21 +1062,43 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "R2026-W",
-      "bucket": "prime-consultant-fit",
-      "pursuit_type": "prime",
-      "bid_fit": "prime-consultant-fit",
-      "confidence": 0.88,
-      "reason": "domain: transportation (bridge); professional role: engineering, engineering services; buyer/context: bridge",
-      "next_action": "Review scope documents and confirm lead consultant fit.",
+      "tender_id": "2627-03",
+      "bucket": "needs-review",
+      "pursuit_type": "needs-review",
+      "bid_fit": null,
+      "confidence": 0.62,
+      "reason": "domain: municipal civil (municipal); buyer/context: municipality; commodity categories: construction=1, services=3",
+      "next_action": "Fetch detail page or documents before deciding pursuit role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "EEG2026-002",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "HRCE-4294",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity off-profile hints: printing; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSPW2026-077",
@@ -1117,10 +1106,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works",
+      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSPW2026-080",
@@ -1128,10 +1117,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works, street), transportation (road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works",
+      "reason": "domain: municipal civil (public works, street), transportation (road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSPW2026-083",
@@ -1139,10 +1128,32 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (culvert, public works), transportation (bridge); contractor-led hints: construction, replacement; contractor/vendor title hints: replacement; buyer/context: bridge, county, department of public works, province of nova scotia",
+      "reason": "domain: municipal civil (culvert, public works), transportation (bridge); contractor-led hints: construction, replacement; contractor/vendor title hints: replacement; buyer/context: bridge, county, department of public works, province of nova scotia; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "R2026-W",
+      "bucket": "prime-consultant-fit",
+      "pursuit_type": "prime",
+      "bid_fit": "prime-consultant-fit",
+      "confidence": 0.88,
+      "reason": "domain: transportation (bridge); professional role: assessment, design, engineering, engineering services; buyer/context: bridge; commodity skip hints: commercial and military and private vehicles; commodity professional-service hints: electrical and electronic engineering, professional engineering services; commodity categories: goods=2, services=1",
+      "next_action": "Review scope documents and confirm lead consultant fit.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFPNo05062025",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "domain: water/wastewater (aeration, sewer); contractor/vendor title hints: supply; buyer/context: town of; force-skip procurement notice hints: packaged blower, supply of one; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TMBWEB2026",
@@ -1150,21 +1161,43 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.95,
-      "reason": "domain: municipal civil (municipal); professional role: design; buyer/context: town of; force-skip procurement notice hints: website development, website development and support",
+      "reason": "domain: municipal civil (municipal); professional role: design; buyer/context: town of; force-skip procurement notice hints: website development, website development and support; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "TNGNGRP-26-02",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "domain: water/wastewater (utility); buyer/context: town of; overrode exclude hint because asset/domain is in scope: vehicle; force-skip procurement notice hints: supply and delivery; commodity skip hints: commercial and military and private vehicles, motor vehicles, police vehicles, rescue vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFSO26-05",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (sidewalk), transportation (road, sidewalk); professional role: review; overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: heavy construction machinery and equipment; commodity categories: goods=4",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc3074451075",
       "bucket": "partner-or-subconsultant-fit",
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: water/wastewater (utility); contractor-led hints: request for quotation, supply; buyer/context: town of; overrode exclude hint because asset/domain is in scope: vehicle",
+      "reason": "domain: municipal civil (public works); contractor-led hints: maintenance, request for quotation; buyer/context: department of public works, province of nova scotia, public works; commodity categories: construction=1, goods=1, services=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3106762024",
@@ -1172,10 +1205,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.68,
-      "reason": "buyer/context: province of nova scotia",
+      "reason": "buyer/context: province of nova scotia; commodity categories: services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "MODY-CAOPERFORMANCEFACILITATION",
@@ -1183,10 +1216,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: review; buyer/context: municipality",
+      "reason": "professional role: review; buyer/context: municipality; commodity off-profile hints: human resources; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "26-17",
@@ -1194,10 +1227,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: design, professional services; buyer/context: county, municipality, town of",
+      "reason": "professional role: design, professional services; buyer/context: county, municipality, town of; commodity professional-service hints: architectural engineering, civil engineering, professional engineering services; commodity categories: services=2",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "BNS-2627-0001",
@@ -1205,10 +1238,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity skip hints: electrical equipment and components and supplies; commodity categories: construction=1, goods=3",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "HRM-2026-0268",
@@ -1216,10 +1249,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.84,
-      "reason": "buyer/context: municipality, regional municipality; exclude hints: equipment, firefighting goods, goods and services; off-profile hints: equipment, goods, training",
+      "reason": "buyer/context: municipality, regional municipality; exclude hints: equipment, firefighting goods, goods and services; off-profile hints: equipment, goods, training; commodity skip hints: apparel, defense and law enforcement, fire protection, law enforcement; commodity categories: goods=2, services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "INF19-2026-2027",
@@ -1227,10 +1260,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (sidewalk, street), transportation (road, sidewalk); contractor-led hints: asphalt, construction; buyer/context: municipality",
+      "reason": "domain: municipal civil (sidewalk, street), transportation (road, sidewalk); contractor-led hints: asphalt, construction; buyer/context: municipality; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSLC27-02",
@@ -1238,10 +1271,54 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NSPW2026-088",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: construction; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NSPW2026-091",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (public works), transportation (road); contractor-led hints: asphalt, construction, repaving; buyer/context: county, department of public works, province of nova scotia, public works; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NSPW2026-093",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (public works), transportation (bridge); contractor-led hints: construction, rehabilitation; buyer/context: bridge, county, department of public works, province of nova scotia; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFP062326",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: design, engineering; exclude hints: equipment, training; off-profile hints: equipment, training; commodity skip hints: electrical equipment and components and supplies; commodity categories: goods=8",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "WOLF003-2026",
@@ -1249,10 +1326,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.84,
-      "reason": "buyer/context: town of; exclude hints: software; off-profile hints: software",
+      "reason": "buyer/context: town of; exclude hints: software; off-profile hints: software; commodity categories: goods=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc2615508888",
@@ -1260,10 +1337,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: province of nova scotia; exclude hints: vehicle; off-profile hints: vehicle",
+      "reason": "buyer/context: province of nova scotia; exclude hints: vehicle; off-profile hints: vehicle; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3134303655",
@@ -1271,10 +1348,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: municipal civil (public works); contractor-led hints: construction, supply; contractor/vendor title hints: supply; buyer/context: department of public works, province of nova scotia, public works",
+      "reason": "domain: municipal civil (public works); contractor-led hints: construction, supply; contractor/vendor title hints: supply; buyer/context: department of public works, province of nova scotia, public works; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSLC27-03",
@@ -1282,32 +1359,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: construction=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "Doc2883011635",
-      "bucket": "needs-review",
-      "pursuit_type": "needs-review",
-      "bid_fit": null,
-      "confidence": 0.62,
-      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works",
-      "next_action": "Fetch detail page or documents before deciding pursuit role.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "RFP062526",
+      "tender_id": "VWRQ2602",
       "bucket": "off-profile-consulting",
       "pursuit_type": "skip",
       "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "exclude hints: equipment; off-profile hints: equipment",
+      "confidence": 0.88,
+      "reason": "domain: transportation (transit); professional role: review; commodity off-profile hints: business and corporate management consultation services; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "F-23-EK-01",
@@ -1315,10 +1381,10 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.72,
-      "reason": "domain: water/wastewater (wastewater); professional role: design; contractor-led hints: supply; contractor/vendor title hints: pre-selection, vendor; buyer/context: water; overrode exclude hint because asset/domain is in scope: vendor",
+      "reason": "domain: water/wastewater (wastewater); professional role: design; contractor-led hints: supply; contractor/vendor title hints: pre-selection, vendor; buyer/context: water; overrode exclude hint because asset/domain is in scope: vendor; commodity categories: services=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "INF18-2026-2027",
@@ -1326,10 +1392,10 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: municipal civil (infrastructure), water/wastewater (sludge, sludge holding tank, wastewater); professional role: design, design services, engineering; buyer/context: municipality",
+      "reason": "domain: municipal civil (infrastructure), water/wastewater (sludge, sludge holding tank, wastewater); professional role: design, design services, engineering; buyer/context: municipality; commodity professional-service hints: professional engineering services; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "INS2026-27-11",
@@ -1337,10 +1403,43 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: planning",
+      "reason": "professional role: planning; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MOCR202608",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (public works); buyer/context: county, municipality, public works; overrode exclude hint because asset/domain is in scope: truck; commodity skip hints: commercial and military and private vehicles, motor vehicles, passenger motor vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "RFP062526",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: transportation (highway); overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: commercial and military and private vehicles, vehicle bodies and trailers; commodity categories: goods=2, services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TOA-GridMod06052026",
+      "bucket": "needs-review",
+      "pursuit_type": "needs-review",
+      "bid_fit": null,
+      "confidence": 0.62,
+      "reason": "domain: transportation (traffic), water/wastewater (utility); buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment; commodity categories: services=1",
+      "next_action": "Fetch detail page or documents before deciding pursuit role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "VIC-RSO-05-21-26",
@@ -1348,10 +1447,21 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: water/wastewater (wastewater); professional role: engineering, engineering services; buyer/context: county, municipality, water",
+      "reason": "domain: water/wastewater (wastewater); professional role: engineering, engineering services; buyer/context: county, municipality, water; commodity professional-service hints: professional engineering services; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "WHRMCD26-03",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (culvert), transportation (trail); contractor-led hints: construction, replacement; contractor/vendor title hints: replacement; buyer/context: municipality, regional municipality; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "PS27OFF-PATENTONCOLOGYITEMS",
@@ -1359,10 +1469,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "no target-domain asset or professional service signal found",
+      "reason": "commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "IWK-2026-0201",
@@ -1370,10 +1480,21 @@
       "pursuit_type": "partner",
       "bid_fit": "partner-or-subconsultant-fit",
       "confidence": 0.66,
-      "reason": "domain: water/wastewater (utility); contractor-led hints: construction",
+      "reason": "domain: water/wastewater (utility); contractor-led hints: construction; commodity categories: construction=1",
       "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MODD-2026-002",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: transportation (road); contractor-led hints: construction; buyer/context: municipality; commodity categories: construction=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "PROJECT2608-1485",
@@ -1381,10 +1502,65 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: water/wastewater (utility, water utility); professional role: capacity study, hydraulic, study; buyer/context: municipality, water",
+      "reason": "domain: water/wastewater (utility, water utility); professional role: capacity study, hydraulic, study; buyer/context: municipality, water; commodity professional-service hints: professional engineering services; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Q41-2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "contractor/vendor title hints: supply; buyer/context: halifax water, water; force-skip procurement notice hints: cab and chassis; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Q94-2025",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (business park), water/wastewater (utility, water treatment); professional role: design, review; contractor/vendor title hints: replacement, supply; buyer/context: halifax water, water; overrode exclude hint because asset/domain is in scope: equipment, training; commodity skip hints: cleaning equipment, electrical equipment and components and supplies; commodity categories: construction=1, goods=6, services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "HRM-2026-0297",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "domain: water/wastewater (utility); contractor/vendor title hints: supply; buyer/context: municipality, regional municipality; force-skip procurement notice hints: police packages, supply and delivery, utility vehicles; commodity skip hints: commercial and military and private vehicles, light trucks, motor vehicles, passenger motor vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "IWK-2026-0102",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: consultant, consulting, planning; commodity off-profile hints: business and corporate management consultation services; commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "EEGMarketing2023\u2013ContinuousOnboarding",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "MET26-04",
@@ -1392,10 +1568,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: water",
+      "reason": "buyer/context: water; commodity categories: construction=1, goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "NSGC-RSO-26-001",
@@ -1403,21 +1579,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: consulting; exclude hints: corporate social responsibility, healthy play, professional healthy play; off-profile hints: corporate social responsibility",
+      "reason": "professional role: consulting; exclude hints: corporate social responsibility, healthy play, professional healthy play; off-profile hints: corporate social responsibility; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "WOL0022026RFQ",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (street); contractor-led hints: request for quotation; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment; commodity skip hints: computer equipment, computer printers, plotter printers; commodity categories: goods=1",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "INF01-2026-2027",
@@ -1425,21 +1601,32 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.95,
-      "reason": "professional role: review; buyer/context: municipality; force-skip procurement notice hints: canoe procurement",
+      "reason": "professional role: review; buyer/context: municipality; force-skip procurement notice hints: canoe procurement; commodity categories: construction=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MODG2026-HFDTNKR",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (street); buyer/context: municipality; commodity skip hints: commercial and military and private vehicles, motor vehicles, rescue vehicles; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "26-04E",
-      "bucket": "partner-or-subconsultant-fit",
-      "pursuit_type": "partner",
-      "bid_fit": "partner-or-subconsultant-fit",
-      "confidence": 0.72,
-      "reason": "domain: municipal civil (municipal, sidewalk), transportation (sidewalk); contractor-led hints: supply; buyer/context: town of",
-      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.9,
+      "reason": "domain: municipal civil (municipal, sidewalk), transportation (sidewalk); buyer/context: town of; commodity skip hints: agricultural tractors, commercial and military and private vehicles, heavy construction machinery and equipment, motor vehicles; commodity categories: goods=4",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc2839971352",
@@ -1447,43 +1634,32 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: province of nova scotia; exclude hints: food; off-profile hints: food",
+      "reason": "buyer/context: province of nova scotia; exclude hints: food; off-profile hints: food; commodity categories: goods=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "HealthPRODec2026RFP-02938",
-      "bucket": "off-profile-consulting",
+      "tender_id": "MODC-T-2026-024",
+      "bucket": "likely-skip",
       "pursuit_type": "skip",
       "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "exclude hints: electrical supplies",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "confidence": 0.95,
+      "reason": "buyer/context: municipality; force-skip procurement notice hints: supply and delivery; commodity skip hints: commercial and military and private vehicles, motor vehicles, rescue vehicles; commodity categories: goods=2",
+      "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
-      "tender_id": "HealthPRODec2026RFP02940",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
+      "tender_id": "Doc2883011635",
+      "bucket": "needs-review",
+      "pursuit_type": "needs-review",
       "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "exclude hints: lamps and ballasts",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "confidence": 0.62,
+      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works; commodity skip hints: forestry byproducts; commodity categories: goods=1, services=1",
+      "next_action": "Fetch detail page or documents before deciding pursuit role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
-    },
-    {
-      "tender_id": "HealthPRODec2026RFP05694",
-      "bucket": "off-profile-consulting",
-      "pursuit_type": "skip",
-      "bid_fit": null,
-      "confidence": 0.72,
-      "reason": "exclude hints: media destruction",
-      "next_action": "Skip unless a later profile adds this consulting domain.",
-      "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3108714157",
@@ -1491,10 +1667,10 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "buyer/context: province of nova scotia",
+      "reason": "buyer/context: province of nova scotia; commodity skip hints: computer equipment; commodity off-profile hints: printing; commodity categories: goods=2",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "Doc3117400577",
@@ -1502,10 +1678,10 @@
       "pursuit_type": "needs-review",
       "bid_fit": null,
       "confidence": 0.62,
-      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works; overrode exclude hint because asset/domain is in scope: janitorial",
+      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works; overrode exclude hint because asset/domain is in scope: janitorial; commodity categories: services=1",
       "next_action": "Fetch detail page or documents before deciding pursuit role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "INF17-2026-2027",
@@ -1513,10 +1689,10 @@
       "pursuit_type": "prime",
       "bid_fit": "prime-consultant-fit",
       "confidence": 0.88,
-      "reason": "domain: municipal civil (infrastructure), transportation (intersection, traffic); professional role: engineering; buyer/context: municipality; overrode exclude hint because asset/domain is in scope: vehicle",
+      "reason": "domain: municipal civil (infrastructure), transportation (intersection, traffic); professional role: engineering; buyer/context: municipality; overrode exclude hint because asset/domain is in scope: vehicle; commodity professional-service hints: professional engineering services; commodity categories: services=1",
       "next_action": "Review scope documents and confirm lead consultant fit.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "RFSO26-06",
@@ -1524,10 +1700,21 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.82,
-      "reason": "domain: water/wastewater (utility); professional role: review; off-profile domain combination: utility management + building, utility management + buildings",
+      "reason": "domain: water/wastewater (utility); professional role: review; off-profile domain combination: utility management + building, utility management + buildings; commodity categories: goods=1, services=4",
       "next_action": "Skip unless a later profile adds this building operations domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MCI-EOI-2026-002",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: county, municipality; commodity skip hints: signage; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "AC060126",
@@ -1535,10 +1722,32 @@
       "pursuit_type": "needs-review",
       "bid_fit": null,
       "confidence": 0.62,
-      "reason": "domain: municipal civil (municipal); buyer/context: county, municipality",
+      "reason": "domain: municipal civil (municipal); buyer/context: county, municipality; commodity categories: services=1",
       "next_action": "Fetch detail page or documents before deciding pursuit role.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "DOC1543189378OB",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: province of nova scotia; commodity off-profile hints: business and corporate management consultation services, computer services, information technology consultation services; commodity categories: services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "KINETICGPO_PROJECTMANAGEMETSERVICES",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: review; buyer/context: province of nova scotia; exclude hints: equipment; off-profile hints: equipment; commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "DAL-2026-22771623",
@@ -1546,10 +1755,296 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.72,
-      "reason": "professional role: review; buyer/context: province of nova scotia",
+      "reason": "professional role: review; buyer/context: province of nova scotia; commodity categories: services=1",
       "next_action": "Skip unless a later profile adds this consulting domain.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "2026NOTICESMU",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "buyer/context: province of nova scotia; force-skip procurement notice hints: canoe procurement; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "AU2026-001",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: province of nova scotia; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "DAL-NOTICE-2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: province of nova scotia; commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NOTICE2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity off-profile hints: business and corporate management consultation services, information technology consultation services; commodity categories: goods=1, services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "STFXNOTICE2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: province of nova scotia; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TOB-2026-NOTICE",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "buyer/context: province of nova scotia, town of; force-skip procurement notice hints: canoe procurement; commodity categories: services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NOI2026",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.88,
+      "reason": "domain: municipal civil (grading), transportation (road, roadway), water/wastewater (wastewater); professional role: consulting; buyer/context: water; overrode exclude hint because asset/domain is in scope: equipment, office supplies, software; commodity skip hints: cleaning equipment, commercial and military and private vehicles, defense and law enforcement, electrical equipment and components and supplies; commodity off-profile hints: advertising printing, business and corporate management consultation services, printing; commodity categories: construction=2, goods=17, services=7",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "INS2024-25-23",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: consulting; off-profile hints: goods; commodity off-profile hints: printing; commodity professional-service hints: professional engineering services; commodity categories: goods=2, services=6",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NSPHA-NOTICE-03",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: construction=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "HRM-2026NOTICE",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: municipality, regional municipality; commodity categories: services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "IWK-NOTICE-2026-CANOE",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "IWK-NOTICE-2026-HEALTHPRO",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "IWK-NOTICE-2026-KINETIC",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "IWK-NOTICE-2026-MOHAWKMEDBUY",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "KINETIC_NOTICE2026",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: review; buyer/context: province of nova scotia; exclude hints: equipment; off-profile hints: equipment; commodity skip hints: cleaning equipment; commodity categories: goods=2",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "KineticGPO_Facilities_Condition_Assessments",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: assessments, review; exclude hints: equipment; off-profile hints: equipment; commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MCI-NOP-CANOE-2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "professional role: review; buyer/context: county, municipality; force-skip procurement notice hints: canoe procurement; commodity skip hints: cleaning equipment, commercial and military and private vehicles, heavy construction machinery and equipment, light trucks; commodity categories: goods=4",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MODL-2026-NOITICE",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: municipality; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "MOK_CANOE_26-27",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "professional role: review; buyer/context: county, municipality; force-skip procurement notice hints: canoe procurement; commodity skip hints: hand tools, heavy construction machinery and equipment; commodity off-profile hints: accounting and auditing, financial and insurance services; commodity categories: goods=3, services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NPP-RIM-2026",
+      "bucket": "partner-or-subconsultant-fit",
+      "pursuit_type": "partner",
+      "bid_fit": "partner-or-subconsultant-fit",
+      "confidence": 0.72,
+      "reason": "domain: municipal civil (public works); contractor-led hints: maintenance; buyer/context: department of public works, province of nova scotia, public works; commodity categories: construction=1, goods=1",
+      "next_action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "NSPERENNIA23",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.84,
+      "reason": "exclude hints: equipment, food; off-profile hints: equipment, food; commodity skip hints: commercial and military and private vehicles; commodity categories: goods=1, services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TTACanoeNotice2026",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "domain: transportation (transit); professional role: review; buyer/context: province of nova scotia; force-skip procurement notice hints: canoe procurement, notice of intent to participate, this is not a rfp or tender; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TWNST2026NOTICE",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: town of; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "HRCE-NOI4292",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "force-skip procurement notice hints: canoe procurement; commodity categories: construction=3, goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "HRCE-NOI4293",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "force-skip procurement notice hints: canoe procurement; commodity categories: construction=2, goods=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "AVRCE-NOP-2026-01",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "commodity categories: construction=1, goods=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     },
     {
       "tender_id": "MODL-2026-NOTICE",
@@ -1557,10 +2052,142 @@
       "pursuit_type": "skip",
       "bid_fit": null,
       "confidence": 0.95,
-      "reason": "buyer/context: municipality; force-skip procurement notice hints: canoe procurement, this is not a rfp or tender",
+      "reason": "buyer/context: municipality; force-skip procurement notice hints: canoe procurement, this is not a rfp or tender; commodity categories: services=1",
       "next_action": "No action.",
       "urgent": false,
-      "triaged_at": "2026-06-03T03:11:04Z"
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc658723136OB",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: review; buyer/context: province of nova scotia; commodity off-profile hints: accounting and auditing, financial and insurance services; commodity categories: services=4",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "CW40376HSCS",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: consulting; buyer/context: province of nova scotia; commodity off-profile hints: business and corporate management consultation services, healthcare; commodity categories: services=9",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "CW40376HSCSNPPUPDATE",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: consulting; contractor/vendor title hints: supply; buyer/context: province of nova scotia; commodity off-profile hints: business and corporate management consultation services, healthcare; commodity categories: services=3",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "CW40376TN",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: province of nova scotia; commodity off-profile hints: healthcare, human resources, personnel recruitment, staff recruiting services; commodity categories: services=2",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc783277434OB",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: review; buyer/context: province of nova scotia; exclude hints: legal; off-profile hints: legal; commodity off-profile hints: accounting and auditing, financial and insurance services; commodity categories: services=4",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "DOC1916835891OB",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "contractor/vendor title hints: supply; buyer/context: province of nova scotia; commodity off-profile hints: computer services; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc1205045041OB",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.68,
+      "reason": "buyer/context: province of nova scotia; commodity off-profile hints: accounting and auditing, business and corporate management consultation services, financial and insurance services, human resources; commodity categories: services=5",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "DOC2060950363OB",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.72,
+      "reason": "professional role: consulting; buyer/context: province of nova scotia; commodity off-profile hints: computer services; commodity categories: services=1",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc2492426936OB",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.84,
+      "reason": "buyer/context: province of nova scotia; exclude hints: communications; off-profile hints: communications; commodity off-profile hints: printing; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc1951837871OB",
+      "bucket": "off-profile-consulting",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.86,
+      "reason": "domain: municipal civil (public works); buyer/context: department of public works, province of nova scotia, public works; overrode exclude hint because asset/domain is in scope: communications, legal; commodity off-profile hints: legal; commodity categories: services=2",
+      "next_action": "Skip unless a later profile adds this consulting domain.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "Doc2510999640OB",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.84,
+      "reason": "contractor/vendor title hints: supply; buyer/context: province of nova scotia; exclude hints: communications; off-profile hints: communications; commodity off-profile hints: business and corporate management consultation services, human resources, information technology consultation services; commodity categories: goods=1, services=4",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
+    },
+    {
+      "tender_id": "TOT25-999NOTICE",
+      "bucket": "likely-skip",
+      "pursuit_type": "skip",
+      "bid_fit": null,
+      "confidence": 0.95,
+      "reason": "buyer/context: town of; force-skip procurement notice hints: canoe procurement; commodity categories: services=1",
+      "next_action": "No action.",
+      "urgent": false,
+      "triaged_at": "2026-06-07T14:52:14Z"
     }
   ]
 }

@@ -1,266 +1,19 @@
 {
   "dedupe_key": "Tender ID",
-  "last_checked": "2026-06-03T03:11:05Z",
+  "last_checked": "2026-06-07T14:52:15Z",
   "rows": [
     {
-      "Tender ID": "2627-04",
-      "Opportunity": "WATER PLANT CONTROL PANEL UPGRADES MUNICIPALITY OF THE DISTRICT OF ST MARY\u2019S",
-      "Procurement Entity": "Municipality of the District of St. Marys",
-      "Closing Date": "2026-06-03 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2627-04",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "AVRCE-TENDER-2026-01",
-      "Opportunity": "Tender 2026-01 DRS Renovation Phase 4",
-      "Procurement Entity": "Annapolis Valley Regional Centre for Education",
-      "Closing Date": "2026-06-03 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/AVRCE-TENDER-2026-01",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Urgent",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "MODY2026-LiftStationandPublicWorksBuildingGeneratorInstallationandUpgrade",
-      "Opportunity": "LiftStationandPublicWorksBuildingGeneratorInstallationandUpgrade",
-      "Procurement Entity": "Municipality of the District of Yarmouth",
-      "Closing Date": "2026-06-03 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODY2026-LiftStationandPublicWorksBuildingGeneratorInstallationandUpgrade",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Urgent",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "HRM-2026-1008",
-      "Opportunity": "Micro Surfacing\u2014Various Locations 2026",
-      "Procurement Entity": "Halifax Regional Municipality",
-      "Closing Date": "2026-06-03T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2026-1008",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Urgent",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "NSLC27-01",
-      "Opportunity": "Supply and Deliver Mobile Scanning Devices",
-      "Procurement Entity": "Nova Scotia Liquor Corporation",
-      "Closing Date": "2026-06-03T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSLC27-01",
+      "Tender ID": "06-2026",
+      "Opportunity": "Tax Sale by Tender - 06-2026",
+      "Procurement Entity": "Municipality of the County of Annapolis",
+      "Closing Date": "2026-06-08T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/06-2026",
       "Pursuit Type": "skip",
       "Bid Fit": "likely-skip",
       "Priority": "Urgent",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "NSPW2026-082",
-      "Opportunity": "2026-082: FOUR PROJECTS IN PICTOU COUNTY, ASPHALT REPAVING",
-      "Procurement Entity": "Province of Nova Scotia",
-      "Closing Date": "2026-06-03T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-082",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "RFP26-02OPP",
-      "Opportunity": "Roof, Elmsdale District School",
-      "Procurement Entity": "Chignecto-Central Regional Centre for Education",
-      "Closing Date": "2026-06-03T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP26-02OPP",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Urgent",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "CBRM-T09-2026",
-      "Opportunity": "SUPPLY AND DELIVER UP TO SIX (6) NEW POLICE PACKAGE SUV",
-      "Procurement Entity": "Cape Breton Regional Municipality",
-      "Closing Date": "2026-06-04 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CBRM-T09-2026",
-      "Pursuit Type": "skip",
-      "Bid Fit": "likely-skip",
-      "Priority": "Urgent",
-      "Status": "likely-skip",
-      "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "CBI26-107",
-      "Opportunity": "RFQ CBI26-107 New Roofing Multiple Properties",
-      "Procurement Entity": "Nova Scotia Provincial Housing Agency",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CBI26-107",
-      "Pursuit Type": "skip",
-      "Bid Fit": "likely-skip",
-      "Priority": "Urgent",
-      "Status": "likely-skip",
-      "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "MODL-2026-05-400",
-      "Opportunity": "Wiles Lake Park Community Plan and Conceptual Design",
-      "Procurement Entity": "Municipality of the District of Lunenburg",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODL-2026-05-400",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Urgent",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "RFC26-03OPP",
-      "Opportunity": "Renovations, Cobetec Building Front Area",
-      "Procurement Entity": "Chignecto-Central Regional Centre for Education",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFC26-03OPP",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "TOAGridMod-05142026",
-      "Opportunity": "TOA Substation & DER O&M Services",
-      "Procurement Entity": "Town of Antigonish",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOAGridMod-05142026",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "TOLRFQ26009",
-      "Opportunity": "TOL - Dares Lake Intake Cleaning",
-      "Procurement Entity": "Town of Lunenburg",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOLRFQ26009",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "TOPH202602",
-      "Opportunity": "RFQ# TOPH202602 \u2013 4WD Cab & Chassis with Dump Body, Plow & Salt/Sand Spreader",
-      "Procurement Entity": "Town of Port Hawkesbury",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOPH202602",
-      "Pursuit Type": "skip",
-      "Bid Fit": "likely-skip",
-      "Priority": "Urgent",
-      "Status": "likely-skip",
-      "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "TOPH202605",
-      "Opportunity": "TOPH202605 CAPITAL PAVING 2026",
-      "Procurement Entity": "Town of Port Hawkesbury",
-      "Closing Date": "2026-06-04T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOPH202605",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "MCC-2605-CD02",
-      "Opportunity": "Consulting Services - Climate Risk Assessment & Resilience Plan",
-      "Procurement Entity": "Municipality of Colchester",
-      "Closing Date": "2026-06-05 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MCC-2605-CD02",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Urgent",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "HRM-2026-1029",
-      "Opportunity": "Traffic Calming \u2013 Phase 2 Various Locations",
-      "Procurement Entity": "Halifax Regional Municipality",
-      "Closing Date": "2026-06-05T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2026-1029",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "NSPW2026-079",
-      "Opportunity": "2026-079: TWO PROJECTS IN HALIFAX COUNTY, GRAVELLING",
-      "Procurement Entity": "Province of Nova Scotia",
-      "Closing Date": "2026-06-05T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-079",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "RFP26-03OPP",
-      "Opportunity": "Roof, Uniacke District School",
-      "Procurement Entity": "Chignecto-Central Regional Centre for Education",
-      "Closing Date": "2026-06-05T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP26-03OPP",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "T11-2026",
-      "Opportunity": "Esson Road PRV Replacement",
-      "Procurement Entity": "Halifax Water",
-      "Closing Date": "2026-06-05T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/T11-2026",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Urgent",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "AVRCE-ITB-2026-01",
@@ -270,10 +23,23 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/AVRCE-ITB-2026-01",
       "Pursuit Type": "skip",
       "Bid Fit": "likely-skip",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFEI50901",
+      "Opportunity": "External - Surplus Fire Apparatus for Sale",
+      "Procurement Entity": "Municipality of the District of East Hants",
+      "Closing Date": "2026-06-08T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFEI50901",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TOS2026-003",
@@ -283,36 +49,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOS2026-003",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "TCLESPlayground26",
-      "Opportunity": "LES Playground ",
-      "Procurement Entity": "Tri-County Regional Centre for Education",
-      "Closing Date": "2026-06-09 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TCLESPlayground26",
-      "Pursuit Type": "skip",
-      "Bid Fit": "likely-skip",
-      "Priority": "Low",
-      "Status": "likely-skip",
-      "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "2026-08CBVRCE",
-      "Opportunity": "Kitchen Renovations Glace Bay High",
-      "Procurement Entity": "Cape Breton-Victoria Regional Centre for Education",
-      "Closing Date": "2026-06-09T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026-08CBVRCE",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "2027-TS-01",
@@ -322,10 +62,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2027-TS-01",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
+      "Priority": "Urgent",
       "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "CBRM-Q03-2026",
@@ -333,12 +73,12 @@
       "Procurement Entity": "Cape Breton Regional Municipality",
       "Closing Date": "2026-06-09T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CBRM-Q03-2026",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "CBRM-SO04-2026",
@@ -348,10 +88,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CBRM-SO04-2026",
       "Pursuit Type": "skip",
       "Bid Fit": "likely-skip",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRCE-4300",
@@ -361,10 +101,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRCE-4300",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRM-2025-0627",
@@ -374,10 +114,23 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2025-0627",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "P05-2026",
+      "Opportunity": "Humber Park Pump Station Upgrades",
+      "Procurement Entity": "Halifax Water",
+      "Closing Date": "2026-06-09T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/P05-2026",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Urgent",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Q66-2026",
@@ -385,12 +138,12 @@
       "Procurement Entity": "Halifax Water",
       "Closing Date": "2026-06-09T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Q66-2026",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFC26-02ES",
@@ -400,10 +153,36 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFC26-02ES",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFI2026-A",
+      "Opportunity": "UHPC Potential Production Capacity and Construction Readiness in the HRM",
+      "Procurement Entity": "Halifax-Dartmouth Bridge Commission",
+      "Closing Date": "2026-06-09T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFI2026-A",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Urgent",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFP#060926",
+      "Opportunity": "Modular Buildings and Portable Storage Solutions with Related Services",
+      "Procurement Entity": "Nova Scotia Federation of Municipalities",
+      "Closing Date": "2026-06-09T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP%23060926",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "SRCE-2026-005",
@@ -411,12 +190,38 @@
       "Procurement Entity": "Strait Regional Centre for Education",
       "Closing Date": "2026-06-09T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/SRCE-2026-005",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TCLESPlayground26",
+      "Opportunity": "LES Playground ",
+      "Procurement Entity": "Tri-County Regional Centre for Education",
+      "Closing Date": "2026-06-09T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TCLESPlayground26",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc3008328067",
+      "Opportunity": " RFP - Northside Middle School and Glace Bay Area PP5 School Site Inspection",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-09T14:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc3008328067",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
+      "Priority": "Urgent",
       "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3019440611",
@@ -424,12 +229,12 @@
       "Procurement Entity": "Province of Nova Scotia",
       "Closing Date": "2026-06-09T14:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc3019440611",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3124356420",
@@ -437,12 +242,12 @@
       "Procurement Entity": "Province of Nova Scotia",
       "Closing Date": "2026-06-09T14:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc3124356420",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "DAL2026-20511072",
@@ -452,10 +257,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/DAL2026-20511072",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "DAL2026-22525416",
@@ -465,10 +270,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/DAL2026-22525416",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "ND26-08",
@@ -478,10 +283,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/ND26-08",
       "Pursuit Type": "skip",
       "Bid Fit": "likely-skip",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSPW2026-048",
@@ -491,23 +296,23 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-048",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
+      "Priority": "Urgent",
       "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "NSPW2026-078",
-      "Opportunity": "2026-078, ONE PROJECT IN HALIFAX COUNTY, ASPHALT REPAVING",
-      "Procurement Entity": "Province of Nova Scotia",
+      "Tender ID": "PROJECT2504-1504",
+      "Opportunity": "RFP - Construction Services - Biosolids Facility Aeration Upgrades",
+      "Procurement Entity": "Municipality of Colchester",
       "Closing Date": "2026-06-10T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-078",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/PROJECT2504-1504",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
+      "Priority": "Urgent",
       "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Next Action": "Urgent review before close. Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP-MCC-2607",
@@ -517,10 +322,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP-MCC-2607",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP26-04OPP",
@@ -530,10 +335,10 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP26-04OPP",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
+      "Priority": "Urgent",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TOA05272026AutonomousMowerforSolarGarden",
@@ -541,12 +346,12 @@
       "Procurement Entity": "Town of Antigonish",
       "Closing Date": "2026-06-10T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOA05272026AutonomousMowerforSolarGarden",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Urgent",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TOA2026-02ATCIMprovements",
@@ -556,62 +361,23 @@
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOA2026-02ATCIMprovements",
       "Pursuit Type": "prime",
       "Bid Fit": "prime-consultant-fit",
-      "Priority": "High",
+      "Priority": "Urgent",
       "Status": "prime-consultant-fit",
-      "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Next Action": "Urgent review before close. Review scope documents and confirm lead consultant fit.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "MODC-T-2026-010",
-      "Opportunity": "Weigh Scale Replacement \u2013 Kaizer Meadow Environmental Management Centre",
-      "Procurement Entity": "Municipality of the District of Chester",
-      "Closing Date": "2026-06-11 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODC-T-2026-010",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "P35-2025",
-      "Opportunity": "Multi-Facility Polymer System Upgrades",
-      "Procurement Entity": "Halifax Water",
-      "Closing Date": "2026-06-11 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/P35-2025",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "Q51-2026",
-      "Opportunity": "Supply of Pump, Genset, and Transfer Switch for Aerotech Booster Station",
-      "Procurement Entity": "Halifax Water",
-      "Closing Date": "2026-06-11 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Q51-2026",
-      "Pursuit Type": "skip",
-      "Bid Fit": "likely-skip",
-      "Priority": "Low",
-      "Status": "likely-skip",
-      "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "2026-06CBVRCE",
-      "Opportunity": "Fire Alarm Inspections, Testing and Service",
+      "Tender ID": "2026-08CBVRCE",
+      "Opportunity": "Kitchen Renovations Glace Bay High",
       "Procurement Entity": "Cape Breton-Victoria Regional Centre for Education",
       "Closing Date": "2026-06-11T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026-06CBVRCE",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026-08CBVRCE",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "CED-2026-05-25",
@@ -619,12 +385,12 @@
       "Procurement Entity": "Region of Queens Municipality",
       "Closing Date": "2026-06-11T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CED-2026-05-25",
-      "Pursuit Type": "needs-review",
-      "Bid Fit": "needs-review",
-      "Priority": "Review",
-      "Status": "needs-review",
-      "Next Action": "Fetch detail page or documents before deciding pursuit role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRM-2026-0134",
@@ -637,7 +403,46 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MODC-T-2026-010",
+      "Opportunity": "Weigh Scale Replacement \u2013 Kaizer Meadow Environmental Management Centre",
+      "Procurement Entity": "Municipality of the District of Chester",
+      "Closing Date": "2026-06-11T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODC-T-2026-010",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "P35-2025",
+      "Opportunity": "Multi-Facility Polymer System Upgrades",
+      "Procurement Entity": "Halifax Water",
+      "Closing Date": "2026-06-11T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/P35-2025",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Q51-2026",
+      "Opportunity": "Supply of Pump, Genset, and Transfer Switch for Aerotech Booster Station",
+      "Procurement Entity": "Halifax Water",
+      "Closing Date": "2026-06-11T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Q51-2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFQ26-10EST",
@@ -650,7 +455,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "SRCE-2026-006",
@@ -658,12 +463,12 @@
       "Procurement Entity": "Strait Regional Centre for Education",
       "Closing Date": "2026-06-11T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/SRCE-2026-006",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TOT26-019",
@@ -676,7 +481,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "YCSWMA26-1",
@@ -689,7 +494,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3094257754",
@@ -702,85 +507,59 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "2026001",
       "Opportunity": "Tender #: 2026-001 Chip Seal Application \u2013 Public Bin Area",
       "Procurement Entity": "South Shore Waste Solutions",
-      "Closing Date": "2026-06-12 03:00:00",
+      "Closing Date": "2026-06-12T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026001",
-      "Pursuit Type": "skip",
-      "Bid Fit": "likely-skip",
-      "Priority": "Low",
-      "Status": "likely-skip",
-      "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "2026002",
       "Opportunity": "Tender #: 2026-002 Supply & Installation of Replacement Building Membrane",
       "Procurement Entity": "South Shore Waste Solutions",
-      "Closing Date": "2026-06-12 03:00:00",
+      "Closing Date": "2026-06-12T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026002",
       "Pursuit Type": "skip",
       "Bid Fit": "likely-skip",
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "BER2026-003",
       "Opportunity": "Rehabilitation of Intake System",
       "Procurement Entity": "Town of Berwick",
-      "Closing Date": "2026-06-12 03:00:00",
+      "Closing Date": "2026-06-12T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/BER2026-003",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "prime",
+      "Bid Fit": "prime-consultant-fit",
+      "Priority": "High",
+      "Status": "prime-consultant-fit",
+      "Next Action": "Review scope documents and confirm lead consultant fit.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "BER2026-004DAMLOGBOOM",
       "Opportunity": "Factorydale Hydropower Plant Refurbishment Project - Dam Log Boom",
       "Procurement Entity": "Town of Berwick",
-      "Closing Date": "2026-06-12 03:00:00",
+      "Closing Date": "2026-06-12T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/BER2026-004DAMLOGBOOM",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "TOP-C1-2026",
-      "Opportunity": "Jitney Trail Retaining Wall",
-      "Procurement Entity": "Town of Pictou",
-      "Closing Date": "2026-06-12 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOP-C1-2026",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "2026-07CBVRCE",
-      "Opportunity": "Sprinkler Systems Inspections, Testing, and Service",
-      "Procurement Entity": "Cape Breton-Victoria Regional Centre for Education",
-      "Closing Date": "2026-06-12T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026-07CBVRCE",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "EEG2026-001",
@@ -793,20 +572,20 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "EEG2026-002",
-      "Opportunity": "Cleaning Services",
-      "Procurement Entity": "Events East Group",
+      "Tender ID": "HRCE--4280",
+      "Opportunity": "Student Transportation Services",
+      "Procurement Entity": "Halifax Regional Centre for Education",
       "Closing Date": "2026-06-12T00:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/EEG2026-002",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRCE--4280",
+      "Pursuit Type": "needs-review",
+      "Bid Fit": "needs-review",
+      "Priority": "Review",
+      "Status": "needs-review",
+      "Next Action": "Confirm whether the infrastructure asset has a professional-services role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRM-2026-0233",
@@ -819,7 +598,20 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NSPW2026-078",
+      "Opportunity": "2026-078, ONE PROJECT IN HALIFAX COUNTY, ASPHALT REPAVING",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-12T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-078",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSPW2026-081",
@@ -832,7 +624,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSPW2026-085",
@@ -845,7 +637,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "P02-2026",
@@ -858,7 +650,7 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TOAHumanResourceConsultant",
@@ -871,7 +663,20 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TOP-C1-2026",
+      "Opportunity": "Jitney Trail Retaining Wall",
+      "Procurement Entity": "Town of Pictou",
+      "Closing Date": "2026-06-12T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOP-C1-2026",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "WCB2026-007",
@@ -884,7 +689,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "BNS-2627-0026",
@@ -897,7 +702,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "CORE2601",
@@ -910,7 +715,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRM-2026-0234",
@@ -923,7 +728,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRM-2026-0276",
@@ -936,7 +741,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc2949596636",
@@ -949,7 +754,20 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc3077094476",
+      "Opportunity": " Request for Proposals for Centralized Navigation-811 Managed Service, and Centralized Scheduling Solution For the Department of Health and Wellness",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-15T14:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc3077094476",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3135991739",
@@ -962,7 +780,33 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "2026-07CBVRCE",
+      "Opportunity": "Sprinkler Systems Inspections, Testing, and Service",
+      "Procurement Entity": "Cape Breton-Victoria Regional Centre for Education",
+      "Closing Date": "2026-06-16T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026-07CBVRCE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRM-2026-0187",
+      "Opportunity": "Crisis Assistance and Response (CARE) Mobile Team",
+      "Procurement Entity": "Halifax Regional Municipality",
+      "Closing Date": "2026-06-16T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2026-0187",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NOR26-103",
@@ -975,7 +819,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFC26-04OPP",
@@ -983,12 +827,12 @@
       "Procurement Entity": "Chignecto-Central Regional Centre for Education",
       "Closing Date": "2026-06-16T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFC26-04OPP",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP-MCC-2608",
@@ -1001,7 +845,7 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP-MCC-2609",
@@ -1014,7 +858,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP-MCC-2610",
@@ -1027,7 +871,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP-MCC-2611",
@@ -1040,7 +884,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFP-MCC-2612",
@@ -1053,7 +897,20 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFP061626",
+      "Opportunity": "Law Enforcement Equipment",
+      "Procurement Entity": "Nova Scotia Federation of Municipalities",
+      "Closing Date": "2026-06-16T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP061626",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFQ50910",
@@ -1066,7 +923,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3027217508",
@@ -1079,7 +936,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRCE-4301",
@@ -1092,7 +949,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "MCC-BFCDEC-2026",
@@ -1105,7 +962,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "PROJECT2601-2524",
@@ -1118,7 +975,20 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFP061726",
+      "Opportunity": "Enterprise Artificial Intelligence: Platforms, Services, and Integrated Delivery",
+      "Procurement Entity": "Nova Scotia Federation of Municipalities",
+      "Closing Date": "2026-06-17T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP061726",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFQ26-11ES",
@@ -1126,12 +996,12 @@
       "Procurement Entity": "Chignecto-Central Regional Centre for Education",
       "Closing Date": "2026-06-17T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFQ26-11ES",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TOK202614",
@@ -1144,7 +1014,7 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TWNST2026-005",
@@ -1152,12 +1022,25 @@
       "Procurement Entity": "Town of Stellarton",
       "Closing Date": "2026-06-17T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TWNST2026-005",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "2026-06CBVRCE",
+      "Opportunity": "Fire Alarm Inspections, Testing and Service",
+      "Procurement Entity": "Cape Breton-Victoria Regional Centre for Education",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026-06CBVRCE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "CBRM-P03-2026",
@@ -1170,7 +1053,20 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "CBRM_P02-2026",
+      "Opportunity": "CBRM BIOSOLIDS MANAGEMENT",
+      "Procurement Entity": "Cape Breton Regional Municipality",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CBRM_P02-2026",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRCE-4299",
@@ -1183,7 +1079,20 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRM-2026-0105",
+      "Opportunity": "Street Recapitalization and Infrastructure Renewal- Thomas Street",
+      "Procurement Entity": "Halifax Regional Municipality",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2026-0105",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "INF21-2026-2027",
@@ -1191,12 +1100,12 @@
       "Procurement Entity": "Region of Queens Municipality",
       "Closing Date": "2026-06-18T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/INF21-2026-2027",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "MOCR202607",
@@ -1209,7 +1118,20 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MODG2026-PWLOADR",
+      "Opportunity": "RFP",
+      "Procurement Entity": "Municipality of the District of Guysborough",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODG2026-PWLOADR",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "MODY-2026-HT01",
@@ -1222,7 +1144,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NWRBP-PH3-FEAS-2026",
@@ -1235,7 +1157,7 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Q111-2026",
@@ -1248,7 +1170,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "STEW-2026-03",
@@ -1261,7 +1183,20 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "SurplusSpring2026",
+      "Opportunity": "Surplus Vehicles Spring 2026",
+      "Procurement Entity": "Chignecto-Central Regional Centre for Education",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/SurplusSpring2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TNG26-PW-006",
@@ -1269,12 +1204,38 @@
       "Procurement Entity": "Town of New Glasgow",
       "Closing Date": "2026-06-18T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TNG26-PW-006",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TOK2026015",
+      "Opportunity": "Miller Ave Infrastructure Renewal",
+      "Procurement Entity": "Town of Kentville",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOK2026015",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TOS2026-004",
+      "Opportunity": "V.I.C Lease with Option Of Purchase",
+      "Procurement Entity": "Town of Shelburne",
+      "Closing Date": "2026-06-18T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOS2026-004",
+      "Pursuit Type": "needs-review",
+      "Bid Fit": "needs-review",
+      "Priority": "Review",
+      "Status": "needs-review",
+      "Next Action": "Fetch detail page or documents before deciding pursuit role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "VWRP2607",
@@ -1287,20 +1248,46 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "R2026-W",
-      "Opportunity": "A. Murray Mackay Bridge Navigation Lighting System Engineering Services",
-      "Procurement Entity": "Halifax-Dartmouth Bridge Commission",
-      "Closing Date": "2026-06-19 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/R2026-W",
-      "Pursuit Type": "prime",
-      "Bid Fit": "prime-consultant-fit",
-      "Priority": "High",
-      "Status": "prime-consultant-fit",
-      "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Tender ID": "2627-03",
+      "Opportunity": "EOI- Development of Pharmacy Services",
+      "Procurement Entity": "Municipality of the District of St. Marys",
+      "Closing Date": "2026-06-19T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2627-03",
+      "Pursuit Type": "needs-review",
+      "Bid Fit": "needs-review",
+      "Priority": "Review",
+      "Status": "needs-review",
+      "Next Action": "Fetch detail page or documents before deciding pursuit role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "EEG2026-002",
+      "Opportunity": "Cleaning Services",
+      "Procurement Entity": "Events East Group",
+      "Closing Date": "2026-06-19T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/EEG2026-002",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRCE-4294",
+      "Opportunity": "LIBRARY SUPPLIES",
+      "Procurement Entity": "Halifax Regional Centre for Education",
+      "Closing Date": "2026-06-19T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRCE-4294",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSPW2026-077",
@@ -1313,7 +1300,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSPW2026-080",
@@ -1326,7 +1313,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSPW2026-083",
@@ -1339,7 +1326,33 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "R2026-W",
+      "Opportunity": "A. Murray Mackay Bridge Navigation Lighting System Engineering Services",
+      "Procurement Entity": "Halifax-Dartmouth Bridge Commission",
+      "Closing Date": "2026-06-19T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/R2026-W",
+      "Pursuit Type": "prime",
+      "Bid Fit": "prime-consultant-fit",
+      "Priority": "High",
+      "Status": "prime-consultant-fit",
+      "Next Action": "Review scope documents and confirm lead consultant fit.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFPNo05062025",
+      "Opportunity": "Supply of One Packaged Blower for Above-Ground Installation",
+      "Procurement Entity": "Town of Antigonish",
+      "Closing Date": "2026-06-19T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFPNo05062025",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TMBWEB2026",
@@ -1352,7 +1365,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "TNGNGRP-26-02",
@@ -1360,12 +1373,38 @@
       "Procurement Entity": "Town of New Glasgow",
       "Closing Date": "2026-06-19T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TNGNGRP-26-02",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFSO26-05",
+      "Opportunity": "Heavy Equipment including Large Construction, Road and Sidewalk Maintenance, Forestry and Logging, L",
+      "Procurement Entity": "Kinetic GPO",
+      "Closing Date": "2026-06-19T01:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFSO26-05",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc3074451075",
+      "Opportunity": "RFQ - RIM SHORELINE PROTECTION ON VARIOUS ROADS IN INVERNESS NORTH AND VICTORIA COUNTIES",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-19T14:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc3074451075",
       "Pursuit Type": "partner",
       "Bid Fit": "partner-or-subconsultant-fit",
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3106762024",
@@ -1378,7 +1417,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "MODY-CAOPERFORMANCEFACILITATION",
@@ -1391,7 +1430,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "26-17",
@@ -1404,7 +1443,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "BNS-2627-0001",
@@ -1417,7 +1456,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "HRM-2026-0268",
@@ -1430,7 +1469,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "INF19-2026-2027",
@@ -1443,7 +1482,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSLC27-02",
@@ -1456,7 +1495,59 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NSPW2026-088",
+      "Opportunity": "2026-088: FOUR PROJECTS HANTS COUNTY, ONE PROJECT HALIFAX COUNTY, GRAVELLING",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-23T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-088",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NSPW2026-091",
+      "Opportunity": "2026-091: TWO PROJECTS IN ANNAPOLIS COUNTY, ASPHALT REPAVING",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-23T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-091",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NSPW2026-093",
+      "Opportunity": "2026-093: ONE PROJECT IN CAPE BRETON COUNTY, BRIDGE REHABILITATION",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-06-23T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPW2026-093",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFP062326",
+      "Opportunity": "Electrical Energy Power Generation Equipment with Related Parts, Supplies, and Services",
+      "Procurement Entity": "Nova Scotia Federation of Municipalities",
+      "Closing Date": "2026-06-23T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP062326",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "WOLF003-2026",
@@ -1469,7 +1560,7 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc2615508888",
@@ -1482,7 +1573,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3134303655",
@@ -1495,7 +1586,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSLC27-03",
@@ -1508,33 +1599,20 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "Doc2883011635",
-      "Opportunity": "RFP - Wood Heat Service Provider",
-      "Procurement Entity": "Province of Nova Scotia",
-      "Closing Date": "2026-06-24T14:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc2883011635",
-      "Pursuit Type": "needs-review",
-      "Bid Fit": "needs-review",
-      "Priority": "Review",
-      "Status": "needs-review",
-      "Next Action": "Fetch detail page or documents before deciding pursuit role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "RFP062526",
-      "Opportunity": "Trailers with Related Equipment and Services",
-      "Procurement Entity": "Nova Scotia Federation of Municipalities",
-      "Closing Date": "2026-06-25 03:00:00",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP062526",
+      "Tender ID": "VWRQ2602",
+      "Opportunity": "VWRQ2602",
+      "Procurement Entity": "Valley Region Solid Waste-Resource Management Authority",
+      "Closing Date": "2026-06-24T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/VWRQ2602",
       "Pursuit Type": "skip",
       "Bid Fit": "off-profile-consulting",
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "F-23-EK-01",
@@ -1547,7 +1625,7 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "INF18-2026-2027",
@@ -1560,7 +1638,7 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "INS2026-27-11",
@@ -1573,7 +1651,46 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MOCR202608",
+      "Opportunity": "Public Works 1 Ton Truck",
+      "Procurement Entity": "Municipality of the County of Richmond",
+      "Closing Date": "2026-06-25T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MOCR202608",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "RFP062526",
+      "Opportunity": "Trailers with Related Equipment and Services",
+      "Procurement Entity": "Nova Scotia Federation of Municipalities",
+      "Closing Date": "2026-06-25T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/RFP062526",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TOA-GridMod06052026",
+      "Opportunity": "Electric Utility Crew & Equipment Support",
+      "Procurement Entity": "Town of Antigonish",
+      "Closing Date": "2026-06-25T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOA-GridMod06052026",
+      "Pursuit Type": "needs-review",
+      "Bid Fit": "needs-review",
+      "Priority": "Review",
+      "Status": "needs-review",
+      "Next Action": "Fetch detail page or documents before deciding pursuit role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "VIC-RSO-05-21-26",
@@ -1586,7 +1703,20 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "WHRMCD26-03",
+      "Opportunity": "Tregothic Trail Culvert Replacement ",
+      "Procurement Entity": "West Hants Regional Municipality",
+      "Closing Date": "2026-06-25T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/WHRMCD26-03",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "PS27OFF-PATENTONCOLOGYITEMS",
@@ -1599,7 +1729,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "IWK-2026-0201",
@@ -1612,7 +1742,20 @@
       "Priority": "Medium",
       "Status": "partner-or-subconsultant-fit",
       "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MODD-2026-002",
+      "Opportunity": "Mount Pleasant Wind Turbines Decommissioning",
+      "Procurement Entity": "Municipality of the District of Digby",
+      "Closing Date": "2026-06-26T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODD-2026-002",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "PROJECT2608-1485",
@@ -1625,7 +1768,72 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Q41-2026",
+      "Opportunity": "Supply (1) Valve Maintenance Skid ",
+      "Procurement Entity": "Halifax Water",
+      "Closing Date": "2026-06-26T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Q41-2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Q94-2025",
+      "Opportunity": "Bennery Lake Water Supply Plant High Lift Pumps and Replacement \u2013 Equipment Pre-Purchase",
+      "Procurement Entity": "Halifax Water",
+      "Closing Date": "2026-06-26T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Q94-2025",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRM-2026-0297",
+      "Opportunity": "Supply and Delivery of Five (5) Utility Vehicles with Police Packages",
+      "Procurement Entity": "Halifax Regional Municipality",
+      "Closing Date": "2026-06-29T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2026-0297",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "IWK-2026-0102",
+      "Opportunity": "Strategic Plan Consultant",
+      "Procurement Entity": "I.W.K. Health Centre",
+      "Closing Date": "2026-06-29T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/IWK-2026-0102",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "EEGMarketing2023\u2013ContinuousOnboarding",
+      "Opportunity": "Marketing Services - Continuous Onboarding",
+      "Procurement Entity": "Events East Group",
+      "Closing Date": "2026-06-30T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/EEGMarketing2023%E2%80%93ContinuousOnboarding",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "MET26-04",
@@ -1638,7 +1846,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "NSGC-RSO-26-001",
@@ -1651,7 +1859,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "WOL0022026RFQ",
@@ -1659,12 +1867,12 @@
       "Procurement Entity": "Town of Wolfville",
       "Closing Date": "2026-06-30T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/WOL0022026RFQ",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "INF01-2026-2027",
@@ -1677,7 +1885,20 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MODG2026-HFDTNKR",
+      "Opportunity": "RFP FOR NEW TANKER/PUMPER FOR HARBOURVIEW VFD ",
+      "Procurement Entity": "Municipality of the District of Guysborough",
+      "Closing Date": "2026-07-03T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODG2026-HFDTNKR",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "26-04E",
@@ -1685,12 +1906,12 @@
       "Procurement Entity": "Town of Bridgewater",
       "Closing Date": "2026-07-07T00:00-0300",
       "Portal URL": "https://procurement-portal.novascotia.ca/tenders/26-04E",
-      "Pursuit Type": "partner",
-      "Bid Fit": "partner-or-subconsultant-fit",
-      "Priority": "Medium",
-      "Status": "partner-or-subconsultant-fit",
-      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc2839971352",
@@ -1703,46 +1924,33 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "HealthPRODec2026RFP-02938",
-      "Opportunity": "HealthPRO Canada RFP 02938 Hospital Electrical Supplies",
-      "Procurement Entity": "HealthPro Procurement Services Inc.",
-      "Closing Date": "2026-07-08T01:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HealthPRODec2026RFP-02938",
+      "Tender ID": "MODC-T-2026-024",
+      "Opportunity": "New Fire Apparatus",
+      "Procurement Entity": "Municipality of the District of Chester",
+      "Closing Date": "2026-07-08T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODC-T-2026-024",
       "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
+      "Bid Fit": "likely-skip",
       "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
-      "Tender ID": "HealthPRODec2026RFP02940",
-      "Opportunity": "HealthPRO Canada RFP 02940 Lamps And Ballasts",
-      "Procurement Entity": "HealthPro Procurement Services Inc.",
-      "Closing Date": "2026-07-08T01:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HealthPRODec2026RFP02940",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
-    },
-    {
-      "Tender ID": "HealthPRODec2026RFP05694",
-      "Opportunity": "HealthPRO RFP 05694 Media Destruction\t",
-      "Procurement Entity": "HealthPro Procurement Services Inc.",
-      "Closing Date": "2026-07-08T01:00-0300",
-      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HealthPRODec2026RFP05694",
-      "Pursuit Type": "skip",
-      "Bid Fit": "off-profile-consulting",
-      "Priority": "Low",
-      "Status": "off-profile-consulting",
-      "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Tender ID": "Doc2883011635",
+      "Opportunity": "RFP - Wood Heat Service Provider",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-07-08T14:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc2883011635",
+      "Pursuit Type": "needs-review",
+      "Bid Fit": "needs-review",
+      "Priority": "Review",
+      "Status": "needs-review",
+      "Next Action": "Fetch detail page or documents before deciding pursuit role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3108714157",
@@ -1755,7 +1963,7 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "Doc3117400577",
@@ -1768,7 +1976,7 @@
       "Priority": "Review",
       "Status": "needs-review",
       "Next Action": "Fetch detail page or documents before deciding pursuit role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "INF17-2026-2027",
@@ -1781,7 +1989,7 @@
       "Priority": "High",
       "Status": "prime-consultant-fit",
       "Next Action": "Review scope documents and confirm lead consultant fit.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "RFSO26-06",
@@ -1794,7 +2002,20 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this building operations domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MCI-EOI-2026-002",
+      "Opportunity": "Inverness Multicourt Facility Naming Rights",
+      "Procurement Entity": "Municipality of the County of Inverness",
+      "Closing Date": "2026-08-06T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MCI-EOI-2026-002",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "AC060126",
@@ -1807,7 +2028,33 @@
       "Priority": "Review",
       "Status": "needs-review",
       "Next Action": "Fetch detail page or documents before deciding pursuit role.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "DOC1543189378OB",
+      "Opportunity": "RFSQ OPOR IT RESOURCES ONBOARDING",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-09-30T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/DOC1543189378OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "KINETICGPO_PROJECTMANAGEMETSERVICES",
+      "Opportunity": "KineticGPO-Notice of participation in a buying group.  This posting is NOT a tender/RFP opportunity",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2026-09-30T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/KINETICGPO_PROJECTMANAGEMETSERVICES",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "DAL-2026-22771623",
@@ -1820,7 +2067,345 @@
       "Priority": "Low",
       "Status": "off-profile-consulting",
       "Next Action": "Skip unless a later profile adds this consulting domain.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "2026NOTICESMU",
+      "Opportunity": "Notice of Participation in Buying Group (This posting IS NOT a tender / RFP opportunity)",
+      "Procurement Entity": "Saint Mary's University",
+      "Closing Date": "2026-12-31T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/2026NOTICESMU",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "AU2026-001",
+      "Opportunity": "Notice of participation in buying group",
+      "Procurement Entity": "Acadia University",
+      "Closing Date": "2026-12-31T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/AU2026-001",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "DAL-NOTICE-2026",
+      "Opportunity": "DAL-NOTICE-2026",
+      "Procurement Entity": "Dalhousie University",
+      "Closing Date": "2026-12-31T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/DAL-NOTICE-2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NOTICE2026",
+      "Opportunity": "Buying Group - Notice of Participation \u2013 This is not a Tender",
+      "Procurement Entity": "Interuniversity Services Incorporated (ISI)",
+      "Closing Date": "2026-12-31T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NOTICE2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "STFXNOTICE2026",
+      "Opportunity": "Notice of participation in buying group.",
+      "Procurement Entity": "St. Francis Xavier University",
+      "Closing Date": "2026-12-31T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/STFXNOTICE2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TOB-2026-NOTICE",
+      "Opportunity": "NOTICE OF PARTICIPATION IN COLLABORATIVE PROCUREMENT",
+      "Procurement Entity": "Town of Bridgewater",
+      "Closing Date": "2026-12-31T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOB-2026-NOTICE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NOI2026",
+      "Opportunity": "NOI 2026",
+      "Procurement Entity": "Kinetic GPO",
+      "Closing Date": "2026-12-31T01:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NOI2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "INS2024-25-23",
+      "Opportunity": "Standing Offer for Professional and Consulting Services and Certain Goods - Continuous Onboarding",
+      "Procurement Entity": "Invest Nova Scotia",
+      "Closing Date": "2027-02-15T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/INS2024-25-23",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NSPHA-NOTICE-03",
+      "Opportunity": "PARTICIPATION IN KINETIC GPO",
+      "Procurement Entity": "Nova Scotia Provincial Housing Agency",
+      "Closing Date": "2027-02-28T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPHA-NOTICE-03",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRM-2026NOTICE",
+      "Opportunity": "Notice of Participation in a Buying Group(s)This is not an RFP or Tender",
+      "Procurement Entity": "Halifax Regional Municipality",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRM-2026NOTICE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "IWK-NOTICE-2026-CANOE",
+      "Opportunity": "PARTICIPATION IN CANOE-2026",
+      "Procurement Entity": "I.W.K. Health Centre",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/IWK-NOTICE-2026-CANOE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "IWK-NOTICE-2026-HEALTHPRO",
+      "Opportunity": "PARTICIPATION IN HEALTHPRO-2026",
+      "Procurement Entity": "I.W.K. Health Centre",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/IWK-NOTICE-2026-HEALTHPRO",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "IWK-NOTICE-2026-KINETIC",
+      "Opportunity": "PARTICIPATION IN KINETIC-2026",
+      "Procurement Entity": "I.W.K. Health Centre",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/IWK-NOTICE-2026-KINETIC",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "IWK-NOTICE-2026-MOHAWKMEDBUY",
+      "Opportunity": "PARTICIPATION IN MOHAWK MEDBUY-2026",
+      "Procurement Entity": "I.W.K. Health Centre",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/IWK-NOTICE-2026-MOHAWKMEDBUY",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "KINETIC_NOTICE2026",
+      "Opportunity": "KineticGPO - Notice of participation in a buying group. This posting IS NOT a tender/RFP opportunity",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/KINETIC_NOTICE2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "KineticGPO_Facilities_Condition_Assessments",
+      "Opportunity": "Kinetic GPO FCA Notice of participation in a buying group.  This IS NOT a tender.",
+      "Procurement Entity": "Build Nova Scotia",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/KineticGPO_Facilities_Condition_Assessments",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MCI-NOP-CANOE-2026",
+      "Opportunity": "Notice of Participation",
+      "Procurement Entity": "Municipality of the County of Inverness",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MCI-NOP-CANOE-2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MODL-2026-NOITICE",
+      "Opportunity": "NOTICE OF PARTICIPATION IN BUYING GROUP - KINETIC GPO",
+      "Procurement Entity": "Municipality of the District of Lunenburg",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MODL-2026-NOITICE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "MOK_CANOE_26-27",
+      "Opportunity": "Notice of Participation in Buying Group",
+      "Procurement Entity": "Municipality of the County of Kings",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/MOK_CANOE_26-27",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NPP-RIM-2026",
+      "Opportunity": "Notice of Proposed Procurement for the 2026 Rural Impact Mitigation (RIM) Program",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NPP-RIM-2026",
+      "Pursuit Type": "partner",
+      "Bid Fit": "partner-or-subconsultant-fit",
+      "Priority": "Medium",
+      "Status": "partner-or-subconsultant-fit",
+      "Next Action": "Check documents for engineering support, CA, inspection, or partner role.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "NSPERENNIA23",
+      "Opportunity": "Coastal Monitoring field support Cape Breton",
+      "Procurement Entity": "Perennia Food and Agriculture Corp.",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/NSPERENNIA23",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TTACanoeNotice2026",
+      "Opportunity": "Notice of Intent to Participate Canoe. This is not a RFP or Tender",
+      "Procurement Entity": "Kings Transit Authority",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TTACanoeNotice2026",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TWNST2026NOTICE",
+      "Opportunity": "Notice of Participation in a Buying Group(s) This is not an RFP or Tender",
+      "Procurement Entity": "Town of Stellarton",
+      "Closing Date": "2027-03-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TWNST2026NOTICE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRCE-NOI4292",
+      "Opportunity": "Annual Notice of Participation in the Canoe Procurement Buying Group",
+      "Procurement Entity": "Halifax Regional Centre for Education",
+      "Closing Date": "2027-04-16T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRCE-NOI4292",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "HRCE-NOI4293",
+      "Opportunity": "Notice of Participation - Kinetic GPO Inc.",
+      "Procurement Entity": "Halifax Regional Centre for Education",
+      "Closing Date": "2027-04-16T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/HRCE-NOI4293",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "AVRCE-NOP-2026-01",
+      "Opportunity": "Notice of Participation - Kinetic GPO Inc.",
+      "Procurement Entity": "Annapolis Valley Regional Centre for Education",
+      "Closing Date": "2027-04-22T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/AVRCE-NOP-2026-01",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     },
     {
       "Tender ID": "MODL-2026-NOTICE",
@@ -1833,7 +2418,163 @@
       "Priority": "Low",
       "Status": "likely-skip",
       "Next Action": "No action.",
-      "Last Checked": "2026-06-03T03:11:05Z"
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc658723136OB",
+      "Opportunity": "RFSQ - Provision of Audit Services (Review Engagement and Special Purpose Report)",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-09-15T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc658723136OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "CW40376HSCS",
+      "Opportunity": "Standing Offer for Health Systems Consulting Services Contingent Labour for NSHA",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-11-30T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CW40376HSCS",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "CW40376HSCSNPPUPDATE",
+      "Opportunity": "Update - Notice of Proposed Procurement - Health Systems Consulting Services Supply Arrangement-NSHA",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-11-30T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CW40376HSCSNPPUPDATE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "CW40376TN",
+      "Opportunity": "Standing Offer for Travel Nurse Contingent Labour for NSHA",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-11-30T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/CW40376TN",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc783277434OB",
+      "Opportunity": "RFSQ - Provision of Verification of Financial Net Worth and Source of Funds",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2027-11-30T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc783277434OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "DOC1916835891OB",
+      "Opportunity": "RFSQ Supply Arrangement- RMV Modernization Team- Onboarding",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2028-02-19T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/DOC1916835891OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc1205045041OB",
+      "Opportunity": "Doc1205045041OB-RFSQ and Appendices-Fraud Investigation Services",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2028-11-30T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc1205045041OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "DOC2060950363OB",
+      "Opportunity": "RFSQ OPOR PROJECT RESOURCES ONBOARDING",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2029-06-12T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/DOC2060950363OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc2492426936OB",
+      "Opportunity": "RFSQ - Onboarding for Printing Services (Including Signage, and Custom Branded Specialty Items) ",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2029-08-31T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc2492426936OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc1951837871OB",
+      "Opportunity": "RFSQ - Legal Services for Real Property Transactions-Onboarding",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2029-11-30T00:00-0400",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc1951837871OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "off-profile-consulting",
+      "Priority": "Low",
+      "Status": "off-profile-consulting",
+      "Next Action": "Skip unless a later profile adds this consulting domain.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "Doc2510999640OB",
+      "Opportunity": "Onboarding Request for Supplier Qualifications Supply Arrangement IT Transformational Projects",
+      "Procurement Entity": "Province of Nova Scotia",
+      "Closing Date": "2030-03-30T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/Doc2510999640OB",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
+    },
+    {
+      "Tender ID": "TOT25-999NOTICE",
+      "Opportunity": "TOT25-999NOTICE",
+      "Procurement Entity": "Town of Truro",
+      "Closing Date": "2030-04-30T00:00-0300",
+      "Portal URL": "https://procurement-portal.novascotia.ca/tenders/TOT25-999NOTICE",
+      "Pursuit Type": "skip",
+      "Bid Fit": "likely-skip",
+      "Priority": "Low",
+      "Status": "likely-skip",
+      "Next Action": "No action.",
+      "Last Checked": "2026-06-07T14:52:15Z"
     }
   ]
 }

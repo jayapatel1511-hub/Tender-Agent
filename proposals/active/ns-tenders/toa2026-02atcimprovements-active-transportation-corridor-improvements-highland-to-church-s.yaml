@@ -13,7 +13,7 @@ rfp_text: >
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: municipal civil (curb, infrastructure, sidewalk, street), transportation (active transportation, corridor, sidewalk, traffic); professional role: engineering; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment"
+classification_note: "domain: municipal civil (curb, infrastructure, sidewalk, street), transportation (active transportation, corridor, sidewalk, traffic); professional role: engineering; buyer/context: town of; overrode exclude hint because asset/domain is in scope: equipment; commodity categories: construction=1"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.
@@ -28,5 +28,5 @@ source:
   tender_id: "TOA2026-02ATCIMprovements"
 triage:
   bucket: "prime-consultant-fit"
-  urgent: false
-  next_action: "Review scope documents and confirm lead consultant fit."
+  urgent: true
+  next_action: "Urgent review before close. Review scope documents and confirm lead consultant fit."

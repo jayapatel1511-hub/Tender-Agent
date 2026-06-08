@@ -13,7 +13,7 @@ rfp_text: >
 pursuit_type: "prime"
 bid_fit: "prime-consultant-fit"
 classification_confidence: "0.88"
-classification_note: "domain: municipal civil (business park, infrastructure, servicing), water/wastewater (utility); professional role: assessment, consulting, feasibility, feasibility study; buyer/context: municipality"
+classification_note: "domain: municipal civil (business park, infrastructure, servicing), water/wastewater (utility); professional role: assessment, consulting, feasibility, feasibility study; buyer/context: municipality; commodity professional-service hints: professional engineering services; commodity categories: services=1"
 goals:
   - Review tender notice and documents for fit.
   - Confirm eligibility, submission method, schedule, and compliance requirements.
